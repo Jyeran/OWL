@@ -124,7 +124,14 @@ for m in range(0,len(match)):
     r = requests.get(url)
     r = r.json()
     matchScore = json_normalize(r, record_path=['scores'], meta=['id'])
-    games.append(matchScore['value'].sum())
+    matchScore2 = json_normalize(r, record_path=['games'])
+    matchScore2 = matchScore2[['number']]
+    
+    if matchScore2.empty == True:
+        games.append(0)
+    else:
+        games.append(matchScore2['number'].max())
+
 
 match['games'] = games
 
@@ -170,7 +177,7 @@ statsThe = pd.merge(statsThe, playedMatch[['id','tag']], left_on = 'match', righ
     #replace master player entry with temp entry
     
         
-
+statsThe.to_csv(r'C:\Users\rjohns17\Desktop\Data Science\Python\OWL\matchStats.csv')
 
 
 
