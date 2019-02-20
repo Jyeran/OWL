@@ -33,23 +33,34 @@ for i in range(0,len(data)):
 #get player IDs
 r = requests.get('https://api.overwatchleague.com/players')
 r = r.json()
-r = r['content']
+players = json_normalize(r['content'], record_path=['teams'], meta=['name','id'])
+players['teamID'] = 0
 
-players = pd.DataFrame(r)
+for p in range(0,len(players)):
+    team = players.iloc[p,2]
+    teamID = team['id']
+    players.iloc[p,-1] = teamID
 
-players = players[['name','id']]
+players = players[['name','id','teamID']]
     
 #get team IDs
 r = requests.get('https://api.overwatchleague.com/teams')
 
 r = r.json()
 teams = json_normalize(r['competitors'])
-teams = teams[['competitor.name','competitor.homeLocation','competitor.abbreviatedName','competitor.id']]
+teams = teams[['competitor.name','competitor.abbreviatedName','competitor.id']]
+teams = teams.rename(index=str, columns={"competitor.name": "teamName", "competitor.abbreviatedName": "abbrev","competitor.id":"teamID"})
 
-#data = data['id']
-matches = pd.DataFrame.from_dict(data)
+
+players = pd.merge(players, teams, left_on = 'teamID', right_on='teamID', how='left')
+
+
+
+#matches = pd.DataFrame.from_dict(data)
 #matches.to_csv('matches.csv')
 
 # Print the status code of the response.
 
 #https://api.overwatchleague.com/stats/matches/21211/maps/1
+#https://api.overwatchleague.com/matches/21311
+#https://api.overwatchleague.com/matches/21176
