@@ -5,23 +5,6 @@ import pandas as pd
 import json
 from pandas.io.json import json_normalize
 
-def flatten_json(y):
-    out = {}
-
-    def flatten(x, name=''):
-        if type(x) is dict:
-            for a in x:
-                flatten(x[a], name + a + '_')
-        elif type(x) is list:
-            i = 0
-            for a in x:
-                flatten(a, name + str(i) + '_')
-                i += 1
-        else:
-            out[name[:-1]] = x
-
-    flatten(y)
-    return out
     
 def getOWL (url, key = 'data'):
     # Make a get request to get the latest position of the international space station from the opennotify api.
@@ -38,7 +21,7 @@ r = r.json()
 r = r['data']
 
 stats = pd.DataFrame(r)
-teams = pd.read_csv(r'C:\Users\rjohns17\Desktop\Data Science\Python\OWL\teams.csv')
+teams = pd.read_csv(r'C:\Users\Jyran\Documents\GitHub\OWL\teams.csv')
 teams = teams.iloc[:,0:2]
 stats['name'] = stats['name'].str.upper()
 
@@ -56,6 +39,13 @@ stats['totalPoints'] = stats['points10m'] * (stats['minutes_played']/10)
 
 filt = stats['Fantasy Team'].isin(['Jyeran','FreeAgent'])
 
+
+
+
+
+
+
+
 #matches
 url = "https://api.overwatchleague.com/matches"
 data = getOWL(url, 'content')
@@ -63,7 +53,18 @@ data = getOWL(url, 'content')
 
 r = requests.get('https://api.overwatchleague.com/matches')
 r = r.json()
-match = json_normalize(r['content'])#, record_path=['teams'], meta=['name','id'])
+match = json_normalize(r['content'],record_path=['competitors'],meta=['id','startDate'], meta_prefix='match_')#, record_path=['teams'], meta=['name','id'])
+match = match[['match_id','match_startDate','name']].sort_values('match_id').reset_index()
+match['name2'] = ''
+
+for i, r in match.iterrows():
+    if ((i+2)%2)==0:
+        match.iloc[i,-1] = match.iloc[i+1,-2]
+    else:
+        match.iloc[i,-1] = match.iloc[i-1,-2]
+
+match['contest'] = match['name'] + ' vs. ' + match['name2']
+match = match.iloc[::2].rename(columns={'match_id':'id','match_startDate':'startDate'})
 
 listOmatches = []
 
@@ -71,11 +72,11 @@ for i in range(0,len(data)):
     dataDict = dict(data[i])
     listOmatches.append(dataDict['id'])
 
-match = match[['id','startDate']]
+match = match[['id','startDate', 'contest']]
 
 match['date'] = pd.to_datetime(match['startDate'],unit='ms')
 
-matchStage = pd.read_csv(r'C:\Users\rjohns17\Desktop\Data Science\Python\OWL\matchStages.csv')
+matchStage = pd.read_csv(r'C:\Users\Jyran\Documents\GitHub\OWL\matchStages.csv')
 
 match = pd.merge(match, matchStage)
 
@@ -125,9 +126,11 @@ for m in range(0,len(match)):
     r = r.json()
     matchScore = json_normalize(r, record_path=['scores'], meta=['id'])
     matchScore2 = json_normalize(r, record_path=['games'])
-    matchScore2 = matchScore2[['number']]
     
-    if matchScore2.empty == True:
+    if matchScore2.empty == False:
+        flag = (matchScore2[['state']] == 'PENDING').any().any()
+    
+    if matchScore2.empty == True or flag:
         games.append(0)
     else:
         games.append(matchScore2['number'].max())
@@ -164,20 +167,48 @@ for i, m in playedMatch.iterrows():
             pStat = pStat.loc[:,filt]
             matchStats = pd.concat([matchStats, pStat])
 
+
+
+
 matchStatsP = pd.pivot_table(matchStats,index=['player','match','game','Hero_name'],columns=['name'], values='value',fill_value=0).reset_index()
 
 statsThe = pd.merge(matchStatsP, players, left_on = 'player', right_on='id')
 statsThe['points'] = (statsThe['eliminations'] * .5) + (statsThe['damage']/1000) + (statsThe['healing']/1000) 
 
 statsThe = pd.merge(statsThe, playedMatch[['id','tag']], left_on = 'match', right_on='id')    
-        
+      
+statsThe['matchgame'] =   statsThe['match'] + statsThe['game']
         #add up stats for each player in game to temp player table
     
     #if point total is less than current existing in player table in same week
     #replace master player entry with temp entry
     
-        
-statsThe.to_csv(r'C:\Users\rjohns17\Desktop\Data Science\Python\OWL\matchStats.csv')
+weekly = statsThe.groupby(['player','tag']).agg({'match':'nunique','matchgame':'nunique'}).reset_index()
+
+statsThe = pd.merge(statsThe, weekly, left_on = 'player', right_on='player')
+
+statsThe = statsThe.rename(columns={'match_x':'match', 'id_x':'playerID','id_y':'matchID','matchgame_x':'matchgame','tag_x':'tag','Hero_name':'hero'})
+statsThe = statsThe.iloc[:,0:-3]
+
+#create "Fantasy Stats"
+fantasyStatsBase = statsThe.groupby(['name','tag', 'teamName', 'match']).agg({'eliminations':'sum','damage':'sum','healing':'sum','points':'sum'}).reset_index()     
+fantasyStats = fantasyStatsBase.groupby(['name', 'tag']).agg({'points':'max'}).reset_index()
+fantasyStats = pd.merge(fantasyStats, fantasyStatsBase, left_on='points',right_on='points', how='left').rename(columns={'tag_x':'tag','name_x':'name'})
+fantasyStats = pd.merge(fantasyStats, match[['id','contest']], left_on='match',right_on='id', how='left')
+
+statsThe =pd.merge(statsThe, match[['id','contest']], left_on='match',right_on='id', how='left')
+
+
+
+cols = ['name','tag','teamName','match','contest','points','eliminations','damage','healing']
+fantasyStats = fantasyStats[cols]
+
+cols = ['name','teamName','abbrev', 'match','contest', 'game','tag', 'hero',
+        'points','eliminations', 'damage', 'deaths','healing']
+fullStats = statsThe[cols]
+
+fantasyStats.to_csv(r'C:\Users\Jyran\Documents\GitHub\OWL\fantasyStats.csv')
+fullStats.to_csv(r'C:\Users\Jyran\Documents\GitHub\OWL\fullStats.csv')
 
 
 
