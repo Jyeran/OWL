@@ -39,7 +39,7 @@ stats['totalPoints'] = stats['points10m'] * (stats['minutes_played']/10)
 
 filt = stats['Fantasy Team'].isin(['Jyeran','FreeAgent'])
 
-
+playerRole = stats[['name','role']]
 
 
 
@@ -195,20 +195,65 @@ fantasyStatsBase = statsThe.groupby(['name','tag', 'teamName', 'match']).agg({'e
 fantasyStats = fantasyStatsBase.groupby(['name', 'tag']).agg({'points':'max'}).reset_index()
 fantasyStats = pd.merge(fantasyStats, fantasyStatsBase, left_on='points',right_on='points', how='left').rename(columns={'tag_x':'tag','name_x':'name'})
 fantasyStats = pd.merge(fantasyStats, match[['id','contest']], left_on='match',right_on='id', how='left')
+fantasyStats['name'] = fantasyStats['name'].str.upper()
+fantasyStats = pd.merge(fantasyStats, playerRole, left_on='name',right_on='name', how='left').rename(columns={'name_x':'name'})
 
 statsThe =pd.merge(statsThe, match[['id','contest']], left_on='match',right_on='id', how='left')
+statsThe['name'] = statsThe['name'].str.upper()
+statsThe = pd.merge(statsThe, playerRole, left_on='name',right_on='name', how='left').rename(columns={'name_x':'name'})
+
+
+gamesPlayed = fullStats.groupby(['name']).agg({'match':'nunique'}).reset_index()
+mapsPlayed = fullStats.groupby(['name', 'match']).agg({'game':'nunique'}).reset_index()
+mapsPlayed = mapsPlayed.groupby(['name']).agg({'game':'sum'}).reset_index()
+
+
+fantasyStats = pd.merge(fantasyStats, gamesPlayed, left_on='name', right_on='name').rename(columns={'match_x':'match','match_y':'matchesPlayed','name_x':'name'})
+fantasyStats = pd.merge(fantasyStats, mapsPlayed,  left_on='name', right_on='name').rename(columns={'game':'mapsPlayed','name_x':'name'})
+
+
+#statsThe = pd.merge(statsThe, gamesPlayed, left_on='name', right_on='name').rename(columns={'match':'matchesPlayed','name_x':'name'})
+#statsThe = pd.merge(statsThe, mapsPlayed,  left_on='name', right_on='name').rename(columns={'game':'mapsPlayed','name_x':'name'})
 
 
 
-cols = ['name','tag','teamName','match','contest','points','eliminations','damage','healing']
+cols = ['name','role','tag','teamName','contest','matchesPlayed','mapsPlayed','points','eliminations','damage','healing']
 fantasyStats = fantasyStats[cols]
 
-cols = ['name','teamName','abbrev', 'match','contest', 'game','tag', 'hero',
-        'points','eliminations', 'damage', 'deaths','healing']
+cols = ['name','role','teamName','abbrev', 'contest', 'game','tag','hero',
+        'points','eliminations', 'damage', 'healing', 'deaths']
 fullStats = statsThe[cols]
 
+
+#mess with bliz stats
+
+
+stats = pd.merge(stats, gamesPlayed, left_on='name', right_on='name').rename(columns={'match':'matchesPlayed','name_x':'name'})
+stats = pd.merge(stats, mapsPlayed,  left_on='name', right_on='name').rename(columns={'game':'mapsPlayed','name_x':'name'})
+
+cols = [
+ 'name',
+ 'role',
+ 'team',
+ 'minutes_played',
+ 'matchesPlayed',
+ 'mapsPlayed',
+ 'points10m',
+ 'totalPoints',
+ 'eliminations_avg_per_10m',
+ 'healing_avg_per_10m',
+ 'hero_damage_avg_per_10m',
+ 'ultimates_earned_avg_per_10m',
+ 'deaths_avg_per_10m',
+ 'final_blows_avg_per_10m'
+ ]
+
+stats = stats[cols]
+
+#write dataframe
 fantasyStats.to_csv(r'C:\Users\Jyran\Documents\GitHub\OWL\fantasyStats.csv')
 fullStats.to_csv(r'C:\Users\Jyran\Documents\GitHub\OWL\fullStats.csv')
+stats.to_csv(r'C:\Users\Jyran\Documents\GitHub\OWL\blizzStats.csv')
 
 
 
