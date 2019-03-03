@@ -6,10 +6,14 @@ import json
 from pandas.io.json import json_normalize
 import math
 import numpy as np
+import os
 
-    
+filepath = '/Users/rhea/Documents/GitHub/OWL'
+file_p  = filepath + r"/teams.csv"
+
 def getOWL (url, key = 'data'):
-    # Make a get request to get the latest position of the international space station from the opennotify api.
+    # Make a get request to get the latest position of the 
+    #international space station from the opennotify api.
     r = requests.get(url)
     data = r.json()
     print(type(data))
@@ -17,13 +21,14 @@ def getOWL (url, key = 'data'):
     return data
 
 #player stats
+#https://api.overwatchleague.com/stats/players
 
 r = requests.get('https://api.overwatchleague.com/stats/players')
 r = r.json()
 r = r['data']
 
 stats = pd.DataFrame(r)
-teams = pd.read_csv(r'C:\Users\Jyran\Documents\GitHub\OWL\teams.csv')
+teams = pd.read_csv(file_p)
 teams = teams.iloc[:,0:2]
 stats['name'] = stats['name'].str.upper()
 
@@ -78,7 +83,8 @@ match = match[['id','startDate', 'contest']]
 
 match['date'] = pd.to_datetime(match['startDate'],unit='ms')
 
-matchStage = pd.read_csv(r'C:\Users\Jyran\Documents\GitHub\OWL\matchStages.csv')
+file_p  = filepath + r"/matchStages.csv"
+matchStage = pd.read_csv(file_p)
 
 match = pd.merge(match, matchStage)
 
@@ -222,6 +228,11 @@ fantasyStats = pd.merge(fantasyStats, mapsPlayed,  left_on='name', right_on='nam
 fantasyStats = pd.merge(fantasyStats, gamesPlayedTeam, left_on='teamName', right_on='teamName').rename(columns={'match_x':'match','match_y':'matchesPlayedTeam','teamName_x':'teamName'})
 fantasyStats = pd.merge(fantasyStats, mapsPlayedTeam,  left_on='teamName', right_on='teamName').rename(columns={'game':'mapsPlayedTeam','teamName_x':'teamName'})
 
+fullStats = pd.merge(fullStats, gamesPlayed, left_on='name', right_on='name').rename(columns={'match_x':'match','match_y':'matchesPlayed','name_x':'name'})
+fullStats = pd.merge(fullStats, mapsPlayed,  left_on='name', right_on='name').rename(columns={'game_y':'mapsPlayed','name_x':'name','game_x':'game'})
+fullStats = pd.merge(fullStats, gamesPlayedTeam, left_on='teamName', right_on='teamName').rename(columns={'match_x':'match','match_y':'matchesPlayedTeam','teamName_x':'teamName'})
+fullStats = pd.merge(fullStats, mapsPlayedTeam,  left_on='teamName', right_on='teamName').rename(columns={'game_y':'mapsPlayedTeam','teamName_x':'teamName','game_x':'game'})
+
 
 #statsThe = pd.merge(statsThe, gamesPlayed, left_on='name', right_on='name').rename(columns={'match':'matchesPlayed','name_x':'name'})
 #statsThe = pd.merge(statsThe, mapsPlayed,  left_on='name', right_on='name').rename(columns={'game':'mapsPlayed','name_x':'name'})
@@ -266,31 +277,49 @@ cols = [
 
 stats = stats[cols]
 
+cols = ['name','role','teamName','matchesPlayed','matchesPlayedTeam', 'mapsPlayed','mapsPlayedTeam']
+fantasyStatsTotal = fantasyStatsBase.groupby(['name']).agg({'points':'sum', 'eliminations':'sum','damage':'sum','healing':'sum'}).reset_index()
+fantasyStatsTotal['name'] = fantasyStatsTotal['name'].str.upper()
+fantasyStatsTotal = pd.merge(fantasyStatsTotal, fantasyStats[cols], left_on='name', right_on='name', how='left').reset_index()
+
+cols = ['name','role','teamName','matchesPlayed','matchesPlayedTeam','mapsPlayed','mapsPlayedTeam','points','eliminations','damage','healing']
+fantasyStatsTotal = fantasyStatsTotal[cols]
+
 cols = ['name','role','tag','teamName','contest','matchesPlayed','matchesPlayedTeam','mapsPlayed','mapsPlayedTeam','points','eliminations','damage','healing']
 fantasyStats = fantasyStats[cols]
 
 cols = ['name','role','teamName','abbrev', 'contest', 'game','tag','hero',
-        'points','eliminations', 'damage', 'healing', 'deaths']
+        'points','eliminations', 'damage', 'healing', 'deaths', 'matchesPlayed','matchesPlayedTeam', 'mapsPlayed','mapsPlayedTeam']
 fullStats = fullStats[cols]
 
 
 
 
-
-rosters = pd.read_csv(r'C:\Users\Jyran\Documents\GitHub\OWL\rosters.csv')
+file_p  = filepath + r"/rosters.csv"
+rosters = pd.read_csv(file_p)
 rosters['player'] = rosters['player'].str.upper()
 
 fantasyStats = pd.merge(fantasyStats, rosters, left_on='name', right_on='player', how='left').fillna('FreeAgent')
+fantasyStatsTotal = pd.merge(fantasyStatsTotal, rosters, left_on='name', right_on='player', how='left').fillna('FreeAgent')
 fullStats = pd.merge(fullStats, rosters, left_on='name', right_on='player',how='left').fillna('FreeAgent')
 stats = pd.merge(stats, rosters, left_on='name', right_on='player',how='left').fillna('FreeAgent')
 
+fullStats['PercentPlayed'] = fullStats['mapsPlayed'] / fullStats['mapsPlayedTeam']
 
-
+fantasyStatsTotal = fantasyStatsTotal.drop_duplicates()
 
 #write dataframe
-fantasyStats.to_csv(r'C:\Users\Jyran\Documents\GitHub\OWL\fantasyStats.csv')
-fullStats.to_csv(r'C:\Users\Jyran\Documents\GitHub\OWL\fullStats.csv')
-stats.to_csv(r'C:\Users\Jyran\Documents\GitHub\OWL\blizzStats.csv')
+file_p  = filepath + r"/fantasyStats.csv"
+fantasyStats.to_csv(file_p)
+
+file_p  = filepath + r"/fantasyStatsTotal.csv"
+fantasyStatsTotal.to_csv(file_p)
+
+file_p  = filepath + r"/fullStats.csv"
+fullStats.to_csv(file_p)
+
+file_p  = filepath + r"/blizzStats.csv"
+stats.to_csv(file_p)
 
 
 
