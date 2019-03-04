@@ -8,8 +8,11 @@ import math
 import numpy as np
 import os
 
-filepath = '/Users/rhea/Documents/GitHub/OWL'
-file_p  = filepath + r"/teams.csv"
+#filepath = '/Users/rhea/Documents/GitHub/OWL'
+#file_p  = filepath + r"/teams.csv"
+
+filepath = r"C:\Users\Jyran\Documents\GitHub\OWL"
+file_p = filepath + r"\teams.csv"
 
 def getOWL (url, key = 'data'):
     # Make a get request to get the latest position of the 
@@ -222,6 +225,12 @@ mapsPlayed = fullStats.groupby(['name', 'match']).agg({'game':'nunique'}).reset_
 mapsPlayedTeam = mapsPlayedTeam.groupby(['teamName']).agg({'game':'sum'}).reset_index()
 mapsPlayed = mapsPlayed.groupby(['name']).agg({'game':'sum'}).reset_index()
 
+#Make a weekly played % (really a by match play percent to see trending playtimes)
+mapsPlayedTeamWeek = fullStats.groupby(['teamName', 'tag','match']).agg({'game':'nunique'}).reset_index()
+mapsPlayedWeek = fullStats.groupby(['name','teamName', 'tag','match']).agg({'game':'nunique'}).reset_index()
+playerPlayPercent = pd.merge(mapsPlayedWeek, mapsPlayedTeamWeek, left_on=['match','teamName'], right_on=['match','teamName'], how='left').rename(columns={'match_x':'match','game_x':'playedMaps', 'game_y':'totalMaps','tag_x':'tag'}).drop('tag_y',axis=1)
+playerPlayPercent['percentPlay'] = playerPlayPercent['playedMaps']/playerPlayPercent['totalMaps']
+playerPlayPercent = playerPlayPercent.groupby(['name','teamName','tag']).agg({'playedMaps':'sum','totalMaps':'sum','percentPlay':'mean'}).reset_index()
 
 fantasyStats = pd.merge(fantasyStats, gamesPlayed, left_on='name', right_on='name').rename(columns={'match_x':'match','match_y':'matchesPlayed','name_x':'name'})
 fantasyStats = pd.merge(fantasyStats, mapsPlayed,  left_on='name', right_on='name').rename(columns={'game':'mapsPlayed','name_x':'name'})
