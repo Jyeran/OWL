@@ -1,420 +1,551 @@
 ,name,role,tag,teamName,contest,matchesPlayed,matchesPlayedTeam,totalMapsPlayed,totalTeamMapsPlayed,points,eliminations,damage,healing,player,fantasyTeam,percentPlayedTotal,playedMaps,totalMaps,percentPlay,main
-0,ADO,offense,S1W1,Washington Justice,New York Excelsior vs. Washington Justice,4,4,16,17,47.41902513301372,17,14855.363283872604,24063.66184914112,FreeAgent,FreeAgent,0.9411764705882353,4,4,1.0,brigitte
-1,ADO,offense,S1W2,Washington Justice,London Spitfire vs. Washington Justice,4,4,16,17,126.49091765046121,57,39744.00750565529,58246.91014480591,FreeAgent,FreeAgent,0.9411764705882353,5,5,1.0,brigitte
-2,ADO,offense,S1W3,Washington Justice,San Francisco Shock vs. Washington Justice,4,4,16,17,97.30341034603119,42,32770.058834552765,43533.351511478424,FreeAgent,FreeAgent,0.9411764705882353,7,8,0.875,brigitte
-3,COREY,offense,S1W1,Washington Justice,New York Excelsior vs. Washington Justice,4,4,17,17,53.291788583874705,25,40791.7885838747,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,zarya
-4,COREY,offense,S1W2,Washington Justice,London Spitfire vs. Washington Justice,4,4,17,17,141.41526621228456,62,110415.26621228456,0.0,FreeAgent,FreeAgent,1.0,5,5,1.0,zarya
-5,COREY,offense,S1W3,Washington Justice,Philadelphia Fusion vs. Washington Justice,4,4,17,17,137.66124206352234,89,93161.24206352234,0.0,FreeAgent,FreeAgent,1.0,8,8,1.0,zarya
-6,FAHZIX,support,S1W1,Washington Justice,New York Excelsior vs. Washington Justice,4,4,14,17,23.628941570043565,2,12734.059927940369,9894.881642103195,FreeAgent,FreeAgent,0.8235294117647058,2,4,0.5,lucio
-7,FAHZIX,support,S1W2,Washington Justice,London Spitfire vs. Washington Justice,4,4,14,17,120.29230440592767,55,51616.55476140976,41175.7496445179,FreeAgent,FreeAgent,0.8235294117647058,4,5,0.8,lucio
-8,FAHZIX,support,S1W3,Washington Justice,Philadelphia Fusion vs. Washington Justice,4,4,14,17,99.2622670993805,48,39301.22626590729,35961.040833473206,FreeAgent,FreeAgent,0.8235294117647058,8,8,1.0,lucio
-9,GIDO,support,S1W1,Washington Justice,New York Excelsior vs. Washington Justice,4,4,17,17,72.60387663900852,19,37404.636222839355,25699.240416169167,GIDO,Bobble,1.0,4,4,1.0,zenyatta
-10,GIDO,support,S1W2,Washington Justice,London Spitfire vs. Washington Justice,4,4,17,17,200.2007286285162,62,95391.88993644714,73808.83869206905,GIDO,Bobble,1.0,5,5,1.0,zenyatta
-11,GIDO,support,S1W3,Washington Justice,Philadelphia Fusion vs. Washington Justice,4,4,17,17,147.51065510630607,57,68390.3868663311,50620.268239974976,GIDO,Bobble,1.0,8,8,1.0,zenyatta
-12,HYEONU,support,S1W1,Washington Justice,New York Excelsior vs. Washington Justice,2,4,3,17,22.981181219458577,10,7440.832504749298,10540.348714709282,FreeAgent,FreeAgent,0.17647058823529413,2,4,0.5,lucio
-13,HYEONU,support,S1W2,Washington Justice,London Spitfire vs. Washington Justice,2,4,3,17,17.600128137111664,6,7229.655569076538,7370.472568035126,FreeAgent,FreeAgent,0.17647058823529413,1,5,0.2,lucio
-14,JANUS,tank,S1W1,Washington Justice,New York Excelsior vs. Washington Justice,4,4,17,17,24.91392512321472,13,18413.92512321472,0.0,JANUS,MattyIce,1.0,4,4,1.0,reinhardt
-15,JANUS,tank,S1W2,Washington Justice,London Spitfire vs. Washington Justice,4,4,17,17,83.11807892733813,57,54618.07892733812,0.0,JANUS,MattyIce,1.0,5,5,1.0,reinhardt
-16,JANUS,tank,S1W3,Washington Justice,Philadelphia Fusion vs. Washington Justice,4,4,17,17,83.45347231924534,68,49453.47231924534,0.0,JANUS,MattyIce,1.0,8,8,1.0,reinhardt
-17,SANSAM,tank,S1W1,Washington Justice,New York Excelsior vs. Washington Justice,4,4,17,17,41.58926104816794,23,30089.261048167944,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,dva
-18,SANSAM,tank,S1W2,Washington Justice,London Spitfire vs. Washington Justice,4,4,17,17,123.20225927406551,70,87994.79926759005,207.4600064754486,FreeAgent,FreeAgent,1.0,5,5,1.0,dva
-19,SANSAM,tank,S1W3,Washington Justice,Philadelphia Fusion vs. Washington Justice,4,4,17,17,106.22642659929394,78,67226.42659929395,0.0,FreeAgent,FreeAgent,1.0,8,8,1.0,dva
-20,STRATUS,offense,S1W3,Washington Justice,Philadelphia Fusion vs. Washington Justice,1,4,1,17,24.200510766267776,10,7022.386318206787,12178.12444806099,FreeAgent,FreeAgent,0.058823529411764705,1,4,0.25,brigitte
-21,ADORA,offense,S1W2,Hangzhou Spark,London Spitfire vs. Hangzhou Spark,2,6,3,25,63.59595391070843,42,18452.865986824036,24143.08792388439,FreeAgent,FreeAgent,0.12,2,4,0.5,brigitte
-22,ADORA,offense,S1W3,Hangzhou Spark,San Francisco Shock vs. Hangzhou Spark,2,6,3,25,40.91445062613487,24,11644.888028144836,17269.562597990036,FreeAgent,FreeAgent,0.12,1,4,0.25,brigitte
-23,BEBE,support,S1W1,Hangzhou Spark,Los Angeles Valiant vs. Hangzhou Spark,6,6,20,25,173.03836377155778,85,76569.29211974144,53969.07165181637,BEBE,Jyeran,0.8,7,9,0.775,zenyatta
-24,BEBE,support,S1W2,Hangzhou Spark,London Spitfire vs. Hangzhou Spark,6,6,20,25,97.03945821988583,39,44913.44405937195,32626.014160513878,BEBE,Jyeran,0.8,6,8,0.75,zenyatta
-25,BEBE,support,S1W3,Hangzhou Spark,Hangzhou Spark vs. Los Angeles Gladiators,6,6,20,25,170.95211058491466,86,74991.06587046385,52961.044714450836,BEBE,Jyeran,0.8,7,8,0.875,zenyatta
-26,BAZZI,offense,S1W1,Hangzhou Spark,Los Angeles Valiant vs. Hangzhou Spark,6,6,22,25,197.337387463212,130,69252.60905361176,63084.77840960026,BAZZI,Not another,0.88,9,9,1.0,brigitte
-27,BAZZI,offense,S1W2,Hangzhou Spark,Hangzhou Spark vs. Houston Outlaws,6,6,22,25,93.9568214840293,69,30524.646473109722,28932.17501091957,BAZZI,Not another,0.88,6,8,0.75,brigitte
-28,BAZZI,offense,S1W3,Hangzhou Spark,Hangzhou Spark vs. Los Angeles Gladiators,6,6,22,25,137.37929671657085,104,37306.44727039337,48072.84944617748,BAZZI,Not another,0.88,7,8,0.875,brigitte
-29,GODSB,offense,S1W1,Hangzhou Spark,Los Angeles Valiant vs. Hangzhou Spark,6,6,25,25,194.3558302334547,145,121788.79176867008,67.03846478462219,GODSB,Dragonbeard,1.0,9,9,1.0,zarya
-30,GODSB,offense,S1W2,Hangzhou Spark,Hangzhou Spark vs. Houston Outlaws,6,6,25,25,121.11891392314433,80,80572.0734385252,546.8404846191406,GODSB,Dragonbeard,1.0,8,8,1.0,zarya
-31,GODSB,offense,S1W3,Hangzhou Spark,Hangzhou Spark vs. Los Angeles Gladiators,6,6,25,25,152.78757842075825,116,94787.57842075825,0.0,GODSB,Dragonbeard,1.0,8,8,1.0,zarya
-32,GUXUE,tank,S1W1,Hangzhou Spark,Los Angeles Valiant vs. Hangzhou Spark,6,6,10,25,50.18828174251318,35,32688.28174251318,0.0,FreeAgent,FreeAgent,0.4,3,9,0.325,reinhardt
-33,GUXUE,tank,S1W2,Hangzhou Spark,Hangzhou Spark vs. Houston Outlaws,6,6,10,25,42.55042594051361,35,25050.42594051361,0.0,FreeAgent,FreeAgent,0.4,2,8,0.25,reinhardt
-34,GUXUE,tank,S1W3,Hangzhou Spark,Hangzhou Spark vs. Los Angeles Gladiators,6,6,10,25,109.7007525292039,93,63200.75252920389,0.0,FreeAgent,FreeAgent,0.4,5,8,0.625,reinhardt
-35,NOSMITE,tank,S1W1,Hangzhou Spark,Los Angeles Valiant vs. Hangzhou Spark,5,6,15,25,82.81086590093372,70,47810.86590093374,0.0,FreeAgent,FreeAgent,0.6,6,9,0.675,reinhardt
-36,NOSMITE,tank,S1W2,Hangzhou Spark,London Spitfire vs. Hangzhou Spark,5,6,15,25,48.026287126123904,41,27526.287126123905,0.0,FreeAgent,FreeAgent,0.6,6,8,0.75,reinhardt
-37,NOSMITE,tank,S1W3,Hangzhou Spark,San Francisco Shock vs. Hangzhou Spark,5,6,15,25,57.50425517249108,43,36004.25517249107,0.0,FreeAgent,FreeAgent,0.6,3,4,0.75,reinhardt
-38,REVENGE,support,S1W1,Hangzhou Spark,Los Angeles Valiant vs. Hangzhou Spark,5,6,5,25,60.950898077011104,23,27019.09326815605,22431.804808855057,FreeAgent,FreeAgent,0.2,2,9,0.225,zenyatta
-39,REVENGE,support,S1W2,Hangzhou Spark,Hangzhou Spark vs. Houston Outlaws,5,6,5,25,40.12377296149731,15,23896.382474422455,8727.390487074852,FreeAgent,FreeAgent,0.2,2,8,0.25,zenyatta
-40,REVENGE,support,S1W3,Hangzhou Spark,San Francisco Shock vs. Hangzhou Spark,5,6,5,25,30.973579647779466,8,16140.84027671814,10832.739371061325,FreeAgent,FreeAgent,0.2,1,4,0.25,zenyatta
-41,RIA,tank,S1W1,Hangzhou Spark,Los Angeles Valiant vs. Hangzhou Spark,6,6,25,25,175.76098139071465,147,102260.98139071465,0.0,RIA,Cougum,1.0,9,9,1.0,dva
-42,RIA,tank,S1W2,Hangzhou Spark,Hangzhou Spark vs. Houston Outlaws,6,6,25,25,84.35501146647334,63,52855.01146647334,0.0,RIA,Cougum,1.0,8,8,1.0,dva
-43,RIA,tank,S1W3,Hangzhou Spark,Hangzhou Spark vs. Los Angeles Gladiators,6,6,25,25,130.6033821592629,108,76603.3821592629,0.0,RIA,Cougum,1.0,8,8,1.0,dva
-44,IDK,support,S1W1,Hangzhou Spark,Los Angeles Valiant vs. Hangzhou Spark,6,6,25,25,152.51863399195673,101,57289.98298025131,44728.6510117054,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
-45,IDK,support,S1W2,Hangzhou Spark,Hangzhou Spark vs. Houston Outlaws,6,6,25,25,77.98437222731113,46,30149.527136802673,24834.84509050846,FreeAgent,FreeAgent,1.0,8,8,1.0,lucio
-46,IDK,support,S1W3,Hangzhou Spark,Hangzhou Spark vs. Los Angeles Gladiators,6,6,25,25,111.10205620217323,92,41040.578676223755,24061.477525949478,FreeAgent,FreeAgent,1.0,8,8,1.0,lucio
-47,AGILITIES,offense,S1W1,Los Angeles Valiant,Los Angeles Valiant vs. Hangzhou Spark,5,5,22,22,214.15445323598385,138,75275.42403244972,69879.02920353413,AGILITIES,MattyIce,1.0,5,5,1.0,brigitte
-48,AGILITIES,offense,S1W2,Los Angeles Valiant,Los Angeles Valiant vs. Toronto Defiant,5,5,22,22,205.7380510300398,122,72809.64200866222,71928.40902137756,AGILITIES,MattyIce,1.0,9,9,1.0,brigitte
-49,AGILITIES,offense,S1W3,Los Angeles Valiant,Los Angeles Valiant vs. Guangzhou Charge,5,5,22,22,146.5317476863861,73,51691.72025299072,58340.027433395386,AGILITIES,MattyIce,1.0,8,8,1.0,brigitte
-50,CUSTA,support,S1W2,Los Angeles Valiant,Los Angeles Valiant vs. Toronto Defiant,2,5,6,22,150.15835843014716,100,61195.1316601038,38963.22677004337,CUSTA,Overdrive,0.2727272727272727,6,9,0.7,lucio
-51,FATE,tank,S1W1,Los Angeles Valiant,Los Angeles Valiant vs. Hangzhou Spark,5,5,22,22,147.58111704879997,123,86081.11704879999,0.0,FATE,Cougum,1.0,5,5,1.0,reinhardt
-52,FATE,tank,S1W2,Los Angeles Valiant,Los Angeles Valiant vs. Toronto Defiant,5,5,22,22,136.86372625774146,102,85863.72625774145,0.0,FATE,Cougum,1.0,9,9,1.0,reinhardt
-53,FATE,tank,S1W3,Los Angeles Valiant,Los Angeles Valiant vs. Guangzhou Charge,5,5,22,22,103.18137164831161,70,68181.37164831161,0.0,FATE,Cougum,1.0,8,8,1.0,reinhardt
-54,IZAYAKI,support,S1W1,Los Angeles Valiant,Los Angeles Valiant vs. Hangzhou Spark,5,5,22,22,238.89698928141596,120,104971.16273498535,73925.82654643059,IZAYAKI,Cougum,1.0,5,5,1.0,zenyatta
-55,IZAYAKI,support,S1W2,Los Angeles Valiant,Los Angeles Valiant vs. Toronto Defiant,5,5,22,22,248.50588605201244,112,108694.38519346714,83811.5008585453,IZAYAKI,Cougum,1.0,9,9,1.0,zenyatta
-56,IZAYAKI,support,S1W3,Los Angeles Valiant,Los Angeles Valiant vs. Guangzhou Charge,5,5,22,22,167.74799673759938,53,81873.26782894135,59374.72890865803,IZAYAKI,Cougum,1.0,8,8,1.0,zenyatta
-57,KSF,offense,S1W1,Los Angeles Valiant,Los Angeles Valiant vs. Hangzhou Spark,2,5,2,22,58.240501593947414,42,37240.50159394741,0.0,FreeAgent,FreeAgent,0.09090909090909091,1,5,0.2,zarya
-58,KSF,offense,S1W2,Los Angeles Valiant,Los Angeles Valiant vs. New York Excelsior,2,5,2,22,23.450162097930907,7,19950.16209793091,0.0,FreeAgent,FreeAgent,0.09090909090909091,1,5,0.2,zarya
-59,KARIV,offense,S1W1,Los Angeles Valiant,Los Angeles Valiant vs. Hangzhou Spark,5,5,20,22,151.62830342689156,109,97128.30342689157,0.0,KARIV,MattyIce,0.9090909090909091,4,5,0.8,zarya
-60,KARIV,offense,S1W2,Los Angeles Valiant,Los Angeles Valiant vs. Toronto Defiant,5,5,20,22,221.59207600528003,143,149593.90117031336,498.17483496665955,KARIV,MattyIce,0.9090909090909091,8,9,0.9,zarya
-61,KARIV,offense,S1W3,Los Angeles Valiant,Los Angeles Valiant vs. Guangzhou Charge,5,5,20,22,154.93220739144087,80,114932.20739144087,0.0,KARIV,MattyIce,0.9090909090909091,8,8,1.0,zarya
-62,KUKI,tank,S1W1,Los Angeles Valiant,Los Angeles Valiant vs. Hangzhou Spark,4,5,16,22,153.18986630928515,104,54481.45831298828,46708.40799629688,FreeAgent,FreeAgent,0.7272727272727273,5,5,1.0,lucio
-63,KUKI,tank,S1W2,Los Angeles Valiant,Los Angeles Valiant vs. New York Excelsior,4,5,16,22,59.7538936650753,23,21820.955204486847,26432.938460588455,FreeAgent,FreeAgent,0.7272727272727273,3,5,0.6,lucio
-64,KUKI,tank,S1W3,Los Angeles Valiant,Los Angeles Valiant vs. Guangzhou Charge,4,5,16,22,94.8459617099762,50,42278.8709205389,27567.090789437294,FreeAgent,FreeAgent,0.7272727272727273,8,8,1.0,lucio
-65,SPACE,tank,S1W1,Los Angeles Valiant,Los Angeles Valiant vs. Hangzhou Spark,5,5,22,22,189.4730841444135,157,110973.08414441347,0.0,SPACE,Cougum,1.0,5,5,1.0,dva
-66,SPACE,tank,S1W2,Los Angeles Valiant,Los Angeles Valiant vs. Toronto Defiant,5,5,22,22,181.70460681588946,143,110193.68681629002,10.919999599456787,SPACE,Cougum,1.0,9,9,1.0,dva
-67,SPACE,tank,S1W3,Los Angeles Valiant,Los Angeles Valiant vs. Guangzhou Charge,5,5,22,22,108.60642193579673,69,74106.42193579674,0.0,SPACE,Cougum,1.0,8,8,1.0,dva
-68,AID,support,S1W1,Toronto Defiant,Toronto Defiant vs. Houston Outlaws,3,5,13,21,206.76092368721962,120,78415.86730313301,68345.05638408661,AID,Cougum,0.6190476190476191,5,5,1.0,zenyatta
-69,AID,support,S1W2,Toronto Defiant,Los Angeles Valiant vs. Toronto Defiant,3,5,13,21,239.05577430373432,127,95144.90846949816,80410.86583423615,AID,Cougum,0.6190476190476191,8,8,1.0,zenyatta
-70,ENVY,tank,S1W1,Toronto Defiant,Toronto Defiant vs. Houston Outlaws,5,5,21,21,175.75647744023797,168,90881.59572005272,874.8817201852798,ENVY,MattyIce,1.0,5,5,1.0,dva
-71,ENVY,tank,S1W2,Toronto Defiant,Los Angeles Valiant vs. Toronto Defiant,5,5,21,21,184.11873771306873,142,109379.16718754172,3739.5705255270004,ENVY,MattyIce,1.0,8,8,1.0,dva
-72,ENVY,tank,S1W3,Toronto Defiant,Boston Uprising vs. Toronto Defiant,5,5,21,21,166.68616695094107,135,99111.16695773602,74.9999932050705,ENVY,MattyIce,1.0,8,8,1.0,dva
-73,NEKO,support,S1W3,Toronto Defiant,Boston Uprising vs. Toronto Defiant,2,5,8,21,196.05216561317445,110,79773.8092906475,61278.35632252693,NEKO,Cougum,0.38095238095238093,8,8,1.0,zenyatta
-74,ROKY,support,S1W1,Toronto Defiant,Toronto Defiant vs. Houston Outlaws,5,5,21,21,134.76225750291349,91,44972.13788032532,44290.11962258816,FreeAgent,FreeAgent,1.0,5,5,1.0,lucio
-75,ROKY,support,S1W2,Toronto Defiant,Los Angeles Valiant vs. Toronto Defiant,5,5,21,21,159.8425885014534,104,59196.00655698776,48646.58194446564,FreeAgent,FreeAgent,1.0,8,8,1.0,lucio
-76,ROKY,support,S1W3,Toronto Defiant,Boston Uprising vs. Toronto Defiant,5,5,21,21,134.3781023968458,106,46897.46614217758,34480.636254668236,FreeAgent,FreeAgent,1.0,8,8,1.0,lucio
-77,STELLAR,offense,S1W1,Toronto Defiant,Toronto Defiant vs. Houston Outlaws,5,5,21,21,178.81004266142844,141,51048.9727909565,57261.069870471954,STELLAR,Not another,1.0,5,5,1.0,brigitte
-78,STELLAR,offense,S1W2,Toronto Defiant,Los Angeles Valiant vs. Toronto Defiant,5,5,21,21,215.3144954690337,137,72307.97045981884,74506.52500921488,STELLAR,Not another,1.0,8,8,1.0,brigitte
-79,STELLAR,offense,S1W3,Toronto Defiant,Boston Uprising vs. Toronto Defiant,5,5,21,21,153.67359266972542,128,41858.93109560013,47814.66157412529,STELLAR,Not another,1.0,8,8,1.0,brigitte
-80,YAKPUNG,tank,S1W1,Toronto Defiant,Toronto Defiant vs. Houston Outlaws,5,5,21,21,143.28105602657794,148,69281.05602657795,0.0,YAKPUNG,PopeRonPaul,1.0,5,5,1.0,winston
-81,YAKPUNG,tank,S1W2,Toronto Defiant,Los Angeles Valiant vs. Toronto Defiant,5,5,21,21,126.15330329382418,107,72653.3032938242,0.0,YAKPUNG,PopeRonPaul,1.0,8,8,1.0,reinhardt
-82,YAKPUNG,tank,S1W3,Toronto Defiant,Boston Uprising vs. Toronto Defiant,5,5,21,21,101.90574925130605,98,52905.74925130606,0.0,YAKPUNG,PopeRonPaul,1.0,8,8,1.0,reinhardt
-83,IVY,offense,S1W1,Toronto Defiant,Toronto Defiant vs. Houston Outlaws,5,5,21,21,192.35191542112827,171,106851.91542112827,0.0,IVY,Not another,1.0,5,5,1.0,zarya
-84,IVY,offense,S1W2,Toronto Defiant,Los Angeles Valiant vs. Toronto Defiant,5,5,21,21,227.94430634486676,150,152294.04481244087,650.2615324258804,IVY,Not another,1.0,8,8,1.0,zarya
-85,IVY,offense,S1W3,Toronto Defiant,Boston Uprising vs. Toronto Defiant,5,5,21,21,196.44575280290843,149,121945.75280290842,0.0,IVY,Not another,1.0,8,8,1.0,zarya
-86,AIMGOD,support,S1W1,Boston Uprising,Boston Uprising vs. Houston Outlaws,5,5,21,21,211.63588778579233,99,93830.43598997593,68305.45179581642,AIMGOD,Not another,1.0,9,9,1.0,zenyatta
-87,AIMGOD,support,S1W2,Boston Uprising,Boston Uprising vs. Shanghai Dragons,5,5,21,21,151.6168874042034,64,64845.28565168381,54771.60175251961,AIMGOD,Not another,1.0,4,4,1.0,zenyatta
-88,AIMGOD,support,S1W3,Boston Uprising,Boston Uprising vs. Seoul Dynasty,5,5,21,21,205.7979071265459,100,86520.66291475296,69277.24421179295,AIMGOD,Not another,1.0,8,8,1.0,zenyatta
-89,AXXIOM,tank,S1W1,Boston Uprising,Boston Uprising vs. Houston Outlaws,3,5,13,21,148.00364336234333,111,92503.64336234331,0.0,AXXIOM,Not another,0.6190476190476191,9,9,1.0,zarya
-90,AXXIOM,tank,S1W2,Boston Uprising,Boston Uprising vs. Shanghai Dragons,3,5,13,21,57.620990733444685,43,36120.99073344469,0.0,AXXIOM,Not another,0.6190476190476191,4,4,1.0,reinhardt
-91,COLOURHEX,offense,S1W2,Boston Uprising,Boston Uprising vs. Shanghai Dragons,3,5,12,21,111.042152228117,72,74879.81294894218,162.3392791748047,FreeAgent,FreeAgent,0.5714285714285714,4,4,1.0,zarya
-92,COLOURHEX,offense,S1W3,Boston Uprising,Boston Uprising vs. Seoul Dynasty,3,5,12,21,174.31612286418678,121,113816.12286418676,0.0,FreeAgent,FreeAgent,0.5714285714285714,8,8,1.0,zarya
-93,FUSIONS,tank,S1W1,Boston Uprising,Boston Uprising vs. Houston Outlaws,4,5,17,21,120.52664469921588,93,74026.64469921589,0.0,FreeAgent,FreeAgent,0.8095238095238095,9,9,1.0,reinhardt
-94,FUSIONS,tank,S1W3,Boston Uprising,Boston Uprising vs. Toronto Defiant,4,5,17,21,128.69015357589723,94,81690.15357589722,0.0,FreeAgent,FreeAgent,0.8095238095238095,8,8,1.0,reinhardt
-95,KELLEX,support,S1W1,Boston Uprising,Boston Uprising vs. Houston Outlaws,5,5,19,21,138.87905562675,88,50877.08831882477,44001.967307925224,FreeAgent,FreeAgent,0.9047619047619048,7,9,0.75,lucio
-96,KELLEX,support,S1W2,Boston Uprising,Boston Uprising vs. Shanghai Dragons,5,5,19,21,90.72776997184754,52,38887.26461839676,25840.505353450775,FreeAgent,FreeAgent,0.9047619047619048,4,4,1.0,lucio
-97,KELLEX,support,S1W3,Boston Uprising,Boston Uprising vs. Seoul Dynasty,5,5,19,21,139.31201068699363,91,53625.76604318619,40186.24464380741,FreeAgent,FreeAgent,0.9047619047619048,8,8,1.0,lucio
-98,NOTE,tank,S1W1,Boston Uprising,Boston Uprising vs. Houston Outlaws,5,5,21,21,150.80342206272482,122,89803.42206272483,0.0,NOTE,Jyeran,1.0,9,9,1.0,dva
-99,NOTE,tank,S1W2,Boston Uprising,Boston Uprising vs. Shanghai Dragons,5,5,21,21,92.58095653134583,66,59211.26453334093,369.69199800491333,NOTE,Jyeran,1.0,4,4,1.0,dva
-100,NOTE,tank,S1W3,Boston Uprising,Boston Uprising vs. Seoul Dynasty,5,5,21,21,168.69110813093184,130,103691.10813093185,0.0,NOTE,Jyeran,1.0,8,8,1.0,dva
-101,ALEMAO,support,S1W1,Boston Uprising,New York Excelsior vs. Boston Uprising,1,5,2,21,53.05539030265808,36,21285.228790283203,13770.161512374878,ALEMAO,Bobble,0.09523809523809523,2,4,0.5,lucio
-102,BLASE,offense,S1W1,Boston Uprising,Boston Uprising vs. Houston Outlaws,5,5,21,21,161.8896776635051,101,46705.12700945139,64684.55065405369,BLASE,Cougum,1.0,9,9,1.0,brigitte
-103,BLASE,offense,S1W2,Boston Uprising,Boston Uprising vs. Shanghai Dragons,5,5,21,21,95.98194872212409,64,28510.750421762466,35471.19830036163,BLASE,Cougum,1.0,4,4,1.0,brigitte
-104,BLASE,offense,S1W3,Boston Uprising,Boston Uprising vs. Seoul Dynasty,5,5,21,21,151.10127107894422,101,43293.39664530754,57307.874433636665,BLASE,Cougum,1.0,8,8,1.0,brigitte
-105,ANAMO,support,S1W1,New York Excelsior,New York Excelsior vs. Boston Uprising,6,6,23,25,156.16472512197493,123,55367.27237319946,39297.45274877548,ANAMO,Overdrive,0.92,8,8,1.0,lucio
-106,ANAMO,support,S1W2,New York Excelsior,Los Angeles Valiant vs. New York Excelsior,6,6,23,25,129.456151119709,96,50195.859858989716,31260.2912607193,ANAMO,Overdrive,0.92,8,9,0.875,lucio
-107,ANAMO,support,S1W3,New York Excelsior,Toronto Defiant vs. New York Excelsior,6,6,23,25,97.47330375504494,82,36105.69405889511,20367.609696149826,ANAMO,Overdrive,0.92,7,8,0.875,lucio
-108,ARK,support,S1W2,New York Excelsior,New York Excelsior vs. Houston Outlaws,2,6,2,25,23.870032515883445,17,8633.261578083038,6736.770937800407,FreeAgent,FreeAgent,0.08,1,4,0.25,lucio
-109,ARK,support,S1W3,New York Excelsior,Toronto Defiant vs. New York Excelsior,2,6,2,25,23.69636348927021,12,9533.101797103882,8163.261692166328,FreeAgent,FreeAgent,0.08,1,4,0.25,lucio
-110,JJONAK,support,S1W1,New York Excelsior,New York Excelsior vs. Boston Uprising,6,6,25,25,206.36065322101115,129,91175.67121851444,50684.98200249672,JJONAK,Dragonbeard,1.0,8,8,1.0,zenyatta
-111,JJONAK,support,S1W2,New York Excelsior,Los Angeles Valiant vs. New York Excelsior,6,6,25,25,180.67193590599297,88,81996.47385305166,54675.46205294132,JJONAK,Dragonbeard,1.0,9,9,1.0,zenyatta
-112,JJONAK,support,S1W3,New York Excelsior,Toronto Defiant vs. New York Excelsior,6,6,25,25,166.404052374959,95,71797.89899730682,47106.15337765217,JJONAK,Dragonbeard,1.0,8,8,1.0,zenyatta
-113,LIBERO,offense,S1W1,New York Excelsior,New York Excelsior vs. Boston Uprising,6,6,24,25,154.45887955117226,123,44962.66964149475,47996.209909677505,LIBERO,Dragonbeard,0.96,8,8,1.0,brigitte
-114,LIBERO,offense,S1W2,New York Excelsior,Los Angeles Valiant vs. New York Excelsior,6,6,24,25,123.08535781121253,90,37108.30857503414,40977.0492361784,LIBERO,Dragonbeard,0.96,9,9,1.0,brigitte
-115,LIBERO,offense,S1W3,New York Excelsior,Toronto Defiant vs. New York Excelsior,6,6,24,25,92.72321957564354,83,23066.81063604355,28156.40893959999,LIBERO,Dragonbeard,0.96,7,8,0.875,brigitte
-116,MANO,tank,S1W1,New York Excelsior,New York Excelsior vs. Boston Uprising,6,6,25,25,124.71503752970696,116,66715.03752970695,0.0,MANO,Cougum,1.0,8,8,1.0,reinhardt
-117,MANO,tank,S1W2,New York Excelsior,Los Angeles Valiant vs. New York Excelsior,6,6,25,25,104.29726025497915,84,62297.26025497913,0.0,MANO,Cougum,1.0,9,9,1.0,reinhardt
-118,MANO,tank,S1W3,New York Excelsior,Toronto Defiant vs. New York Excelsior,6,6,25,25,110.42700097441674,98,61427.00097441673,0.0,MANO,Cougum,1.0,8,8,1.0,reinhardt
-119,MEKO,tank,S1W1,New York Excelsior,New York Excelsior vs. Boston Uprising,6,6,25,25,152.1350319851935,131,86488.83172121644,146.20026397705078,MEKO,Bobble,1.0,8,8,1.0,dva
-120,MEKO,tank,S1W2,New York Excelsior,Los Angeles Valiant vs. New York Excelsior,6,6,25,25,142.88991821169853,115,85268.11813998222,121.8000717163086,MEKO,Bobble,1.0,9,9,1.0,dva
-121,MEKO,tank,S1W3,New York Excelsior,Toronto Defiant vs. New York Excelsior,6,6,25,25,116.45472943717242,98,67366.34943717718,88.37999999523163,MEKO,Bobble,1.0,8,8,1.0,dva
-122,NENNE,offense,S1W1,New York Excelsior,New York Excelsior vs. Boston Uprising,6,6,25,25,190.09066247826811,145,117590.66247826815,0.0,NENNE,Jyeran,1.0,8,8,1.0,zarya
-123,NENNE,offense,S1W2,New York Excelsior,Los Angeles Valiant vs. New York Excelsior,6,6,25,25,157.62744803845882,109,103126.74682080746,0.7012176513671875,NENNE,Jyeran,1.0,9,9,1.0,zarya
-124,NENNE,offense,S1W3,New York Excelsior,Toronto Defiant vs. New York Excelsior,6,6,25,25,146.5675186163187,104,94567.5186163187,0.0,NENNE,Jyeran,1.0,8,8,1.0,zarya
-125,SAEBYEOLBE,offense,S1W3,New York Excelsior,Toronto Defiant vs. New York Excelsior,1,6,1,25,26.920815698504445,13,8863.982856273651,11556.832842230797,FreeAgent,FreeAgent,0.04,1,4,0.25,brigitte
-126,APPLY,offense,S1W3,Florida Mayhem,Guangzhou Charge vs. Florida Mayhem,2,5,6,22,80.46066633391379,43,30018.087673425674,28942.57866048813,FreeAgent,FreeAgent,0.2727272727272727,6,9,0.65,brigitte
-127,HAGOPEUN,support,S1W1,Florida Mayhem,Atlanta Reign vs. Florida Mayhem,5,5,22,22,144.15997933423517,73,64421.02973341942,43238.94960081577,HAGOPEUN,Bobble,1.0,4,4,1.0,zenyatta
-128,HAGOPEUN,support,S1W2,Florida Mayhem,Philadelphia Fusion vs. Florida Mayhem,5,5,22,22,139.55381664556268,86,51627.79393261671,44926.02271294594,HAGOPEUN,Bobble,1.0,9,9,1.0,zenyatta
-129,HAGOPEUN,support,S1W3,Florida Mayhem,Houston Outlaws vs. Florida Mayhem,5,5,22,22,141.08705336391927,70,45129.71707856655,60957.33628535271,HAGOPEUN,Bobble,1.0,9,9,1.0,zenyatta
-130,KRIS,support,S1W1,Florida Mayhem,Atlanta Reign vs. Florida Mayhem,5,5,22,22,84.43786765241623,64,30756.30870437622,21681.55894804001,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
-131,KRIS,support,S1W2,Florida Mayhem,Philadelphia Fusion vs. Florida Mayhem,5,5,22,22,106.78557130479813,80,35684.610389471054,31100.960915327072,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
-132,KRIS,support,S1W3,Florida Mayhem,Houston Outlaws vs. Florida Mayhem,5,5,22,22,103.50469322764874,81,35103.186985731125,27901.50624191761,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
-133,MCGRAVY,tank,S1W3,Florida Mayhem,Guangzhou Charge vs. Florida Mayhem,2,5,5,22,56.80514008468389,35,39305.140084683895,0.0,FreeAgent,FreeAgent,0.22727272727272727,5,9,0.55,dva
-134,SWON,tank,S1W1,Florida Mayhem,Atlanta Reign vs. Florida Mayhem,5,5,22,22,76.24962082993984,68,42249.62082993984,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,reinhardt
-135,SWON,tank,S1W2,Florida Mayhem,Philadelphia Fusion vs. Florida Mayhem,5,5,22,22,112.20363697767257,114,55203.63697767258,0.0,FreeAgent,FreeAgent,1.0,9,9,1.0,reinhardt
-136,SWON,tank,S1W3,Florida Mayhem,Houston Outlaws vs. Florida Mayhem,5,5,22,22,120.95140049880742,114,63951.40049880743,0.0,FreeAgent,FreeAgent,1.0,9,9,1.0,reinhardt
-137,TVIQ,offense,S1W1,Florida Mayhem,Atlanta Reign vs. Florida Mayhem,5,5,16,22,120.46232498300076,81,42726.34309566021,37235.981887340546,TVIQ,Bobble,0.7272727272727273,4,4,1.0,brigitte
-138,TVIQ,offense,S1W2,Florida Mayhem,Florida Mayhem vs. Chengdu Hunters,5,5,16,22,144.7572243115306,120,51670.74172800779,33086.4825835228,TVIQ,Bobble,0.7272727272727273,9,9,1.0,brigitte
-139,TVIQ,offense,S1W3,Florida Mayhem,Houston Outlaws vs. Florida Mayhem,5,5,16,22,80.90382529869677,70,31994.278783231974,13909.546515464783,TVIQ,Bobble,0.7272727272727273,3,9,0.35,mei
-140,BQB,offense,S1W1,Florida Mayhem,Atlanta Reign vs. Florida Mayhem,5,5,22,22,124.89512890428304,89,79638.76506608725,756.3638381958008,FreeAgent,FreeAgent,1.0,4,4,1.0,zarya
-141,BQB,offense,S1W2,Florida Mayhem,Philadelphia Fusion vs. Florida Mayhem,5,5,22,22,156.78987672927974,132,90451.46817114949,338.4085581302643,FreeAgent,FreeAgent,1.0,9,9,1.0,zarya
-142,BQB,offense,S1W3,Florida Mayhem,Houston Outlaws vs. Florida Mayhem,5,5,22,22,150.17349277079106,120,89979.68028604984,193.81248474121094,FreeAgent,FreeAgent,1.0,9,9,1.0,zarya
-143,SAYAPLAYER,offense,S1W2,Florida Mayhem,Florida Mayhem vs. Chengdu Hunters,2,5,2,22,22.989758609771727,16,14322.754821538925,667.0037882328033,FreeAgent,FreeAgent,0.09090909090909091,1,5,0.2,soldier76
-144,SAYAPLAYER,offense,S1W3,Florida Mayhem,Guangzhou Charge vs. Florida Mayhem,2,5,2,22,8.02508254250884,6,5025.082542508841,0.0,FreeAgent,FreeAgent,0.09090909090909091,1,5,0.2,widowmaker
-145,XEPHER,tank,S1W1,Florida Mayhem,Atlanta Reign vs. Florida Mayhem,5,5,15,22,97.6747172587514,81,57159.702259361744,15.014999389648438,XEPHER,Overdrive,0.6818181818181818,4,4,1.0,dva
-146,XEPHER,tank,S1W2,Florida Mayhem,Philadelphia Fusion vs. Florida Mayhem,5,5,15,22,117.16727296870948,115,59014.45218759775,652.8207811117172,XEPHER,Overdrive,0.6818181818181818,8,9,0.9,dva
-147,XEPHER,tank,S1W3,Florida Mayhem,Houston Outlaws vs. Florida Mayhem,5,5,15,22,82.13719189548492,78,43137.191895484924,0.0,XEPHER,Overdrive,0.6818181818181818,3,9,0.35,zarya
-148,ARCHITECT,offense,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,4,5,13,21,142.37482469713686,75,50746.81003153324,54128.01466560364,FreeAgent,FreeAgent,0.6190476190476191,8,9,0.9,brigitte
-149,ARCHITECT,offense,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,4,5,13,21,146.9736770262718,85,45304.30596387386,59169.37106239796,FreeAgent,FreeAgent,0.6190476190476191,4,4,1.0,brigitte
-150,ARCHITECT,offense,S1W3,San Francisco Shock,San Francisco Shock vs. Hangzhou Spark,4,5,13,21,24.944073038220402,11,8586.751945495605,10857.3210927248,FreeAgent,FreeAgent,0.6190476190476191,1,4,0.25,brigitte
-151,CHOIHYOBIN,tank,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,5,5,15,21,121.03707692950962,93,74247.01168435812,290.0652451515198,CHOIHYOBIN,PopeRonPaul,0.7142857142857143,7,9,0.775,dva
-152,CHOIHYOBIN,tank,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,5,5,15,21,70.25764369988441,54,43257.643699884415,0.0,CHOIHYOBIN,PopeRonPaul,0.7142857142857143,2,4,0.5,dva
-153,CHOIHYOBIN,tank,S1W3,San Francisco Shock,San Francisco Shock vs. Washington Justice,5,5,15,21,104.57284462946654,93,58072.844629466534,0.0,CHOIHYOBIN,PopeRonPaul,0.7142857142857143,6,8,0.75,dva
-154,NEVIX,tank,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,5,5,6,21,26.857455196261405,16,18857.455196261406,0.0,FreeAgent,FreeAgent,0.2857142857142857,2,9,0.225,dva
-155,NEVIX,tank,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,5,5,6,21,69.83876952743529,53,43226.73051071167,112.03901672363281,FreeAgent,FreeAgent,0.2857142857142857,2,4,0.5,dva
-156,NEVIX,tank,S1W3,San Francisco Shock,San Francisco Shock vs. Hangzhou Spark,5,5,6,21,50.79430197459459,42,29794.301974594593,0.0,FreeAgent,FreeAgent,0.2857142857142857,2,8,0.25,dva
-157,RASCAL,offense,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,4,5,9,21,26.792852393150326,18,9035.936818122864,8756.915575027466,RASCAL,Overdrive,0.42857142857142855,2,9,0.225,brigitte
-158,RASCAL,offense,S1W3,San Francisco Shock,San Francisco Shock vs. Washington Justice,4,5,9,21,134.8920572707653,93,37964.386692643166,50427.67057812214,RASCAL,Overdrive,0.42857142857142855,7,8,0.875,brigitte
-159,STRIKER,offense,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,2,5,2,21,24.20175585901737,19,14701.755859017372,0.0,FreeAgent,FreeAgent,0.09523809523809523,1,5,0.2,zarya
-160,STRIKER,offense,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,2,5,2,21,15.593647862166167,11,10093.647862166166,0.0,FreeAgent,FreeAgent,0.09523809523809523,1,4,0.25,widowmaker
-161,SMURF,tank,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,4,5,5,21,50.608715019226075,46,27608.715019226074,0.0,FreeAgent,FreeAgent,0.23809523809523808,3,9,0.325,reinhardt
-162,SMURF,tank,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,4,5,5,21,14.0232795779109,9,9523.2795779109,0.0,FreeAgent,FreeAgent,0.23809523809523808,1,4,0.25,wreckingball
-163,SMURF,tank,S1W3,San Francisco Shock,San Francisco Shock vs. Hangzhou Spark,4,5,5,21,18.695631685614586,13,12195.631685614586,0.0,FreeAgent,FreeAgent,0.23809523809523808,1,4,0.25,reinhardt
-164,VIOL2T,support,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,3,5,12,21,227.65246519255638,93,99426.67515659332,81725.79003596306,FreeAgent,FreeAgent,0.5714285714285714,4,4,1.0,zenyatta
-165,VIOL2T,support,S1W3,San Francisco Shock,San Francisco Shock vs. Hangzhou Spark,3,5,12,21,170.8859921860993,75,75483.80426898599,57902.187917113304,FreeAgent,FreeAgent,0.5714285714285714,8,8,1.0,zenyatta
-166,MOTH,support,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,5,5,21,21,141.88507495707273,74,48372.89504957199,56512.179907500744,MOTH,Overdrive,1.0,9,9,1.0,lucio
-167,MOTH,support,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,5,5,21,21,138.3871934722662,77,49866.84117269516,50020.35229957104,MOTH,Overdrive,1.0,4,4,1.0,lucio
-168,MOTH,support,S1W3,San Francisco Shock,San Francisco Shock vs. Hangzhou Spark,5,5,21,21,106.69298852837086,63,37368.181014060974,37824.80751430988,MOTH,Overdrive,1.0,8,8,1.0,lucio
-169,SINATRAA,offense,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,5,5,18,21,179.4364729922414,97,124649.43747133017,6287.035520911217,SINATRAA,Dragonbeard,0.8571428571428571,7,9,0.775,zarya
-170,SINATRAA,offense,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,5,5,18,21,183.43433871114254,110,128434.33871114254,0.0,SINATRAA,Dragonbeard,0.8571428571428571,3,4,0.75,zarya
-171,SINATRAA,offense,S1W3,San Francisco Shock,San Francisco Shock vs. Washington Justice,5,5,18,21,167.9070787447095,127,104407.07874470949,0.0,SINATRAA,Dragonbeard,0.8571428571428571,8,8,1.0,zarya
-172,SLEEPY,support,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,2,5,9,21,227.19281776070596,81,97268.95054137707,89423.86721932888,SLEEPY,Jyeran,0.42857142857142855,9,9,1.0,zenyatta
-173,SUPER,tank,S1W1,San Francisco Shock,San Francisco Shock vs. Dallas Fuel,5,5,16,21,87.80484039515257,80,47804.84039515257,0.0,FreeAgent,FreeAgent,0.7619047619047619,6,9,0.675,reinhardt
-174,SUPER,tank,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,5,5,16,21,111.75012484502793,79,72250.12484502792,0.0,FreeAgent,FreeAgent,0.7619047619047619,3,4,0.75,reinhardt
-175,SUPER,tank,S1W3,San Francisco Shock,San Francisco Shock vs. Washington Justice,5,5,16,21,111.69603305584191,96,63696.03305584192,0.0,FreeAgent,FreeAgent,0.7619047619047619,7,8,0.875,reinhardt
-176,BIRDRING,offense,S1W1,London Spitfire,Philadelphia Fusion vs. London Spitfire,3,5,7,21,137.83917824912072,105,85339.17824912071,0.0,FreeAgent,FreeAgent,0.3333333333333333,6,8,0.75,zarya
-177,BIRDRING,offense,S1W2,London Spitfire,London Spitfire vs. Washington Justice,3,5,7,21,22.221168558776377,12,16205.918560683727,15.249998092651367,FreeAgent,FreeAgent,0.3333333333333333,1,5,0.2,widowmaker
-178,BDOSIN,support,S1W1,London Spitfire,Philadelphia Fusion vs. London Spitfire,5,5,21,21,153.68217143791915,88,70515.34285962582,39166.82857829332,BDOSIN,MattyIce,1.0,8,8,1.0,zenyatta
-179,BDOSIN,support,S1W2,London Spitfire,London Spitfire vs. Washington Justice,5,5,21,21,208.30226859235765,115,94702.66710829735,56099.60148406029,BDOSIN,MattyIce,1.0,9,9,1.0,zenyatta
-180,BDOSIN,support,S1W3,London Spitfire,Los Angeles Gladiators vs. London Spitfire,5,5,21,21,175.52866496121882,83,78771.9660037756,55256.69895744324,BDOSIN,MattyIce,1.0,4,4,1.0,zenyatta
-181,FURY,tank,S1W1,London Spitfire,London Spitfire vs. Paris Eternal,5,5,21,21,125.02637124484775,97,76114.34322971106,412.02801513671875,FURY,Jyeran,1.0,8,8,1.0,dva
-182,FURY,tank,S1W2,London Spitfire,London Spitfire vs. Washington Justice,5,5,21,21,162.0304715567231,133,95530.47155672312,0.0,FURY,Jyeran,1.0,9,9,1.0,dva
-183,FURY,tank,S1W3,London Spitfire,Los Angeles Gladiators vs. London Spitfire,5,5,21,21,143.71317134171724,115,86213.17134171724,0.0,FURY,Jyeran,1.0,4,4,1.0,dva
-184,GESTURE,tank,S1W1,London Spitfire,Philadelphia Fusion vs. London Spitfire,5,5,21,21,88.9406813467741,79,49440.6813467741,0.0,GESTURE,Dragonbeard,1.0,8,8,1.0,reinhardt
-185,GESTURE,tank,S1W2,London Spitfire,London Spitfire vs. Washington Justice,5,5,21,21,137.43655130511522,115,79936.55130511522,0.0,GESTURE,Dragonbeard,1.0,9,9,1.0,reinhardt
-186,GESTURE,tank,S1W3,London Spitfire,Los Angeles Gladiators vs. London Spitfire,5,5,21,21,111.43295854896306,91,65932.95854896307,0.0,GESTURE,Dragonbeard,1.0,4,4,1.0,reinhardt
-187,GUARD,offense,S1W1,London Spitfire,London Spitfire vs. Paris Eternal,4,5,14,21,64.27922513341905,53,37613.337285518646,165.88784790039062,FreeAgent,FreeAgent,0.6666666666666666,2,4,0.5,sombra
-188,GUARD,offense,S1W2,London Spitfire,London Spitfire vs. Washington Justice,4,5,14,21,158.23563393509386,107,49959.15790820122,54776.47602689266,FreeAgent,FreeAgent,0.6666666666666666,8,9,0.9,brigitte
-189,GUARD,offense,S1W3,London Spitfire,Los Angeles Gladiators vs. London Spitfire,4,5,14,21,134.68454450023177,91,48160.11604642868,41024.42845380306,FreeAgent,FreeAgent,0.6666666666666666,4,4,1.0,brigitte
-190,NUS,support,S1W1,London Spitfire,Philadelphia Fusion vs. London Spitfire,5,5,21,21,107.05984760773181,67,36258.26723241806,37301.58037531376,NUS,MattyIce,1.0,8,8,1.0,lucio
-191,NUS,support,S1W2,London Spitfire,London Spitfire vs. Washington Justice,5,5,21,21,149.53033768463132,96,59420.36854493618,42109.96913969517,NUS,MattyIce,1.0,9,9,1.0,lucio
-192,NUS,support,S1W3,London Spitfire,Los Angeles Gladiators vs. London Spitfire,5,5,21,21,123.14894801795481,77,47814.8160943985,36834.13192355633,NUS,MattyIce,1.0,4,4,1.0,lucio
-193,PROFIT,offense,S1W1,London Spitfire,Philadelphia Fusion vs. London Spitfire,5,5,21,21,135.5055626027584,85,42215.09581756592,50790.46678519249,PROFIT,Dragonbeard,1.0,8,8,1.0,brigitte
-194,PROFIT,offense,S1W2,London Spitfire,London Spitfire vs. Washington Justice,5,5,21,21,212.7773376894593,141,139167.05785566568,3110.27983379364,PROFIT,Dragonbeard,1.0,9,9,1.0,zarya
-195,PROFIT,offense,S1W3,London Spitfire,Los Angeles Gladiators vs. London Spitfire,5,5,21,21,166.54898168104887,110,103259.07850068808,8289.903180360794,PROFIT,Dragonbeard,1.0,4,4,1.0,zarya
-196,BUMPER,tank,S1W1,Vancouver Titans,Vancouver Titans vs. Shanghai Dragons,4,4,17,17,78.33295770955084,77,39832.95770955086,0.0,BUMPER,Dragonbeard,1.0,4,4,1.0,reinhardt
-197,BUMPER,tank,S1W2,Vancouver Titans,Vancouver Titans vs. San Francisco Shock,4,4,17,17,133.3517620548606,106,80351.76205486059,0.0,BUMPER,Dragonbeard,1.0,9,9,1.0,reinhardt
-198,BUMPER,tank,S1W3,Vancouver Titans,Los Angeles Valiant vs. Vancouver Titans,4,4,17,17,88.94040020722151,75,51440.40020722151,0.0,BUMPER,Dragonbeard,1.0,4,4,1.0,reinhardt
-199,HAKSAL,offense,S1W1,Vancouver Titans,Vancouver Titans vs. Shanghai Dragons,4,4,17,17,110.75205374217032,93,33056.96881651878,31195.08492565155,HAKSAL,Not another,1.0,4,4,1.0,brigitte
-200,HAKSAL,offense,S1W2,Vancouver Titans,Vancouver Titans vs. San Francisco Shock,4,4,17,17,176.62830021750926,113,55063.99362051487,65064.3065969944,HAKSAL,Not another,1.0,9,9,1.0,brigitte
-201,HAKSAL,offense,S1W3,Vancouver Titans,Los Angeles Valiant vs. Vancouver Titans,4,4,17,17,120.61198556947708,89,34350.447343826294,41761.53822565079,HAKSAL,Not another,1.0,4,4,1.0,brigitte
-202,JJANU,tank,S1W1,Vancouver Titans,Vancouver Titans vs. Shanghai Dragons,4,4,17,17,94.42654642689229,104,42426.54642689228,0.0,JJANU,Not another,1.0,4,4,1.0,dva
-203,JJANU,tank,S1W2,Vancouver Titans,Vancouver Titans vs. San Francisco Shock,4,4,17,17,171.14604333627224,131,105646.04333627224,0.0,JJANU,Not another,1.0,9,9,1.0,dva
-204,JJANU,tank,S1W3,Vancouver Titans,Los Angeles Valiant vs. Vancouver Titans,4,4,17,17,111.45317707765102,101,60951.14706361294,2.0300140380859375,JJANU,Not another,1.0,4,4,1.0,dva
-205,RAPEL,support,S1W3,Vancouver Titans,Los Angeles Valiant vs. Vancouver Titans,1,4,1,17,40.14958587908745,17,19469.193716049194,12180.392163038254,FreeAgent,FreeAgent,0.058823529411764705,1,4,0.25,zenyatta
-206,SLIME,support,S1W1,Vancouver Titans,Vancouver Titans vs. Shanghai Dragons,4,4,17,17,89.72334723067283,69,23503.055357933044,31720.291872739792,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
-207,SLIME,support,S1W2,Vancouver Titans,Vancouver Titans vs. San Francisco Shock,4,4,17,17,140.9936000752449,92,50833.79111075401,44159.80896449089,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
-208,SLIME,support,S1W3,Vancouver Titans,Los Angeles Valiant vs. Vancouver Titans,4,4,17,17,101.6438954026699,83,34220.362542152405,25923.532860517502,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
-209,SEOMINSOO,offense,S1W1,Vancouver Titans,Vancouver Titans vs. Shanghai Dragons,4,4,15,17,85.03277124676109,77,46532.77124676108,0.0,SEOMINSOO,MattyIce,0.8823529411764706,3,4,0.75,zarya
-210,SEOMINSOO,offense,S1W2,Vancouver Titans,Vancouver Titans vs. San Francisco Shock,4,4,15,17,203.52812410145998,135,136028.12410145998,0.0,SEOMINSOO,MattyIce,0.8823529411764706,8,9,0.9,zarya
-211,SEOMINSOO,offense,S1W3,Vancouver Titans,Los Angeles Valiant vs. Vancouver Titans,4,4,15,17,134.0389413576722,89,89538.94135767221,0.0,SEOMINSOO,MattyIce,0.8823529411764706,4,4,1.0,zarya
-212,STITCH,offense,S1W1,Vancouver Titans,Vancouver Titans vs. Shanghai Dragons,2,4,2,17,18.064855556875468,13,11564.855556875467,0.0,FreeAgent,FreeAgent,0.11764705882352941,1,4,0.25,mccree
-213,STITCH,offense,S1W2,Vancouver Titans,Vancouver Titans vs. Guangzhou Charge,2,4,2,17,17.319338337659836,9,12819.338337659836,0.0,FreeAgent,FreeAgent,0.11764705882352941,1,5,0.2,zarya
-214,TWILIGHT,support,S1W1,Vancouver Titans,Vancouver Titans vs. Shanghai Dragons,4,4,16,17,110.70540414071081,75,42751.95338964462,30453.450751066208,TWILIGHT,Jyeran,0.9411764705882353,4,4,1.0,zenyatta
-215,TWILIGHT,support,S1W2,Vancouver Titans,Vancouver Titans vs. San Francisco Shock,4,4,16,17,212.2622066153288,99,91344.91104793549,71417.2955673933,TWILIGHT,Jyeran,0.9411764705882353,9,9,1.0,zenyatta
-216,TWILIGHT,support,S1W3,Vancouver Titans,Los Angeles Valiant vs. Vancouver Titans,4,4,16,17,99.6776428165436,58,44099.12763977051,26578.51517677307,TWILIGHT,Jyeran,0.9411764705882353,3,4,0.75,zenyatta
-217,BACONJACK,offense,S1W1,Chengdu Hunters,Chengdu Hunters vs. Guangzhou Charge,4,4,7,18,37.87233309966326,30,22809.993134081364,62.33996558189392,FreeAgent,FreeAgent,0.3888888888888889,2,5,0.4,widowmaker
-218,BACONJACK,offense,S1W2,Chengdu Hunters,Florida Mayhem vs. Chengdu Hunters,4,4,7,18,48.39971113806963,45,25899.71113806963,0.0,FreeAgent,FreeAgent,0.3888888888888889,4,9,0.45,sombra
-219,BACONJACK,offense,S1W3,Chengdu Hunters,Shanghai Dragons vs. Chengdu Hunters,4,4,7,18,13.267208339512349,9,8767.208339512348,0.0,FreeAgent,FreeAgent,0.3888888888888889,1,4,0.25,widowmaker
-220,ELSA,tank,S1W1,Chengdu Hunters,Chengdu Hunters vs. Guangzhou Charge,4,4,18,18,133.27116802811622,108,79147.33247208595,123.83555603027344,ELSA,Jyeran,1.0,5,5,1.0,dva
-221,ELSA,tank,S1W2,Chengdu Hunters,Florida Mayhem vs. Chengdu Hunters,4,4,18,18,147.16794865971804,132,80052.22056156397,1115.728098154068,ELSA,Jyeran,1.0,9,9,1.0,dva
-222,ELSA,tank,S1W3,Chengdu Hunters,Shanghai Dragons vs. Chengdu Hunters,4,4,18,18,117.3900835481584,85,74777.7983919084,112.28515625,ELSA,Jyeran,1.0,4,4,1.0,sombra
-223,JINMU,offense,S1W1,Chengdu Hunters,Chengdu Hunters vs. Guangzhou Charge,4,4,18,18,136.67356371694805,88,53559.826060950756,39113.737655997276,JINMU,Jyeran,1.0,5,5,1.0,brigitte
-224,JINMU,offense,S1W2,Chengdu Hunters,Chengdu Hunters vs. Seoul Dynasty,4,4,18,18,159.2410270037651,97,81835.43747615814,28905.589527606964,JINMU,Jyeran,1.0,9,9,1.0,brigitte
-225,JINMU,offense,S1W3,Chengdu Hunters,Shanghai Dragons vs. Chengdu Hunters,4,4,18,18,152.2863381052017,86,87381.27904880047,21905.059056401253,JINMU,Jyeran,1.0,4,4,1.0,pharah
-226,KYO,support,S1W1,Chengdu Hunters,Chengdu Hunters vs. Guangzhou Charge,4,4,18,18,143.4073763906956,80,47549.85179781914,55857.524592876434,KYO,Dragonbeard,1.0,5,5,1.0,zenyatta
-227,KYO,support,S1W2,Chengdu Hunters,Florida Mayhem vs. Chengdu Hunters,4,4,18,18,149.72826360905168,89,49046.7861289978,56181.4774800539,KYO,Dragonbeard,1.0,9,9,1.0,zenyatta
-228,KYO,support,S1W3,Chengdu Hunters,Shanghai Dragons vs. Chengdu Hunters,4,4,18,18,126.39414184427262,63,45895.2940479517,48998.847796320915,KYO,Dragonbeard,1.0,4,4,1.0,zenyatta
-229,YVELTAL,support,S1W1,Chengdu Hunters,Chengdu Hunters vs. Guangzhou Charge,4,4,18,18,86.99373359584807,44,26716.087276935577,38277.646318912506,FreeAgent,FreeAgent,1.0,5,5,1.0,lucio
-230,YVELTAL,support,S1W2,Chengdu Hunters,Chengdu Hunters vs. Seoul Dynasty,4,4,18,18,99.29261269581319,61,30111.588617801666,38681.02407801151,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
-231,YVELTAL,support,S1W3,Chengdu Hunters,Shanghai Dragons vs. Chengdu Hunters,4,4,18,18,78.51012885844708,28,18634.497817993164,45875.63104045391,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
-232,AMENG,tank,S1W1,Chengdu Hunters,Chengdu Hunters vs. Guangzhou Charge,4,4,18,18,106.53433794879913,90,61534.33794879913,0.0,FreeAgent,FreeAgent,1.0,5,5,1.0,wreckingball
-233,AMENG,tank,S1W2,Chengdu Hunters,Chengdu Hunters vs. Seoul Dynasty,4,4,18,18,115.99605570209027,97,67496.05570209026,0.0,FreeAgent,FreeAgent,1.0,9,9,1.0,wreckingball
-234,AMENG,tank,S1W3,Chengdu Hunters,Shanghai Dragons vs. Chengdu Hunters,4,4,18,18,93.6710203117132,79,54171.02031171322,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,wreckingball
-235,LATEYOUNG,tank,S1W1,Chengdu Hunters,Chengdu Hunters vs. Guangzhou Charge,4,4,11,18,85.07853484261035,64,51889.40053451061,1189.1343080997467,LATEYOUNG,MattyIce,0.6111111111111112,3,5,0.6,zarya
-236,LATEYOUNG,tank,S1W2,Chengdu Hunters,Florida Mayhem vs. Chengdu Hunters,4,4,11,18,86.48640005081892,73,48474.147036492825,1512.2530143260956,LATEYOUNG,MattyIce,0.6111111111111112,5,9,0.55,zarya
-237,LATEYOUNG,tank,S1W3,Chengdu Hunters,Shanghai Dragons vs. Chengdu Hunters,4,4,11,18,97.22799301809073,69,62727.993018090725,0.0,LATEYOUNG,MattyIce,0.6111111111111112,3,4,0.75,zarya
-238,BANI,support,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,1,5,2,22,70.13325664842128,38,31268.532063484192,19864.724584937096,BANI,PopeRonPaul,0.09090909090909091,2,4,0.5,zenyatta
-239,BOINK,support,S1W1,Houston Outlaws,Boston Uprising vs. Houston Outlaws,5,5,22,22,147.90752033233645,108,48966.15369129181,44941.36664104462,BOINK,PopeRonPaul,1.0,10,10,1.0,lucio
-240,BOINK,support,S1W2,Houston Outlaws,Hangzhou Spark vs. Houston Outlaws,5,5,22,22,89.08163260757922,60,30316.252424240112,28765.38018333912,BOINK,PopeRonPaul,1.0,8,8,1.0,lucio
-241,BOINK,support,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,5,5,22,22,105.72723263800145,82,38105.71638441086,26621.516253590584,BOINK,PopeRonPaul,1.0,4,4,1.0,lucio
-242,DANTEH,offense,S1W1,Houston Outlaws,Boston Uprising vs. Houston Outlaws,5,5,20,22,200.99047608178856,146,124652.59426110983,3337.881820678711,DANTEH,PopeRonPaul,0.9090909090909091,10,10,1.0,zarya
-243,DANTEH,offense,S1W2,Houston Outlaws,Hangzhou Spark vs. Houston Outlaws,5,5,20,22,113.60570912474394,89,69045.67066258192,60.03846216201782,DANTEH,PopeRonPaul,0.9090909090909091,8,8,1.0,zarya
-244,DANTEH,offense,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,5,5,20,22,78.22179158729315,77,39646.79158729315,75.0,DANTEH,PopeRonPaul,0.9090909090909091,2,4,0.5,sombra
-245,JAKE,offense,S1W1,Houston Outlaws,Toronto Defiant vs. Houston Outlaws,5,5,15,22,63.27320673751831,58,27999.595274925232,6273.611462593079,JAKE,PopeRonPaul,0.6818181818181818,3,10,0.30000000000000004,pharah
-246,JAKE,offense,S1W2,Houston Outlaws,Hangzhou Spark vs. Houston Outlaws,5,5,15,22,103.87344719588756,72,28986.17254447937,38887.274651408195,JAKE,PopeRonPaul,0.6818181818181818,8,8,1.0,brigitte
-247,JAKE,offense,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,5,5,15,22,131.57971932530404,99,42584.2218259573,39495.49749934673,JAKE,PopeRonPaul,0.6818181818181818,4,4,1.0,brigitte
-248,LINKZR,offense,S1W1,Houston Outlaws,Boston Uprising vs. Houston Outlaws,4,5,10,22,158.95857504099607,116,53235.56638199091,47723.008659005165,LINKZR,PopeRonPaul,0.45454545454545453,8,10,0.8,brigitte
-249,LINKZR,offense,S1W2,Houston Outlaws,Hangzhou Spark vs. Houston Outlaws,4,5,10,22,18.891335521936416,23,7200.542419195175,190.79310274124146,LINKZR,PopeRonPaul,0.45454545454545453,1,4,0.25,widowmaker
-250,LINKZR,offense,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,4,5,10,22,41.98490789169073,34,24984.90789169073,0.0,LINKZR,PopeRonPaul,0.45454545454545453,1,4,0.25,zarya
-251,MUMA,tank,S1W1,Houston Outlaws,Boston Uprising vs. Houston Outlaws,5,5,22,22,143.21610178548093,126,80216.10178548098,0.0,MUMA,PopeRonPaul,1.0,10,10,1.0,reinhardt
-252,MUMA,tank,S1W2,Houston Outlaws,Hangzhou Spark vs. Houston Outlaws,5,5,22,22,88.51022660875321,78,49510.226608753204,0.0,MUMA,PopeRonPaul,1.0,8,8,1.0,reinhardt
-253,MUMA,tank,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,5,5,22,22,113.04581322836876,91,67545.81322836876,0.0,MUMA,PopeRonPaul,1.0,4,4,1.0,reinhardt
-254,RAWKUS,support,S1W1,Houston Outlaws,Toronto Defiant vs. Houston Outlaws,5,5,20,22,197.42532160878181,109,80066.62992215157,62858.69168663025,RAWKUS,PopeRonPaul,0.9090909090909091,10,10,1.0,zenyatta
-255,RAWKUS,support,S1W2,Houston Outlaws,Hangzhou Spark vs. Houston Outlaws,5,5,20,22,124.14337047117947,62,53089.02931731939,40054.34115386009,RAWKUS,PopeRonPaul,0.9090909090909091,8,8,1.0,zenyatta
-256,RAWKUS,support,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,5,5,20,22,97.69970047712326,61,42932.362320423126,24267.338156700134,RAWKUS,PopeRonPaul,0.9090909090909091,2,4,0.5,zenyatta
-257,SPREE,tank,S1W1,Houston Outlaws,Toronto Defiant vs. Houston Outlaws,5,5,12,22,33.65741066622734,30,18628.74566781521,28.664998412132263,SPREE,PopeRonPaul,0.5454545454545454,2,10,0.2,dva
-258,SPREE,tank,S1W2,Houston Outlaws,Hangzhou Spark vs. Houston Outlaws,5,5,12,22,93.25330594724416,75,55753.30594724417,0.0,SPREE,PopeRonPaul,0.5454545454545454,7,8,0.875,dva
-259,SPREE,tank,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,5,5,12,22,124.56113034281135,98,75561.13034281135,0.0,SPREE,PopeRonPaul,0.5454545454545454,3,4,0.75,zarya
-260,COOLMATT,tank,S1W1,Houston Outlaws,Boston Uprising vs. Houston Outlaws,3,5,9,22,167.07872450619936,128,103076.72450619936,2.0,COOLMATT,PopeRonPaul,0.4090909090909091,7,10,0.7,dva
-261,COOLMATT,tank,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,3,5,9,22,56.81680152496696,46,33816.801524966955,0.0,COOLMATT,PopeRonPaul,0.4090909090909091,2,4,0.5,dva
-262,BENBEST,tank,S1W1,Paris Eternal,London Spitfire vs. Paris Eternal,3,3,12,12,70.85022863930463,56,42850.22863930464,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,reinhardt
-263,BENBEST,tank,S1W2,Paris Eternal,Los Angeles Gladiators vs. Paris Eternal,3,3,12,12,137.3541944783926,125,74854.1944783926,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,reinhardt
-264,BENBEST,tank,S1W3,Paris Eternal,Paris Eternal vs. Atlanta Reign,3,3,12,12,73.7734814668894,55,46273.48146688938,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,reinhardt
-265,FINNSI,tank,S1W1,Paris Eternal,London Spitfire vs. Paris Eternal,3,3,12,12,99.24238503175974,88,55242.38503175974,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,dva
-266,FINNSI,tank,S1W2,Paris Eternal,Los Angeles Gladiators vs. Paris Eternal,3,3,12,12,175.37130021852255,157,96871.30021852255,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,dva
-267,FINNSI,tank,S1W3,Paris Eternal,Paris Eternal vs. Atlanta Reign,3,3,12,12,110.74498147165775,80,70744.98147165775,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,dva
-268,HYP,support,S1W1,Paris Eternal,London Spitfire vs. Paris Eternal,3,3,12,12,125.37820197796822,70,50456.7820674181,39921.41991055012,HYP,Not another,1.0,4,4,1.0,zenyatta
-269,HYP,support,S1W2,Paris Eternal,Los Angeles Gladiators vs. Paris Eternal,3,3,12,12,213.92920730313656,134,87824.3514804542,59104.85582268238,HYP,Not another,1.0,4,4,1.0,zenyatta
-270,HYP,support,S1W3,Paris Eternal,Paris Eternal vs. Atlanta Reign,3,3,12,12,132.7790805760622,57,52419.49442744255,51859.58614861965,HYP,Not another,1.0,4,4,1.0,zenyatta
-271,KRUISE,support,S1W1,Paris Eternal,London Spitfire vs. Paris Eternal,3,3,12,12,86.61942247223854,62,34941.04461145401,20678.37786078453,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
-272,KRUISE,support,S1W2,Paris Eternal,Los Angeles Gladiators vs. Paris Eternal,3,3,12,12,149.6295284320116,114,57602.509630680084,35027.01880133152,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
-273,KRUISE,support,S1W3,Paris Eternal,Paris Eternal vs. Atlanta Reign,3,3,12,12,90.28228423333168,49,38590.694905757904,27191.589327573776,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
-274,NICOGDH,offense,S1W1,Paris Eternal,London Spitfire vs. Paris Eternal,3,3,12,12,99.50799733185767,70,26181.08792066574,38326.90941119194,FreeAgent,FreeAgent,1.0,4,4,1.0,brigitte
-275,NICOGDH,offense,S1W2,Paris Eternal,Los Angeles Gladiators vs. Paris Eternal,3,3,12,12,168.75919150686263,130,50262.647785425186,53496.543721437454,FreeAgent,FreeAgent,1.0,4,4,1.0,brigitte
-276,NICOGDH,offense,S1W3,Paris Eternal,Paris Eternal vs. Atlanta Reign,3,3,12,12,112.5900712428093,66,35487.47897815704,44102.59226465225,FreeAgent,FreeAgent,1.0,4,4,1.0,brigitte
-277,SOON,offense,S1W1,Paris Eternal,London Spitfire vs. Paris Eternal,3,3,12,12,116.2308150125146,85,73730.81501251459,0.0,SOON,Not another,1.0,4,4,1.0,zarya
-278,SOON,offense,S1W2,Paris Eternal,Los Angeles Gladiators vs. Paris Eternal,3,3,12,12,182.163953836143,148,107903.26152318716,260.6923129558563,SOON,Not another,1.0,4,4,1.0,zarya
-279,SOON,offense,S1W3,Paris Eternal,Paris Eternal vs. Atlanta Reign,3,3,12,12,115.66420969980956,74,78096.02428871393,568.1854110956192,SOON,Not another,1.0,4,4,1.0,zarya
-280,BIGG00SE,support,S1W1,Los Angeles Gladiators,Los Angeles Gladiators vs. San Francisco Shock,5,5,21,21,144.44112358129024,108,55862.32233095169,34578.801250338554,BIGG00SE,MattyIce,1.0,9,9,1.0,lucio
-281,BIGG00SE,support,S1W2,Los Angeles Gladiators,Los Angeles Gladiators vs. Paris Eternal,5,5,21,21,125.83581785464287,97,51322.903064489365,26012.914790153503,BIGG00SE,MattyIce,1.0,4,4,1.0,lucio
-282,BIGG00SE,support,S1W3,Los Angeles Gladiators,Los Angeles Gladiators vs. London Spitfire,5,5,21,21,109.34946011340618,71,43242.174198150635,30607.285915255547,BIGG00SE,MattyIce,1.0,8,8,1.0,lucio
-283,DECAY,offense,S1W3,Los Angeles Gladiators,Los Angeles Gladiators vs. London Spitfire,2,5,8,21,170.08354896339776,109,115583.54896339774,0.0,FreeAgent,FreeAgent,0.38095238095238093,8,8,1.0,zarya
-284,HYDRATION,offense,S1W1,Los Angeles Gladiators,Los Angeles Gladiators vs. San Francisco Shock,5,5,21,21,190.07993014359474,119,63737.337537527084,66842.59260606766,HYDRATION,Dragonbeard,1.0,9,9,1.0,brigitte
-285,HYDRATION,offense,S1W2,Los Angeles Gladiators,Los Angeles Gladiators vs. Paris Eternal,5,5,21,21,170.12924416077135,112,49816.818486213684,64312.425674557686,HYDRATION,Dragonbeard,1.0,4,4,1.0,brigitte
-286,HYDRATION,offense,S1W3,Los Angeles Gladiators,Los Angeles Gladiators vs. London Spitfire,5,5,21,21,127.95321636426448,75,35892.867708444595,54560.34865581989,HYDRATION,Dragonbeard,1.0,8,8,1.0,brigitte
-287,SHAZ,support,S1W1,Los Angeles Gladiators,Los Angeles Gladiators vs. San Francisco Shock,5,5,21,21,255.39314339524506,112,110777.88157624006,88615.26181900501,SHAZ,Jyeran,1.0,9,9,1.0,zenyatta
-288,SHAZ,support,S1W2,Los Angeles Gladiators,Los Angeles Gladiators vs. Paris Eternal,5,5,21,21,201.17244731462003,97,87708.62015807629,64963.82715654373,SHAZ,Jyeran,1.0,4,4,1.0,zenyatta
-289,SHAZ,support,S1W3,Los Angeles Gladiators,Los Angeles Gladiators vs. London Spitfire,5,5,21,21,181.6385580700636,82,78762.92720127106,61875.630868792534,SHAZ,Jyeran,1.0,8,8,1.0,zenyatta
-290,SUREFOUR,offense,S1W1,Los Angeles Gladiators,Los Angeles Gladiators vs. San Francisco Shock,3,5,13,21,215.03888366514445,145,142189.3282724023,349.555392742157,SUREFOUR,Jyeran,0.6190476190476191,9,9,1.0,zarya
-291,SUREFOUR,offense,S1W2,Los Angeles Gladiators,Los Angeles Gladiators vs. Paris Eternal,3,5,13,21,161.29121352279185,118,102291.21352279186,0.0,SUREFOUR,Jyeran,0.6190476190476191,4,4,1.0,zarya
-292,VOID,tank,S1W1,Los Angeles Gladiators,Los Angeles Gladiators vs. San Francisco Shock,5,5,21,21,186.55494872719046,150,111535.92934817076,19.019379019737244,VOID,Bobble,1.0,9,9,1.0,dva
-293,VOID,tank,S1W2,Los Angeles Gladiators,Los Angeles Gladiators vs. Paris Eternal,5,5,21,21,175.51325574153663,139,106013.25574153662,0.0,VOID,Bobble,1.0,4,4,1.0,dva
-294,VOID,tank,S1W3,Los Angeles Gladiators,Los Angeles Gladiators vs. London Spitfire,5,5,21,21,135.60615341606734,103,84106.15341606736,0.0,VOID,Bobble,1.0,8,8,1.0,dva
-295,ROAR,tank,S1W1,Los Angeles Gladiators,Los Angeles Gladiators vs. San Francisco Shock,5,5,21,21,155.21148328560594,126,92211.48328560591,0.0,ROAR,Dragonbeard,1.0,9,9,1.0,reinhardt
-296,ROAR,tank,S1W2,Los Angeles Gladiators,Los Angeles Gladiators vs. Paris Eternal,5,5,21,21,103.35523704850674,84,61355.23704850674,0.0,ROAR,Dragonbeard,1.0,4,4,1.0,reinhardt
-297,ROAR,tank,S1W3,Los Angeles Gladiators,Los Angeles Gladiators vs. London Spitfire,5,5,21,21,100.80872167992592,74,63808.72167992592,0.0,ROAR,Dragonbeard,1.0,8,8,1.0,reinhardt
-298,BOOMBOX,support,S1W1,Philadelphia Fusion,Philadelphia Fusion vs. Atlanta Reign,3,5,13,21,218.66528774106501,135,94184.96504688263,56980.322694182396,BOOMBOX,Cougum,0.6190476190476191,9,9,1.0,zenyatta
-299,BOOMBOX,support,S1W3,Philadelphia Fusion,Philadelphia Fusion vs. Washington Justice,3,5,13,21,169.15157544064522,100,71465.60433506966,47685.97110557556,BOOMBOX,Cougum,0.6190476190476191,4,4,1.0,zenyatta
-300,ELK,support,S1W2,Philadelphia Fusion,Philadelphia Fusion vs. Florida Mayhem,2,5,8,21,142.30917808109524,77,66424.65658313036,37384.52149796486,FreeAgent,FreeAgent,0.38095238095238093,8,8,1.0,zenyatta
-301,POKO,tank,S1W1,Philadelphia Fusion,Philadelphia Fusion vs. Atlanta Reign,5,5,20,21,165.24581248918176,142,94245.81248918176,0.0,POKO,Bobble,0.9523809523809523,9,9,1.0,dva
-302,POKO,tank,S1W2,Philadelphia Fusion,Philadelphia Fusion vs. Florida Mayhem,5,5,20,21,119.14361016455294,96,71013.79274311662,129.81742143630981,POKO,Bobble,0.9523809523809523,7,8,0.875,dva
-303,POKO,tank,S1W3,Philadelphia Fusion,Philadelphia Fusion vs. Washington Justice,5,5,20,21,116.20448560857773,93,69644.48560857773,60.0,POKO,Bobble,0.9523809523809523,4,4,1.0,dva
-304,SADO,tank,S1W1,Philadelphia Fusion,Philadelphia Fusion vs. Atlanta Reign,5,5,21,21,143.4429255102873,144,71442.92551028728,0.0,SADO,Bobble,1.0,9,9,1.0,winston
-305,SADO,tank,S1W2,Philadelphia Fusion,Philadelphia Fusion vs. Florida Mayhem,5,5,21,21,88.5705940130949,73,52070.5940130949,0.0,SADO,Bobble,1.0,8,8,1.0,reinhardt
-306,SADO,tank,S1W3,Philadelphia Fusion,Philadelphia Fusion vs. Washington Justice,5,5,21,21,115.98933221840858,96,67989.33221840858,0.0,SADO,Bobble,1.0,4,4,1.0,reinhardt
-307,CARPE,offense,S1W1,Philadelphia Fusion,Philadelphia Fusion vs. Atlanta Reign,5,5,21,21,187.20384240841867,162,105959.70533013344,244.13707828521729,CARPE,Cougum,1.0,9,9,1.0,zarya
-308,CARPE,offense,S1W2,Philadelphia Fusion,Philadelphia Fusion vs. Florida Mayhem,5,5,21,21,138.3858434280157,107,84885.84342801571,0.0,CARPE,Cougum,1.0,8,8,1.0,zarya
-309,CARPE,offense,S1W3,Philadelphia Fusion,Philadelphia Fusion vs. Washington Justice,5,5,21,21,148.60193396911023,125,86101.93396911025,0.0,CARPE,Cougum,1.0,4,4,1.0,zarya
-310,EQO,offense,S1W1,Philadelphia Fusion,Philadelphia Fusion vs. Atlanta Reign,5,5,21,21,189.25629837536812,150,57058.37070775032,57197.9276676178,EQO,Bobble,1.0,9,9,1.0,brigitte
-311,EQO,offense,S1W2,Philadelphia Fusion,Philadelphia Fusion vs. Florida Mayhem,5,5,21,21,134.57163875365256,96,46315.62565457821,40256.013099074364,EQO,Bobble,1.0,8,8,1.0,brigitte
-312,EQO,offense,S1W3,Philadelphia Fusion,Philadelphia Fusion vs. Washington Justice,5,5,21,21,149.59263572108748,111,44669.916360378265,49422.71936070919,EQO,Bobble,1.0,4,4,1.0,brigitte
-313,NEPTUNO,support,S1W1,Philadelphia Fusion,Philadelphia Fusion vs. Atlanta Reign,5,5,21,21,155.0363167742491,134,53938.61732530594,34097.69944894314,NEPTUNO,MattyIce,1.0,9,9,1.0,lucio
-314,NEPTUNO,support,S1W2,Philadelphia Fusion,Philadelphia Fusion vs. Dallas Fuel,5,5,21,21,100.58147748994827,69,42413.71004867554,23667.767441272736,NEPTUNO,MattyIce,1.0,8,8,1.0,lucio
-315,NEPTUNO,support,S1W3,Philadelphia Fusion,Philadelphia Fusion vs. Washington Justice,5,5,21,21,97.71549019277096,78,40811.120173215866,17904.370019555092,NEPTUNO,MattyIce,1.0,4,4,1.0,lucio
-316,SNILLO,offense,S1W2,Philadelphia Fusion,Philadelphia Fusion vs. Dallas Fuel,1,5,1,21,12.883519466638564,9,4012.785698056221,4370.733768582344,FreeAgent,FreeAgent,0.047619047619047616,1,4,0.25,brigitte
-317,CHARA,support,S1W1,Guangzhou Charge,Chengdu Hunters vs. Guangzhou Charge,5,5,23,23,134.90742848193645,105,47044.081542015076,35363.34693992138,FreeAgent,FreeAgent,1.0,5,5,1.0,lucio
-318,CHARA,support,S1W2,Guangzhou Charge,Vancouver Titans vs. Guangzhou Charge,5,5,23,23,130.36337118959426,76,56154.47417974472,36208.89700984955,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
-319,CHARA,support,S1W3,Guangzhou Charge,Los Angeles Valiant vs. Guangzhou Charge,5,5,23,23,122.41326163244247,79,57393.313106536865,25519.94852590561,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
-320,EILEEN,offense,S1W1,Guangzhou Charge,Chengdu Hunters vs. Guangzhou Charge,5,5,12,23,133.8704937825203,129,56292.665345191956,13077.828437328339,FreeAgent,FreeAgent,0.5217391304347826,5,5,1.0,sombra
-321,EILEEN,offense,S1W2,Guangzhou Charge,Vancouver Titans vs. Guangzhou Charge,5,5,12,23,72.64628146088124,44,33608.834768891335,17037.4466919899,FreeAgent,FreeAgent,0.5217391304347826,4,9,0.425,sombra
-322,EILEEN,offense,S1W3,Guangzhou Charge,Los Angeles Valiant vs. Guangzhou Charge,5,5,12,23,35.14884978294373,27,10434.792113304138,11214.057669639587,FreeAgent,FreeAgent,0.5217391304347826,3,9,0.325,brigitte
-323,HOTBA,tank,S1W1,Guangzhou Charge,Chengdu Hunters vs. Guangzhou Charge,5,5,23,23,134.51204224425555,134,67512.04224425554,0.0,HOTBA,Overdrive,1.0,5,5,1.0,tracer
-324,HOTBA,tank,S1W2,Guangzhou Charge,Vancouver Titans vs. Guangzhou Charge,5,5,23,23,115.26982449150086,81,74769.82449150085,0.0,HOTBA,Overdrive,1.0,9,9,1.0,dva
-325,HOTBA,tank,S1W3,Guangzhou Charge,Los Angeles Valiant vs. Guangzhou Charge,5,5,23,23,124.79072511458396,103,73200.25055098534,90.47456359863281,HOTBA,Overdrive,1.0,9,9,1.0,dva
-326,HAPPY,offense,S1W1,Guangzhou Charge,Chengdu Hunters vs. Guangzhou Charge,5,5,23,23,138.95745749366284,119,60167.01980102062,19290.437692642212,HAPPY,Cougum,1.0,5,5,1.0,brigitte
-327,HAPPY,offense,S1W2,Guangzhou Charge,Vancouver Titans vs. Guangzhou Charge,5,5,23,23,159.8272848133147,97,103189.33437159657,8137.9504417181015,HAPPY,Cougum,1.0,9,9,1.0,zarya
-328,HAPPY,offense,S1W3,Guangzhou Charge,Los Angeles Valiant vs. Guangzhou Charge,5,5,23,23,166.03133515131472,103,114531.33515131474,0.0,HAPPY,Cougum,1.0,9,9,1.0,zarya
-329,KYB,offense,S1W2,Guangzhou Charge,Guangzhou Charge vs. Dallas Fuel,4,5,11,23,88.52879837231339,70,25386.070114538074,28142.728257775307,FreeAgent,FreeAgent,0.4782608695652174,5,9,0.575,brigitte
-330,KYB,offense,S1W3,Guangzhou Charge,Los Angeles Valiant vs. Guangzhou Charge,4,5,11,23,101.51949703365563,62,29033.544392168522,41485.95264148712,FreeAgent,FreeAgent,0.4782608695652174,6,9,0.675,brigitte
-331,RIO,tank,S1W1,Guangzhou Charge,Chengdu Hunters vs. Guangzhou Charge,5,5,23,23,131.46433119511605,133,64964.33119511604,0.0,FreeAgent,FreeAgent,1.0,5,5,1.0,wreckingball
-332,RIO,tank,S1W2,Guangzhou Charge,Vancouver Titans vs. Guangzhou Charge,5,5,23,23,106.9444499208033,87,63444.44992080331,0.0,FreeAgent,FreeAgent,1.0,9,9,1.0,reinhardt
-333,RIO,tank,S1W3,Guangzhou Charge,Los Angeles Valiant vs. Guangzhou Charge,5,5,23,23,109.40444227147101,94,62404.44227147102,0.0,FreeAgent,FreeAgent,1.0,9,9,1.0,reinhardt
-334,SHU,support,S1W1,Guangzhou Charge,Chengdu Hunters vs. Guangzhou Charge,5,5,23,23,175.8547694618702,118,52335.14382195473,64519.625639915466,SHU,Not another,1.0,5,5,1.0,ana
-335,SHU,support,S1W2,Guangzhou Charge,Vancouver Titans vs. Guangzhou Charge,5,5,23,23,173.01058067524434,75,76233.69597518444,59276.88470005989,SHU,Not another,1.0,9,9,1.0,zenyatta
-336,SHU,support,S1W3,Guangzhou Charge,Los Angeles Valiant vs. Guangzhou Charge,5,5,23,23,199.33247625768186,94,86804.99091100693,65527.48534667492,SHU,Not another,1.0,9,9,1.0,zenyatta
-337,CLOSER,support,S1W1,Dallas Fuel,Dallas Fuel vs. Seoul Dynasty,5,5,21,21,106.81378879511355,73,41137.66508483887,29176.123710274696,CLOSER,Overdrive,1.0,8,8,1.0,lucio
-338,CLOSER,support,S1W2,Dallas Fuel,Philadelphia Fusion vs. Dallas Fuel,5,5,21,21,106.41006120717526,97,37520.17549228668,20389.885714888573,CLOSER,Overdrive,1.0,8,8,1.0,lucio
-339,CLOSER,support,S1W3,Dallas Fuel,Shanghai Dragons vs. Dallas Fuel,5,5,21,21,137.66994873738287,108,52328.80173110962,31341.14700627327,CLOSER,Overdrive,1.0,5,5,1.0,lucio
-340,EFFECT,offense,S1W1,Dallas Fuel,Dallas Fuel vs. Seoul Dynasty,4,5,8,21,71.0242147873044,52,45024.2147873044,0.0,FreeAgent,FreeAgent,0.38095238095238093,5,8,0.625,zarya
-341,EFFECT,offense,S1W2,Dallas Fuel,Philadelphia Fusion vs. Dallas Fuel,4,5,8,21,32.311067455470564,18,23311.067455470562,0.0,FreeAgent,FreeAgent,0.38095238095238093,3,8,0.375,zarya
-342,OGE,tank,S1W1,Dallas Fuel,Dallas Fuel vs. Seoul Dynasty,5,5,21,21,90.35752963602543,76,52357.52963602543,0.0,FreeAgent,FreeAgent,1.0,8,8,1.0,reinhardt
-343,OGE,tank,S1W2,Dallas Fuel,Philadelphia Fusion vs. Dallas Fuel,5,5,21,21,117.30305289912224,105,64803.05289912224,0.0,FreeAgent,FreeAgent,1.0,8,8,1.0,reinhardt
-344,OGE,tank,S1W3,Dallas Fuel,Shanghai Dragons vs. Dallas Fuel,5,5,21,21,123.63013593757154,114,66630.13593757153,0.0,FreeAgent,FreeAgent,1.0,5,5,1.0,reinhardt
-345,ZACHAREEE,offense,S1W1,Dallas Fuel,Dallas Fuel vs. Seoul Dynasty,5,5,21,21,125.88440236043931,83,35525.06558740139,48859.33677303791,ZACHAREEE,Overdrive,1.0,8,8,1.0,brigitte
-346,ZACHAREEE,offense,S1W2,Dallas Fuel,Philadelphia Fusion vs. Dallas Fuel,5,5,21,21,151.6616154767275,124,40898.435188770294,48763.18028795719,ZACHAREEE,Overdrive,1.0,8,8,1.0,brigitte
-347,ZACHAREEE,offense,S1W3,Dallas Fuel,Shanghai Dragons vs. Dallas Fuel,5,5,21,21,165.6043504179716,115,43255.04585599899,64849.30456197262,ZACHAREEE,Overdrive,1.0,5,5,1.0,brigitte
-348,AKM,offense,S1W1,Dallas Fuel,Dallas Fuel vs. Seoul Dynasty,5,5,15,21,108.10106548127533,83,66516.35503205657,84.71044921875,AKM,Overdrive,0.7142857142857143,5,8,0.625,zarya
-349,AKM,offense,S1W2,Dallas Fuel,Philadelphia Fusion vs. Dallas Fuel,5,5,15,21,126.32603508514165,118,67326.03508514166,0.0,AKM,Overdrive,0.7142857142857143,5,8,0.625,zarya
-350,AKM,offense,S1W3,Dallas Fuel,Shanghai Dragons vs. Dallas Fuel,5,5,15,21,181.2031878120899,137,112703.18781208992,0.0,AKM,Overdrive,0.7142857142857143,5,5,1.0,zarya
-351,RCK,tank,S1W1,Dallas Fuel,Dallas Fuel vs. Seoul Dynasty,5,5,19,21,98.05239777344465,73,61340.823508918285,211.5742645263672,FreeAgent,FreeAgent,0.9047619047619048,6,8,0.75,dva
-352,RCK,tank,S1W2,Dallas Fuel,Philadelphia Fusion vs. Dallas Fuel,5,5,19,21,127.3862032943666,121,66528.72120055556,357.48209381103516,FreeAgent,FreeAgent,0.9047619047619048,8,8,1.0,dva
-353,RCK,tank,S1W3,Dallas Fuel,Shanghai Dragons vs. Dallas Fuel,5,5,19,21,160.3451200868487,124,97574.21627825499,770.90380859375,FreeAgent,FreeAgent,0.9047619047619048,5,5,1.0,dva
-354,UNKOE,support,S1W1,Dallas Fuel,Dallas Fuel vs. Seoul Dynasty,5,5,21,21,165.67569751101732,90,72973.32979077101,47702.367720246315,UNKOE,Jyeran,1.0,8,8,1.0,zenyatta
-355,UNKOE,support,S1W2,Dallas Fuel,Philadelphia Fusion vs. Dallas Fuel,5,5,21,21,166.98954172301293,100,68768.24774813652,48221.293974876404,UNKOE,Jyeran,1.0,8,8,1.0,zenyatta
-356,UNKOE,support,S1W3,Dallas Fuel,Shanghai Dragons vs. Dallas Fuel,5,5,21,21,189.8280920753479,100,80839.05533456802,58989.03674077988,UNKOE,Jyeran,1.0,5,5,1.0,zenyatta
-357,COMA,support,S1W1,Shanghai Dragons,Shanghai Dragons vs. Hangzhou Spark,5,5,21,21,69.7489152249098,42,27544.951615810394,21203.963609099388,FreeAgent,FreeAgent,1.0,8,8,1.0,lucio
-358,COMA,support,S1W2,Shanghai Dragons,Boston Uprising vs. Shanghai Dragons,5,5,21,21,107.56943569612503,86,36432.801668167114,28136.634027957916,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
-359,COMA,support,S1W3,Shanghai Dragons,Shanghai Dragons vs. Dallas Fuel,5,5,21,21,144.5808197439909,109,55692.732568860054,34388.087175130844,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
-360,DDING,offense,S1W1,Shanghai Dragons,Shanghai Dragons vs. Hangzhou Spark,5,5,19,21,100.66110753858088,69,44987.81403315067,21173.29350543022,FreeAgent,FreeAgent,0.9047619047619048,6,8,0.75,sombra
-361,DDING,offense,S1W2,Shanghai Dragons,Boston Uprising vs. Shanghai Dragons,5,5,19,21,131.5185109565258,120,68013.26574838161,3505.245208144188,FreeAgent,FreeAgent,0.9047619047619048,4,4,1.0,sombra
-362,DDING,offense,S1W3,Shanghai Dragons,Shanghai Dragons vs. Dallas Fuel,5,5,19,21,146.36050255855918,124,84084.59160885215,275.91094970703125,FreeAgent,FreeAgent,0.9047619047619048,9,9,1.0,sombra
-363,GAMSU,tank,S1W1,Shanghai Dragons,Vancouver Titans vs. Shanghai Dragons,4,5,17,21,65.60236686855555,58,36602.366868555546,0.0,GAMSU,Overdrive,0.8095238095238095,4,4,1.0,reinhardt
-364,GAMSU,tank,S1W2,Shanghai Dragons,Boston Uprising vs. Shanghai Dragons,4,5,17,21,107.66850686573981,108,53668.50686573982,0.0,GAMSU,Overdrive,0.8095238095238095,4,4,1.0,reinhardt
-365,GAMSU,tank,S1W3,Shanghai Dragons,Shanghai Dragons vs. Dallas Fuel,4,5,17,21,115.98159907609224,99,66481.59907609224,0.0,GAMSU,Overdrive,0.8095238095238095,9,9,1.0,reinhardt
-366,GEGURI,tank,S1W1,Shanghai Dragons,Shanghai Dragons vs. Hangzhou Spark,3,5,8,21,97.70719028380513,87,54207.19028380513,0.0,FreeAgent,FreeAgent,0.38095238095238093,7,8,0.875,dva
-367,GEGURI,tank,S1W2,Shanghai Dragons,Boston Uprising vs. Shanghai Dragons,3,5,8,21,19.852875962793828,22,8852.875962793827,0.0,FreeAgent,FreeAgent,0.38095238095238093,1,4,0.25,dva
-368,LUFFY,support,S1W1,Shanghai Dragons,Shanghai Dragons vs. Hangzhou Spark,5,5,21,21,139.28322720241547,72,59244.89473724365,44038.332465171814,FreeAgent,FreeAgent,1.0,8,8,1.0,zenyatta
-369,LUFFY,support,S1W2,Shanghai Dragons,Boston Uprising vs. Shanghai Dragons,5,5,21,21,157.17414745771885,100,67183.31831550598,39990.82914221287,FreeAgent,FreeAgent,1.0,4,4,1.0,zenyatta
-370,LUFFY,support,S1W3,Shanghai Dragons,Shanghai Dragons vs. Dallas Fuel,5,5,21,21,209.07289729881282,105,89799.98820066452,66772.90909814835,FreeAgent,FreeAgent,1.0,9,9,1.0,zenyatta
-371,YOUNGJIN,offense,S1W1,Shanghai Dragons,Shanghai Dragons vs. Hangzhou Spark,5,5,19,21,103.19376128554345,86,48932.92377305031,11260.837512493134,FreeAgent,FreeAgent,0.9047619047619048,7,8,0.875,brigitte
-372,YOUNGJIN,offense,S1W2,Shanghai Dragons,Boston Uprising vs. Shanghai Dragons,5,5,19,21,112.84522653067111,97,29046.45948123932,35298.7670494318,FreeAgent,FreeAgent,0.9047619047619048,3,4,0.75,brigitte
-373,YOUNGJIN,offense,S1W3,Shanghai Dragons,Shanghai Dragons vs. Dallas Fuel,5,5,19,21,162.36901996970175,120,46206.018540620804,56163.00142908096,FreeAgent,FreeAgent,0.9047619047619048,9,9,1.0,brigitte
-374,DIEM,offense,S1W1,Shanghai Dragons,Shanghai Dragons vs. Hangzhou Spark,5,5,21,21,116.49242353510857,82,75179.84855151176,312.57498359680176,FreeAgent,FreeAgent,1.0,8,8,1.0,zarya
-375,DIEM,offense,S1W2,Shanghai Dragons,Boston Uprising vs. Shanghai Dragons,5,5,21,21,156.38233474165202,128,91934.12853318453,448.2062084674835,FreeAgent,FreeAgent,1.0,4,4,1.0,zarya
-376,DIEM,offense,S1W3,Shanghai Dragons,Shanghai Dragons vs. Dallas Fuel,5,5,21,21,185.87605171296002,144,113876.05171296,0.0,FreeAgent,FreeAgent,1.0,9,9,1.0,zarya
-377,DACO,tank,S1W1,Atlanta Reign,Philadelphia Fusion vs. Atlanta Reign,4,4,14,17,115.48652965125441,97,66981.97965154052,4.549999713897705,DACO,Dragonbeard,0.8235294117647058,7,9,0.775,dva
-378,DACO,tank,S1W2,Atlanta Reign,Atlanta Reign vs. Toronto Defiant,4,4,14,17,128.3925260464847,114,71389.34104654193,3.184999942779541,DACO,Dragonbeard,0.8235294117647058,3,4,0.75,dva
-379,DACO,tank,S1W3,Atlanta Reign,Paris Eternal vs. Atlanta Reign,4,4,14,17,136.60450725290178,125,74104.50725290179,0.0,DACO,Dragonbeard,0.8235294117647058,4,4,1.0,dva
-380,DOGMAN,support,S1W1,Atlanta Reign,Philadelphia Fusion vs. Atlanta Reign,4,4,12,17,114.21081760168076,70,50067.023763775826,29143.79383790493,FreeAgent,FreeAgent,0.7058823529411765,6,9,0.675,zenyatta
-381,DOGMAN,support,S1W2,Atlanta Reign,Atlanta Reign vs. Toronto Defiant,4,4,12,17,82.36494604372979,58,32043.08576440811,21321.86027932167,FreeAgent,FreeAgent,0.7058823529411765,2,4,0.5,zenyatta
-382,DOGMAN,support,S1W3,Atlanta Reign,Paris Eternal vs. Atlanta Reign,4,4,12,17,160.98714035189153,102,69396.94869041443,40590.19166147709,FreeAgent,FreeAgent,0.7058823529411765,4,4,1.0,zenyatta
-383,ERSTER,offense,S1W1,Atlanta Reign,Philadelphia Fusion vs. Atlanta Reign,4,4,15,17,148.87913076254725,112,57118.462456315756,35760.6683062315,FreeAgent,FreeAgent,0.8823529411764706,8,9,0.9,brigitte
-384,ERSTER,offense,S1W2,Atlanta Reign,Atlanta Reign vs. Toronto Defiant,4,4,15,17,105.64369247668981,91,34860.42889243364,25283.263584256172,FreeAgent,FreeAgent,0.8823529411764706,3,4,0.75,brigitte
-385,ERSTER,offense,S1W3,Atlanta Reign,Paris Eternal vs. Atlanta Reign,4,4,15,17,169.84072885429856,150,56851.65777993202,37989.07107436657,FreeAgent,FreeAgent,0.8823529411764706,4,4,1.0,brigitte
-386,GATOR,tank,S1W1,Atlanta Reign,Atlanta Reign vs. Florida Mayhem,1,4,1,17,19.860850338935855,16,11860.850338935852,0.0,FreeAgent,FreeAgent,0.058823529411764705,1,4,0.25,reinhardt
-387,KODAK,support,S1W1,Atlanta Reign,Philadelphia Fusion vs. Atlanta Reign,3,4,5,17,69.15167455816268,34,28359.3993768692,23792.275181293488,FreeAgent,FreeAgent,0.29411764705882354,3,9,0.325,zenyatta
-388,KODAK,support,S1W2,Atlanta Reign,Atlanta Reign vs. Toronto Defiant,3,4,5,17,102.66303053092957,52,44342.480887413025,32320.54964351654,FreeAgent,FreeAgent,0.29411764705882354,2,4,0.5,zenyatta
-389,MASAA,support,S1W1,Atlanta Reign,Philadelphia Fusion vs. Atlanta Reign,4,4,17,17,149.27511550784112,106,55090.776898145676,41184.338609695435,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
-390,MASAA,support,S1W2,Atlanta Reign,Atlanta Reign vs. Toronto Defiant,4,4,17,17,129.78264743602276,99,47355.444231271744,32927.203204751015,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
-391,MASAA,support,S1W3,Atlanta Reign,Paris Eternal vs. Atlanta Reign,4,4,17,17,127.72030742490291,107,46296.13232636452,27924.1750985384,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
-392,NLAAER,offense,S1W1,Atlanta Reign,Philadelphia Fusion vs. Atlanta Reign,4,4,6,17,51.25992310494185,39,15133.215500175953,16626.707604765892,FreeAgent,FreeAgent,0.35294117647058826,3,9,0.325,brigitte
-393,NLAAER,offense,S1W2,Atlanta Reign,Atlanta Reign vs. Toronto Defiant,4,4,6,17,69.02505509763957,42,27144.11104232073,20880.944055318832,FreeAgent,FreeAgent,0.35294117647058826,2,4,0.5,brigitte
-394,NLAAER,offense,S1W3,Atlanta Reign,Paris Eternal vs. Atlanta Reign,4,4,6,17,14.997377472043038,11,8425.695180535316,1071.682291507721,FreeAgent,FreeAgent,0.35294117647058826,1,4,0.25,widowmaker
-395,POKPO,tank,S1W1,Atlanta Reign,Philadelphia Fusion vs. Atlanta Reign,4,4,16,17,132.81846999263763,111,77318.46999263763,0.0,POKPO,MattyIce,0.9411764705882353,8,9,0.875,reinhardt
-396,POKPO,tank,S1W2,Atlanta Reign,Atlanta Reign vs. Toronto Defiant,4,4,16,17,125.81367034173012,110,70813.67034173012,0.0,POKPO,MattyIce,0.9411764705882353,4,4,1.0,reinhardt
-397,POKPO,tank,S1W3,Atlanta Reign,Paris Eternal vs. Atlanta Reign,4,4,16,17,130.0571193267107,118,71057.1193267107,0.0,POKPO,MattyIce,0.9411764705882353,4,4,1.0,reinhardt
-398,DAFRAN,offense,S1W1,Atlanta Reign,Philadelphia Fusion vs. Atlanta Reign,4,4,16,17,163.66579305180906,124,101665.79305180907,0.0,DAFRAN,Cougum,0.9411764705882353,9,9,1.0,zarya
-399,DAFRAN,offense,S1W2,Atlanta Reign,Atlanta Reign vs. Toronto Defiant,4,4,16,17,190.60102932441237,131,124607.7207531929,493.3085712194443,DAFRAN,Cougum,0.9411764705882353,4,4,1.0,zarya
-400,DAFRAN,offense,S1W3,Atlanta Reign,Paris Eternal vs. Atlanta Reign,4,4,16,17,137.61286164200305,120,77527.661657691,85.1999843120575,DAFRAN,Cougum,0.9411764705882353,3,4,0.75,zarya
-401,FISSURE,tank,S1W1,Seoul Dynasty,Los Angeles Gladiators vs. Seoul Dynasty,5,5,20,20,120.96802477133274,116,62968.02477133274,0.0,FISSURE,Not another,1.0,8,8,1.0,reinhardt
-402,FISSURE,tank,S1W2,Seoul Dynasty,Chengdu Hunters vs. Seoul Dynasty,5,5,20,20,101.03675182908773,96,53036.751829087734,0.0,FISSURE,Not another,1.0,4,4,1.0,reinhardt
-403,FISSURE,tank,S1W3,Seoul Dynasty,Boston Uprising vs. Seoul Dynasty,5,5,20,20,138.1896112188101,114,81189.61121881008,0.0,FISSURE,Not another,1.0,8,8,1.0,reinhardt
-404,FLETA,offense,S1W1,Seoul Dynasty,Los Angeles Gladiators vs. Seoul Dynasty,5,5,20,20,153.13737346845863,123,84081.60455852747,7555.768909931183,FLETA,Jyeran,1.0,8,8,1.0,zarya
-405,FLETA,offense,S1W2,Seoul Dynasty,Chengdu Hunters vs. Seoul Dynasty,5,5,20,20,130.59449255362154,114,72663.3768619597,931.1156916618347,FLETA,Jyeran,1.0,4,4,1.0,zarya
-406,FLETA,offense,S1W3,Seoul Dynasty,Boston Uprising vs. Seoul Dynasty,5,5,20,20,197.46800990504028,140,118043.89955562353,9424.110349416733,FLETA,Jyeran,1.0,8,8,1.0,zarya
-407,JECSE,support,S1W1,Seoul Dynasty,Los Angeles Gladiators vs. Seoul Dynasty,5,5,20,20,115.29415552473068,88,31124.038638353348,40170.116886377335,JECSE,Bobble,1.0,8,8,1.0,lucio
-408,JECSE,support,S1W2,Seoul Dynasty,Chengdu Hunters vs. Seoul Dynasty,5,5,20,20,95.53799441492559,81,26652.08177280426,28385.912642121315,JECSE,Bobble,1.0,4,4,1.0,lucio
-409,JECSE,support,S1W3,Seoul Dynasty,Boston Uprising vs. Seoul Dynasty,5,5,20,20,121.9134462685585,88,42928.16745007038,34985.27881848812,JECSE,Bobble,1.0,8,8,1.0,lucio
-410,MICHELLE,tank,S1W1,Seoul Dynasty,Los Angeles Gladiators vs. Seoul Dynasty,5,5,20,20,143.57453739657998,133,76775.86301353574,298.67438304424286,MICHELLE,Not another,1.0,8,8,1.0,dva
-411,MICHELLE,tank,S1W2,Seoul Dynasty,Chengdu Hunters vs. Seoul Dynasty,5,5,20,20,105.69600699791312,115,48121.00699791312,75.0,MICHELLE,Not another,1.0,4,4,1.0,dva
-412,MICHELLE,tank,S1W3,Seoul Dynasty,Boston Uprising vs. Seoul Dynasty,5,5,20,20,168.67357907947897,129,104173.57907947898,0.0,MICHELLE,Not another,1.0,8,8,1.0,dva
-413,MUNCHKIN,offense,S1W1,Seoul Dynasty,Los Angeles Gladiators vs. Seoul Dynasty,5,5,20,20,144.17153936421872,115,51291.06915831566,35380.47020590305,MUNCHKIN,MattyIce,1.0,8,8,1.0,brigitte
-414,MUNCHKIN,offense,S1W2,Seoul Dynasty,Chengdu Hunters vs. Seoul Dynasty,5,5,20,20,136.44752976226806,100,38835.36820721626,47612.1615550518,MUNCHKIN,MattyIce,1.0,4,4,1.0,brigitte
-415,MUNCHKIN,offense,S1W3,Seoul Dynasty,Boston Uprising vs. Seoul Dynasty,5,5,20,20,172.60191589033604,121,59715.16051542759,52386.75537490845,MUNCHKIN,MattyIce,1.0,8,8,1.0,brigitte
-416,RYUJEHONG,support,S1W1,Seoul Dynasty,Los Angeles Gladiators vs. Seoul Dynasty,5,5,20,20,167.84825258243083,99,63450.85703778267,54897.39554464817,RYUJEHONG,Dragonbeard,1.0,8,8,1.0,zenyatta
-417,RYUJEHONG,support,S1W2,Seoul Dynasty,Chengdu Hunters vs. Seoul Dynasty,5,5,20,20,137.25503818678857,91,43372.500134944916,48382.53805184364,RYUJEHONG,Dragonbeard,1.0,4,4,1.0,zenyatta
-418,RYUJEHONG,support,S1W3,Seoul Dynasty,Boston Uprising vs. Seoul Dynasty,5,5,20,20,204.60759707188606,99,79853.04947376251,75254.54759812355,RYUJEHONG,Dragonbeard,1.0,8,8,1.0,zenyatta
+0,ADO,offense,S1W1,Washington Justice,New York Excelsior vs. Washington Justice,5,5,20,21,47.41902513301372,17,14855.363283872604,24063.66184914112,FreeAgent,FreeAgent,0.9523809523809523,4,4,1.0,brigitte
+1,ADO,offense,S1W2,Washington Justice,London Spitfire vs. Washington Justice,5,5,20,21,126.49091765046121,57,39744.00750565529,58246.91014480591,FreeAgent,FreeAgent,0.9523809523809523,5,5,1.0,brigitte
+2,ADO,offense,S1W3,Washington Justice,San Francisco Shock vs. Washington Justice,5,5,20,21,97.30341034603119,42,32770.058834552765,43533.351511478424,FreeAgent,FreeAgent,0.9523809523809523,7,8,0.875,brigitte
+3,ADO,offense,S1W4,Washington Justice,Washington Justice vs. Seoul Dynasty,5,5,20,21,119.40466678965092,72,33695.80087471008,49708.865914940834,FreeAgent,FreeAgent,0.9523809523809523,4,4,1.0,brigitte
+4,COREY,offense,S1W1,Washington Justice,New York Excelsior vs. Washington Justice,5,5,21,21,53.291788583874705,25,40791.7885838747,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,zarya
+5,COREY,offense,S1W2,Washington Justice,London Spitfire vs. Washington Justice,5,5,21,21,141.41526621228456,62,110415.26621228456,0.0,FreeAgent,FreeAgent,1.0,5,5,1.0,zarya
+6,COREY,offense,S1W3,Washington Justice,Philadelphia Fusion vs. Washington Justice,5,5,21,21,137.66124206352234,89,93161.24206352234,0.0,FreeAgent,FreeAgent,1.0,8,8,1.0,zarya
+7,COREY,offense,S1W4,Washington Justice,Washington Justice vs. Seoul Dynasty,5,5,21,21,148.756680187881,78,109756.680187881,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,zarya
+8,FAHZIX,support,S1W1,Washington Justice,New York Excelsior vs. Washington Justice,5,5,18,21,23.628941570043565,2,12734.059927940369,9894.881642103195,FreeAgent,FreeAgent,0.8571428571428571,2,4,0.5,lucio
+9,FAHZIX,support,S1W2,Washington Justice,London Spitfire vs. Washington Justice,5,5,18,21,120.29230440592767,55,51616.55476140976,41175.7496445179,FreeAgent,FreeAgent,0.8571428571428571,4,5,0.8,lucio
+10,FAHZIX,support,S1W3,Washington Justice,Philadelphia Fusion vs. Washington Justice,5,5,18,21,99.2622670993805,48,39301.22626590729,35961.040833473206,FreeAgent,FreeAgent,0.8571428571428571,8,8,1.0,lucio
+11,FAHZIX,support,S1W4,Washington Justice,Washington Justice vs. Seoul Dynasty,5,5,18,21,112.4084636323452,53,49754.56243228912,36153.901200056076,FreeAgent,FreeAgent,0.8571428571428571,4,4,1.0,lucio
+12,GIDO,support,S1W1,Washington Justice,New York Excelsior vs. Washington Justice,5,5,20,21,72.60387663900852,19,37404.636222839355,25699.240416169167,GIDO,Bobble,0.9523809523809523,4,4,1.0,zenyatta
+13,GIDO,support,S1W2,Washington Justice,London Spitfire vs. Washington Justice,5,5,20,21,200.2007286285162,62,95391.88993644714,73808.83869206905,GIDO,Bobble,0.9523809523809523,5,5,1.0,zenyatta
+14,GIDO,support,S1W3,Washington Justice,Philadelphia Fusion vs. Washington Justice,5,5,20,21,147.51065510630607,57,68390.3868663311,50620.268239974976,GIDO,Bobble,0.9523809523809523,8,8,1.0,zenyatta
+15,GIDO,support,S1W4,Washington Justice,Washington Justice vs. Seoul Dynasty,5,5,20,21,125.02596556866169,39,60996.60503435135,44529.36053431034,GIDO,Bobble,0.9523809523809523,3,4,0.75,zenyatta
+16,HYEONU,support,S1W1,Washington Justice,New York Excelsior vs. Washington Justice,2,5,3,21,22.981181219458577,10,7440.832504749298,10540.348714709282,FreeAgent,FreeAgent,0.14285714285714285,2,4,0.5,lucio
+17,HYEONU,support,S1W2,Washington Justice,London Spitfire vs. Washington Justice,2,5,3,21,17.600128137111664,6,7229.655569076538,7370.472568035126,FreeAgent,FreeAgent,0.14285714285714285,1,5,0.2,lucio
+18,JANUS,tank,S1W1,Washington Justice,New York Excelsior vs. Washington Justice,5,5,21,21,24.91392512321472,13,18413.92512321472,0.0,JANUS,MattyIce,1.0,4,4,1.0,reinhardt
+19,JANUS,tank,S1W2,Washington Justice,London Spitfire vs. Washington Justice,5,5,21,21,83.11807892733813,57,54618.07892733812,0.0,JANUS,MattyIce,1.0,5,5,1.0,reinhardt
+20,JANUS,tank,S1W3,Washington Justice,Philadelphia Fusion vs. Washington Justice,5,5,21,21,83.45347231924534,68,49453.47231924534,0.0,JANUS,MattyIce,1.0,8,8,1.0,reinhardt
+21,JANUS,tank,S1W4,Washington Justice,Washington Justice vs. Seoul Dynasty,5,5,21,21,95.77790166187286,69,61277.901661872864,0.0,JANUS,MattyIce,1.0,4,4,1.0,reinhardt
+22,SANSAM,tank,S1W1,Washington Justice,New York Excelsior vs. Washington Justice,5,5,21,21,41.58926104816794,23,30089.261048167944,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,dva
+23,SANSAM,tank,S1W2,Washington Justice,London Spitfire vs. Washington Justice,5,5,21,21,123.20225927406551,70,87994.79926759005,207.4600064754486,FreeAgent,FreeAgent,1.0,5,5,1.0,dva
+24,SANSAM,tank,S1W3,Washington Justice,Philadelphia Fusion vs. Washington Justice,5,5,21,21,106.22642659929394,78,67226.42659929395,0.0,FreeAgent,FreeAgent,1.0,8,8,1.0,dva
+25,SANSAM,tank,S1W4,Washington Justice,Washington Justice vs. Seoul Dynasty,5,5,21,21,118.57914521297813,81,78079.14521297812,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,dva
+26,STRATUS,offense,S1W3,Washington Justice,Philadelphia Fusion vs. Washington Justice,2,5,2,21,24.200510766267776,10,7022.386318206787,12178.12444806099,FreeAgent,FreeAgent,0.09523809523809523,1,4,0.25,brigitte
+27,STRATUS,offense,S1W4,Washington Justice,Washington Justice vs. Seoul Dynasty,2,5,2,21,37.99208209240437,11,19748.229223251343,12743.852869153023,FreeAgent,FreeAgent,0.09523809523809523,1,4,0.25,zenyatta
+28,ADORA,offense,S1W2,Hangzhou Spark,London Spitfire vs. Hangzhou Spark,2,7,3,29,63.59595391070843,42,18452.865986824036,24143.08792388439,FreeAgent,FreeAgent,0.10344827586206896,2,4,0.5,brigitte
+29,ADORA,offense,S1W3,Hangzhou Spark,San Francisco Shock vs. Hangzhou Spark,2,7,3,29,40.91445062613487,24,11644.888028144836,17269.562597990036,FreeAgent,FreeAgent,0.10344827586206896,1,4,0.25,brigitte
+30,BEBE,support,S1W1,Hangzhou Spark,Los Angeles Valiant vs. Hangzhou Spark,7,7,24,29,173.03836377155778,85,76569.29211974144,53969.07165181637,BEBE,Jyeran,0.8275862068965517,7,9,0.775,zenyatta
+31,BEBE,support,S1W2,Hangzhou Spark,London Spitfire vs. Hangzhou Spark,7,7,24,29,97.03945821988583,39,44913.44405937195,32626.014160513878,BEBE,Jyeran,0.8275862068965517,6,8,0.75,zenyatta
+32,BEBE,support,S1W3,Hangzhou Spark,Hangzhou Spark vs. Los Angeles Gladiators,7,7,24,29,170.95211058491466,86,74991.06587046385,52961.044714450836,BEBE,Jyeran,0.8275862068965517,7,8,0.875,zenyatta
+33,BEBE,support,S1W4,Hangzhou Spark,Hangzhou Spark vs. Toronto Defiant,7,7,24,29,183.80689383554457,79,87133.9143704176,57172.97946512699,BEBE,Jyeran,0.8275862068965517,4,4,1.0,zenyatta
+34,BAZZI,offense,S1W1,Hangzhou Spark,Los Angeles Valiant vs. Hangzhou Spark,7,7,26,29,197.337387463212,130,69252.60905361176,63084.77840960026,BAZZI,Not another,0.896551724137931,9,9,1.0,brigitte
+35,BAZZI,offense,S1W2,Hangzhou Spark,Hangzhou Spark vs. Houston Outlaws,7,7,26,29,93.9568214840293,69,30524.646473109722,28932.17501091957,BAZZI,Not another,0.896551724137931,6,8,0.75,brigitte
+36,BAZZI,offense,S1W3,Hangzhou Spark,Hangzhou Spark vs. Los Angeles Gladiators,7,7,26,29,137.37929671657085,104,37306.44727039337,48072.84944617748,BAZZI,Not another,0.896551724137931,7,8,0.875,brigitte
+37,BAZZI,offense,S1W4,Hangzhou Spark,Hangzhou Spark vs. Toronto Defiant,7,7,26,29,123.28517859387398,78,36318.64103090763,47966.53756296635,BAZZI,Not another,0.896551724137931,4,4,1.0,brigitte
+38,GODSB,offense,S1W1,Hangzhou Spark,Los Angeles Valiant vs. Hangzhou Spark,7,7,29,29,194.3558302334547,145,121788.79176867008,67.03846478462219,GODSB,Dragonbeard,1.0,9,9,1.0,zarya
+39,GODSB,offense,S1W2,Hangzhou Spark,Hangzhou Spark vs. Houston Outlaws,7,7,29,29,121.11891392314433,80,80572.0734385252,546.8404846191406,GODSB,Dragonbeard,1.0,8,8,1.0,zarya
+40,GODSB,offense,S1W3,Hangzhou Spark,Hangzhou Spark vs. Los Angeles Gladiators,7,7,29,29,152.78757842075825,116,94787.57842075825,0.0,GODSB,Dragonbeard,1.0,8,8,1.0,zarya
+41,GODSB,offense,S1W4,Hangzhou Spark,Hangzhou Spark vs. Toronto Defiant,7,7,29,29,160.7711823655367,96,112771.18236553669,0.0,GODSB,Dragonbeard,1.0,4,4,1.0,zarya
+42,GUXUE,tank,S1W1,Hangzhou Spark,Los Angeles Valiant vs. Hangzhou Spark,7,7,14,29,50.18828174251318,35,32688.28174251318,0.0,FreeAgent,FreeAgent,0.4827586206896552,3,9,0.325,reinhardt
+43,GUXUE,tank,S1W2,Hangzhou Spark,Hangzhou Spark vs. Houston Outlaws,7,7,14,29,42.55042594051361,35,25050.42594051361,0.0,FreeAgent,FreeAgent,0.4827586206896552,2,8,0.25,reinhardt
+44,GUXUE,tank,S1W3,Hangzhou Spark,Hangzhou Spark vs. Los Angeles Gladiators,7,7,14,29,109.7007525292039,93,63200.75252920389,0.0,FreeAgent,FreeAgent,0.4827586206896552,5,8,0.625,reinhardt
+45,GUXUE,tank,S1W4,Hangzhou Spark,Hangzhou Spark vs. Toronto Defiant,7,7,14,29,104.72688632893562,81,64226.88632893562,0.0,FreeAgent,FreeAgent,0.4827586206896552,4,4,1.0,reinhardt
+46,NOSMITE,tank,S1W1,Hangzhou Spark,Los Angeles Valiant vs. Hangzhou Spark,5,7,15,29,82.81086590093372,70,47810.86590093374,0.0,FreeAgent,FreeAgent,0.5172413793103449,6,9,0.675,reinhardt
+47,NOSMITE,tank,S1W2,Hangzhou Spark,London Spitfire vs. Hangzhou Spark,5,7,15,29,48.026287126123904,41,27526.287126123905,0.0,FreeAgent,FreeAgent,0.5172413793103449,6,8,0.75,reinhardt
+48,NOSMITE,tank,S1W3,Hangzhou Spark,San Francisco Shock vs. Hangzhou Spark,5,7,15,29,57.50425517249108,43,36004.25517249107,0.0,FreeAgent,FreeAgent,0.5172413793103449,3,4,0.75,reinhardt
+49,REVENGE,support,S1W1,Hangzhou Spark,Los Angeles Valiant vs. Hangzhou Spark,5,7,5,29,60.950898077011104,23,27019.09326815605,22431.804808855057,FreeAgent,FreeAgent,0.1724137931034483,2,9,0.225,zenyatta
+50,REVENGE,support,S1W2,Hangzhou Spark,Hangzhou Spark vs. Houston Outlaws,5,7,5,29,40.12377296149731,15,23896.382474422455,8727.390487074852,FreeAgent,FreeAgent,0.1724137931034483,2,8,0.25,zenyatta
+51,REVENGE,support,S1W3,Hangzhou Spark,San Francisco Shock vs. Hangzhou Spark,5,7,5,29,30.973579647779466,8,16140.84027671814,10832.739371061325,FreeAgent,FreeAgent,0.1724137931034483,1,4,0.25,zenyatta
+52,RIA,tank,S1W1,Hangzhou Spark,Los Angeles Valiant vs. Hangzhou Spark,7,7,29,29,175.76098139071465,147,102260.98139071465,0.0,RIA,Cougum,1.0,9,9,1.0,dva
+53,RIA,tank,S1W2,Hangzhou Spark,Hangzhou Spark vs. Houston Outlaws,7,7,29,29,84.35501146647334,63,52855.01146647334,0.0,RIA,Cougum,1.0,8,8,1.0,dva
+54,RIA,tank,S1W3,Hangzhou Spark,Hangzhou Spark vs. Los Angeles Gladiators,7,7,29,29,130.6033821592629,108,76603.3821592629,0.0,RIA,Cougum,1.0,8,8,1.0,dva
+55,RIA,tank,S1W4,Hangzhou Spark,Hangzhou Spark vs. Toronto Defiant,7,7,29,29,119.06444178009033,79,78887.11035597324,677.3314241170883,RIA,Cougum,1.0,4,4,1.0,dva
+56,IDK,support,S1W1,Hangzhou Spark,Los Angeles Valiant vs. Hangzhou Spark,7,7,29,29,152.51863399195673,101,57289.98298025131,44728.6510117054,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
+57,IDK,support,S1W2,Hangzhou Spark,Hangzhou Spark vs. Houston Outlaws,7,7,29,29,77.98437222731113,46,30149.527136802673,24834.84509050846,FreeAgent,FreeAgent,1.0,8,8,1.0,lucio
+58,IDK,support,S1W3,Hangzhou Spark,Hangzhou Spark vs. Los Angeles Gladiators,7,7,29,29,111.10205620217323,92,41040.578676223755,24061.477525949478,FreeAgent,FreeAgent,1.0,8,8,1.0,lucio
+59,IDK,support,S1W4,Hangzhou Spark,Hangzhou Spark vs. Toronto Defiant,7,7,29,29,109.49200670146942,67,45766.36624264717,30225.64045882225,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
+60,AGILITIES,offense,S1W1,Los Angeles Valiant,Los Angeles Valiant vs. Hangzhou Spark,7,7,31,31,214.15445323598385,138,75275.42403244972,69879.02920353413,AGILITIES,MattyIce,1.0,5,5,1.0,brigitte
+61,AGILITIES,offense,S1W2,Los Angeles Valiant,Los Angeles Valiant vs. Toronto Defiant,7,7,31,31,205.7380510300398,122,72809.64200866222,71928.40902137756,AGILITIES,MattyIce,1.0,9,9,1.0,brigitte
+62,AGILITIES,offense,S1W3,Los Angeles Valiant,Los Angeles Valiant vs. Guangzhou Charge,7,7,31,31,146.5317476863861,73,51691.72025299072,58340.027433395386,AGILITIES,MattyIce,1.0,8,8,1.0,brigitte
+63,AGILITIES,offense,S1W4,Los Angeles Valiant,Los Angeles Valiant vs. Philadelphia Fusion,7,7,31,31,167.9127687882185,109,52000.48392045498,61412.28486776352,AGILITIES,MattyIce,1.0,9,9,1.0,brigitte
+64,CUSTA,support,S1W2,Los Angeles Valiant,Los Angeles Valiant vs. Toronto Defiant,2,7,6,31,150.15835843014716,100,61195.1316601038,38963.22677004337,CUSTA,Overdrive,0.1935483870967742,6,9,0.7,lucio
+65,FATE,tank,S1W1,Los Angeles Valiant,Los Angeles Valiant vs. Hangzhou Spark,7,7,31,31,147.58111704879997,123,86081.11704879999,0.0,FATE,Cougum,1.0,5,5,1.0,reinhardt
+66,FATE,tank,S1W2,Los Angeles Valiant,Los Angeles Valiant vs. Toronto Defiant,7,7,31,31,136.86372625774146,102,85863.72625774145,0.0,FATE,Cougum,1.0,9,9,1.0,reinhardt
+67,FATE,tank,S1W3,Los Angeles Valiant,Los Angeles Valiant vs. Guangzhou Charge,7,7,31,31,103.18137164831161,70,68181.37164831161,0.0,FATE,Cougum,1.0,8,8,1.0,reinhardt
+68,FATE,tank,S1W4,Los Angeles Valiant,Houston Outlaws vs. Los Angeles Valiant,7,7,31,31,123.89667690938711,107,70396.67690938711,0.0,FATE,Cougum,1.0,9,9,1.0,reinhardt
+69,IZAYAKI,support,S1W1,Los Angeles Valiant,Los Angeles Valiant vs. Hangzhou Spark,7,7,31,31,238.89698928141596,120,104971.16273498535,73925.82654643059,IZAYAKI,Cougum,1.0,5,5,1.0,zenyatta
+70,IZAYAKI,support,S1W2,Los Angeles Valiant,Los Angeles Valiant vs. Toronto Defiant,7,7,31,31,248.50588605201244,112,108694.38519346714,83811.5008585453,IZAYAKI,Cougum,1.0,9,9,1.0,zenyatta
+71,IZAYAKI,support,S1W3,Los Angeles Valiant,Los Angeles Valiant vs. Guangzhou Charge,7,7,31,31,167.74799673759938,53,81873.26782894135,59374.72890865803,IZAYAKI,Cougum,1.0,8,8,1.0,zenyatta
+72,IZAYAKI,support,S1W4,Los Angeles Valiant,Houston Outlaws vs. Los Angeles Valiant,7,7,31,31,210.83279829239845,117,80367.47319352627,71965.32509887218,IZAYAKI,Cougum,1.0,9,9,1.0,zenyatta
+73,KSF,offense,S1W1,Los Angeles Valiant,Los Angeles Valiant vs. Hangzhou Spark,2,7,2,31,58.240501593947414,42,37240.50159394741,0.0,FreeAgent,FreeAgent,0.06451612903225806,1,5,0.2,zarya
+74,KSF,offense,S1W2,Los Angeles Valiant,Los Angeles Valiant vs. New York Excelsior,2,7,2,31,23.450162097930907,7,19950.16209793091,0.0,FreeAgent,FreeAgent,0.06451612903225806,1,5,0.2,zarya
+75,KARIV,offense,S1W1,Los Angeles Valiant,Los Angeles Valiant vs. Hangzhou Spark,7,7,29,31,151.62830342689156,109,97128.30342689157,0.0,KARIV,MattyIce,0.9354838709677419,4,5,0.8,zarya
+76,KARIV,offense,S1W2,Los Angeles Valiant,Los Angeles Valiant vs. Toronto Defiant,7,7,29,31,221.59207600528003,143,149593.90117031336,498.17483496665955,KARIV,MattyIce,0.9354838709677419,8,9,0.9,zarya
+77,KARIV,offense,S1W3,Los Angeles Valiant,Los Angeles Valiant vs. Guangzhou Charge,7,7,29,31,154.93220739144087,80,114932.20739144087,0.0,KARIV,MattyIce,0.9354838709677419,8,8,1.0,zarya
+78,KARIV,offense,S1W4,Los Angeles Valiant,Houston Outlaws vs. Los Angeles Valiant,7,7,29,31,169.030427593112,136,101030.42759311199,0.0,KARIV,MattyIce,0.9354838709677419,9,9,1.0,zarya
+79,KUKI,tank,S1W1,Los Angeles Valiant,Los Angeles Valiant vs. Hangzhou Spark,6,7,25,31,153.18986630928515,104,54481.45831298828,46708.40799629688,FreeAgent,FreeAgent,0.8064516129032258,5,5,1.0,lucio
+80,KUKI,tank,S1W2,Los Angeles Valiant,Los Angeles Valiant vs. New York Excelsior,6,7,25,31,59.7538936650753,23,21820.955204486847,26432.938460588455,FreeAgent,FreeAgent,0.8064516129032258,3,5,0.6,lucio
+81,KUKI,tank,S1W3,Los Angeles Valiant,Los Angeles Valiant vs. Guangzhou Charge,6,7,25,31,94.8459617099762,50,42278.8709205389,27567.090789437294,FreeAgent,FreeAgent,0.8064516129032258,8,8,1.0,lucio
+82,KUKI,tank,S1W4,Los Angeles Valiant,Houston Outlaws vs. Los Angeles Valiant,6,7,25,31,110.4721113461256,84,40540.06287384033,27932.04847228527,FreeAgent,FreeAgent,0.8064516129032258,9,9,1.0,lucio
+83,SPACE,tank,S1W1,Los Angeles Valiant,Los Angeles Valiant vs. Hangzhou Spark,7,7,31,31,189.4730841444135,157,110973.08414441347,0.0,SPACE,Cougum,1.0,5,5,1.0,dva
+84,SPACE,tank,S1W2,Los Angeles Valiant,Los Angeles Valiant vs. Toronto Defiant,7,7,31,31,181.70460681588946,143,110193.68681629002,10.919999599456787,SPACE,Cougum,1.0,9,9,1.0,dva
+85,SPACE,tank,S1W3,Los Angeles Valiant,Los Angeles Valiant vs. Guangzhou Charge,7,7,31,31,108.60642193579673,69,74106.42193579674,0.0,SPACE,Cougum,1.0,8,8,1.0,dva
+86,SPACE,tank,S1W4,Los Angeles Valiant,Los Angeles Valiant vs. Philadelphia Fusion,7,7,31,31,136.14192062351108,115,78641.92062351108,0.0,SPACE,Cougum,1.0,9,9,1.0,dva
+87,AID,support,S1W1,Toronto Defiant,Toronto Defiant vs. Houston Outlaws,3,7,13,29,206.76092368721962,120,78415.86730313301,68345.05638408661,AID,Cougum,0.4482758620689655,5,5,1.0,zenyatta
+88,AID,support,S1W2,Toronto Defiant,Los Angeles Valiant vs. Toronto Defiant,3,7,13,29,239.05577430373432,127,95144.90846949816,80410.86583423615,AID,Cougum,0.4482758620689655,8,8,1.0,zenyatta
+89,ENVY,tank,S1W1,Toronto Defiant,Toronto Defiant vs. Houston Outlaws,7,7,29,29,175.75647744023797,168,90881.59572005272,874.8817201852798,ENVY,MattyIce,1.0,5,5,1.0,dva
+90,ENVY,tank,S1W2,Toronto Defiant,Los Angeles Valiant vs. Toronto Defiant,7,7,29,29,184.11873771306873,142,109379.16718754172,3739.5705255270004,ENVY,MattyIce,1.0,8,8,1.0,dva
+91,ENVY,tank,S1W3,Toronto Defiant,Boston Uprising vs. Toronto Defiant,7,7,29,29,166.68616695094107,135,99111.16695773602,74.9999932050705,ENVY,MattyIce,1.0,8,8,1.0,dva
+92,ENVY,tank,S1W4,Toronto Defiant,Hangzhou Spark vs. Toronto Defiant,7,7,29,29,149.74101405718923,121,89052.1640599072,188.8499972820282,ENVY,MattyIce,1.0,8,8,1.0,dva
+93,NEKO,support,S1W3,Toronto Defiant,Boston Uprising vs. Toronto Defiant,4,7,16,29,196.05216561317445,110,79773.8092906475,61278.35632252693,NEKO,Cougum,0.5517241379310345,8,8,1.0,zenyatta
+94,NEKO,support,S1W4,Toronto Defiant,Hangzhou Spark vs. Toronto Defiant,4,7,16,29,183.1775008068085,91,82167.27017235756,55510.23063445091,NEKO,Cougum,0.5517241379310345,8,8,1.0,zenyatta
+95,ROKY,support,S1W1,Toronto Defiant,Toronto Defiant vs. Houston Outlaws,7,7,29,29,134.76225750291349,91,44972.13788032532,44290.11962258816,FreeAgent,FreeAgent,1.0,5,5,1.0,lucio
+96,ROKY,support,S1W2,Toronto Defiant,Los Angeles Valiant vs. Toronto Defiant,7,7,29,29,159.8425885014534,104,59196.00655698776,48646.58194446564,FreeAgent,FreeAgent,1.0,8,8,1.0,lucio
+97,ROKY,support,S1W3,Toronto Defiant,Boston Uprising vs. Toronto Defiant,7,7,29,29,134.3781023968458,106,46897.46614217758,34480.636254668236,FreeAgent,FreeAgent,1.0,8,8,1.0,lucio
+98,ROKY,support,S1W4,Toronto Defiant,Hangzhou Spark vs. Toronto Defiant,7,7,29,29,129.75544247055052,95,49047.33083343506,33208.11163711548,FreeAgent,FreeAgent,1.0,8,8,1.0,lucio
+99,STELLAR,offense,S1W1,Toronto Defiant,Toronto Defiant vs. Houston Outlaws,7,7,29,29,178.81004266142844,141,51048.9727909565,57261.069870471954,STELLAR,Not another,1.0,5,5,1.0,brigitte
+100,STELLAR,offense,S1W2,Toronto Defiant,Los Angeles Valiant vs. Toronto Defiant,7,7,29,29,215.3144954690337,137,72307.97045981884,74506.52500921488,STELLAR,Not another,1.0,8,8,1.0,brigitte
+101,STELLAR,offense,S1W3,Toronto Defiant,Boston Uprising vs. Toronto Defiant,7,7,29,29,153.67359266972542,128,41858.93109560013,47814.66157412529,STELLAR,Not another,1.0,8,8,1.0,brigitte
+102,STELLAR,offense,S1W4,Toronto Defiant,Hangzhou Spark vs. Toronto Defiant,7,7,29,29,144.33136748099326,108,39013.90931677818,51317.45816421509,STELLAR,Not another,1.0,8,8,1.0,brigitte
+103,YAKPUNG,tank,S1W1,Toronto Defiant,Toronto Defiant vs. Houston Outlaws,7,7,29,29,143.28105602657794,148,69281.05602657795,0.0,YAKPUNG,PopeRonPaul,1.0,5,5,1.0,winston
+104,YAKPUNG,tank,S1W2,Toronto Defiant,Los Angeles Valiant vs. Toronto Defiant,7,7,29,29,126.15330329382418,107,72653.3032938242,0.0,YAKPUNG,PopeRonPaul,1.0,8,8,1.0,reinhardt
+105,YAKPUNG,tank,S1W3,Toronto Defiant,Boston Uprising vs. Toronto Defiant,7,7,29,29,101.90574925130605,98,52905.74925130606,0.0,YAKPUNG,PopeRonPaul,1.0,8,8,1.0,reinhardt
+106,YAKPUNG,tank,S1W4,Toronto Defiant,Hangzhou Spark vs. Toronto Defiant,7,7,29,29,107.7205660097599,103,56220.5660097599,0.0,YAKPUNG,PopeRonPaul,1.0,8,8,1.0,reinhardt
+107,IVY,offense,S1W1,Toronto Defiant,Toronto Defiant vs. Houston Outlaws,7,7,29,29,192.35191542112827,171,106851.91542112827,0.0,IVY,Not another,1.0,5,5,1.0,zarya
+108,IVY,offense,S1W2,Toronto Defiant,Los Angeles Valiant vs. Toronto Defiant,7,7,29,29,227.94430634486676,150,152294.04481244087,650.2615324258804,IVY,Not another,1.0,8,8,1.0,zarya
+109,IVY,offense,S1W3,Toronto Defiant,Boston Uprising vs. Toronto Defiant,7,7,29,29,196.44575280290843,149,121945.75280290842,0.0,IVY,Not another,1.0,8,8,1.0,zarya
+110,IVY,offense,S1W4,Toronto Defiant,Hangzhou Spark vs. Toronto Defiant,7,7,29,29,182.27043135547638,127,118770.43135547638,0.0,IVY,Not another,1.0,8,8,1.0,zarya
+111,AIMGOD,support,S1W1,Boston Uprising,Boston Uprising vs. Houston Outlaws,6,6,25,25,211.63588778579233,99,93830.43598997593,68305.45179581642,AIMGOD,Not another,1.0,9,9,1.0,zenyatta
+112,AIMGOD,support,S1W2,Boston Uprising,Boston Uprising vs. Shanghai Dragons,6,6,25,25,151.6168874042034,64,64845.28565168381,54771.60175251961,AIMGOD,Not another,1.0,4,4,1.0,zenyatta
+113,AIMGOD,support,S1W3,Boston Uprising,Boston Uprising vs. Seoul Dynasty,6,6,25,25,205.7979071265459,100,86520.66291475296,69277.24421179295,AIMGOD,Not another,1.0,8,8,1.0,zenyatta
+114,AIMGOD,support,S1W4,Boston Uprising,Florida Mayhem vs. Boston Uprising,6,6,25,25,194.56101725482944,103,88458.2641339302,54602.7531208992,AIMGOD,Not another,1.0,4,4,1.0,zenyatta
+115,AXXIOM,tank,S1W1,Boston Uprising,Boston Uprising vs. Houston Outlaws,3,6,13,25,148.00364336234333,111,92503.64336234331,0.0,AXXIOM,Not another,0.52,9,9,1.0,zarya
+116,AXXIOM,tank,S1W2,Boston Uprising,Boston Uprising vs. Shanghai Dragons,3,6,13,25,57.620990733444685,43,36120.99073344469,0.0,AXXIOM,Not another,0.52,4,4,1.0,reinhardt
+117,COLOURHEX,offense,S1W2,Boston Uprising,Boston Uprising vs. Shanghai Dragons,4,6,16,25,111.042152228117,72,74879.81294894218,162.3392791748047,FreeAgent,FreeAgent,0.64,4,4,1.0,zarya
+118,COLOURHEX,offense,S1W3,Boston Uprising,Boston Uprising vs. Seoul Dynasty,4,6,16,25,174.31612286418678,121,113816.12286418676,0.0,FreeAgent,FreeAgent,0.64,8,8,1.0,zarya
+119,COLOURHEX,offense,S1W4,Boston Uprising,Florida Mayhem vs. Boston Uprising,4,6,16,25,174.0371763932705,122,113037.17639327049,0.0,FreeAgent,FreeAgent,0.64,4,4,1.0,zarya
+120,FUSIONS,tank,S1W1,Boston Uprising,Boston Uprising vs. Houston Outlaws,5,6,21,25,120.52664469921588,93,74026.64469921589,0.0,FreeAgent,FreeAgent,0.84,9,9,1.0,reinhardt
+121,FUSIONS,tank,S1W3,Boston Uprising,Boston Uprising vs. Toronto Defiant,5,6,21,25,128.69015357589723,94,81690.15357589722,0.0,FreeAgent,FreeAgent,0.84,8,8,1.0,reinhardt
+122,FUSIONS,tank,S1W4,Boston Uprising,Florida Mayhem vs. Boston Uprising,5,6,21,25,127.2004425420761,109,72700.44254207611,0.0,FreeAgent,FreeAgent,0.84,4,4,1.0,reinhardt
+123,KELLEX,support,S1W1,Boston Uprising,Boston Uprising vs. Houston Outlaws,6,6,23,25,138.87905562675,88,50877.08831882477,44001.967307925224,FreeAgent,FreeAgent,0.92,7,9,0.75,lucio
+124,KELLEX,support,S1W2,Boston Uprising,Boston Uprising vs. Shanghai Dragons,6,6,23,25,90.72776997184754,52,38887.26461839676,25840.505353450775,FreeAgent,FreeAgent,0.92,4,4,1.0,lucio
+125,KELLEX,support,S1W3,Boston Uprising,Boston Uprising vs. Seoul Dynasty,6,6,23,25,139.31201068699363,91,53625.76604318619,40186.24464380741,FreeAgent,FreeAgent,0.92,8,8,1.0,lucio
+126,KELLEX,support,S1W4,Boston Uprising,Florida Mayhem vs. Boston Uprising,6,6,23,25,116.91676708221436,76,48151.62915802002,30765.137924194336,FreeAgent,FreeAgent,0.92,4,4,1.0,lucio
+127,NOTE,tank,S1W1,Boston Uprising,Boston Uprising vs. Houston Outlaws,6,6,25,25,150.80342206272482,122,89803.42206272483,0.0,NOTE,Jyeran,1.0,9,9,1.0,dva
+128,NOTE,tank,S1W2,Boston Uprising,Boston Uprising vs. Shanghai Dragons,6,6,25,25,92.58095653134583,66,59211.26453334093,369.69199800491333,NOTE,Jyeran,1.0,4,4,1.0,dva
+129,NOTE,tank,S1W3,Boston Uprising,Boston Uprising vs. Seoul Dynasty,6,6,25,25,168.69110813093184,130,103691.10813093185,0.0,NOTE,Jyeran,1.0,8,8,1.0,dva
+130,NOTE,tank,S1W4,Boston Uprising,Florida Mayhem vs. Boston Uprising,6,6,25,25,138.459276943326,127,74959.276943326,0.0,NOTE,Jyeran,1.0,4,4,1.0,dva
+131,ALEMAO,support,S1W1,Boston Uprising,New York Excelsior vs. Boston Uprising,1,6,2,25,53.05539030265808,36,21285.228790283203,13770.161512374878,ALEMAO,Bobble,0.08,2,4,0.5,lucio
+132,BLASE,offense,S1W1,Boston Uprising,Boston Uprising vs. Houston Outlaws,6,6,25,25,161.8896776635051,101,46705.12700945139,64684.55065405369,BLASE,Cougum,1.0,9,9,1.0,brigitte
+133,BLASE,offense,S1W2,Boston Uprising,Boston Uprising vs. Shanghai Dragons,6,6,25,25,95.98194872212409,64,28510.750421762466,35471.19830036163,BLASE,Cougum,1.0,4,4,1.0,brigitte
+134,BLASE,offense,S1W3,Boston Uprising,Boston Uprising vs. Seoul Dynasty,6,6,25,25,151.10127107894422,101,43293.39664530754,57307.874433636665,BLASE,Cougum,1.0,8,8,1.0,brigitte
+135,BLASE,offense,S1W4,Boston Uprising,Florida Mayhem vs. Boston Uprising,6,6,25,25,140.39845963692665,112,39022.325665950775,45376.133970975876,BLASE,Cougum,1.0,4,4,1.0,brigitte
+136,ANAMO,support,S1W1,New York Excelsior,New York Excelsior vs. Boston Uprising,7,7,27,29,156.16472512197493,123,55367.27237319946,39297.45274877548,ANAMO,Overdrive,0.9310344827586207,8,8,1.0,lucio
+137,ANAMO,support,S1W2,New York Excelsior,Los Angeles Valiant vs. New York Excelsior,7,7,27,29,129.456151119709,96,50195.859858989716,31260.2912607193,ANAMO,Overdrive,0.9310344827586207,8,9,0.875,lucio
+138,ANAMO,support,S1W3,New York Excelsior,Toronto Defiant vs. New York Excelsior,7,7,27,29,97.47330375504494,82,36105.69405889511,20367.609696149826,ANAMO,Overdrive,0.9310344827586207,7,8,0.875,lucio
+139,ANAMO,support,S1W4,New York Excelsior,San Francisco Shock vs. New York Excelsior,7,7,27,29,163.78284868431092,107,65580.25300550461,44702.595678806305,ANAMO,Overdrive,0.9310344827586207,4,4,1.0,lucio
+140,ARK,support,S1W2,New York Excelsior,New York Excelsior vs. Houston Outlaws,2,7,2,29,23.870032515883445,17,8633.261578083038,6736.770937800407,FreeAgent,FreeAgent,0.06896551724137931,1,4,0.25,lucio
+141,ARK,support,S1W3,New York Excelsior,Toronto Defiant vs. New York Excelsior,2,7,2,29,23.69636348927021,12,9533.101797103882,8163.261692166328,FreeAgent,FreeAgent,0.06896551724137931,1,4,0.25,lucio
+142,JJONAK,support,S1W1,New York Excelsior,New York Excelsior vs. Boston Uprising,7,7,29,29,206.36065322101115,129,91175.67121851444,50684.98200249672,JJONAK,Dragonbeard,1.0,8,8,1.0,zenyatta
+143,JJONAK,support,S1W2,New York Excelsior,Los Angeles Valiant vs. New York Excelsior,7,7,29,29,180.67193590599297,88,81996.47385305166,54675.46205294132,JJONAK,Dragonbeard,1.0,9,9,1.0,zenyatta
+144,JJONAK,support,S1W3,New York Excelsior,Toronto Defiant vs. New York Excelsior,7,7,29,29,166.404052374959,95,71797.89899730682,47106.15337765217,JJONAK,Dragonbeard,1.0,8,8,1.0,zenyatta
+145,JJONAK,support,S1W4,New York Excelsior,San Francisco Shock vs. New York Excelsior,7,7,29,29,229.0282226294279,115,101512.68841528893,70015.53421413898,JJONAK,Dragonbeard,1.0,4,4,1.0,zenyatta
+146,LIBERO,offense,S1W1,New York Excelsior,New York Excelsior vs. Boston Uprising,7,7,28,29,154.45887955117226,123,44962.66964149475,47996.209909677505,LIBERO,Dragonbeard,0.9655172413793104,8,8,1.0,brigitte
+147,LIBERO,offense,S1W2,New York Excelsior,Los Angeles Valiant vs. New York Excelsior,7,7,28,29,123.08535781121253,90,37108.30857503414,40977.0492361784,LIBERO,Dragonbeard,0.9655172413793104,9,9,1.0,brigitte
+148,LIBERO,offense,S1W3,New York Excelsior,Toronto Defiant vs. New York Excelsior,7,7,28,29,92.72321957564354,83,23066.81063604355,28156.40893959999,LIBERO,Dragonbeard,0.9655172413793104,7,8,0.875,brigitte
+149,LIBERO,offense,S1W4,New York Excelsior,San Francisco Shock vs. New York Excelsior,7,7,28,29,146.8821946015358,85,43848.31653404236,60533.87806749344,LIBERO,Dragonbeard,0.9655172413793104,4,4,1.0,brigitte
+150,MANO,tank,S1W1,New York Excelsior,New York Excelsior vs. Boston Uprising,7,7,29,29,124.71503752970696,116,66715.03752970695,0.0,MANO,Cougum,1.0,8,8,1.0,reinhardt
+151,MANO,tank,S1W2,New York Excelsior,Los Angeles Valiant vs. New York Excelsior,7,7,29,29,104.29726025497915,84,62297.26025497913,0.0,MANO,Cougum,1.0,9,9,1.0,reinhardt
+152,MANO,tank,S1W3,New York Excelsior,Toronto Defiant vs. New York Excelsior,7,7,29,29,110.42700097441674,98,61427.00097441673,0.0,MANO,Cougum,1.0,8,8,1.0,reinhardt
+153,MANO,tank,S1W4,New York Excelsior,San Francisco Shock vs. New York Excelsior,7,7,29,29,113.26315723347665,95,65763.15723347664,0.0,MANO,Cougum,1.0,4,4,1.0,reinhardt
+154,MEKO,tank,S1W1,New York Excelsior,New York Excelsior vs. Boston Uprising,7,7,29,29,152.1350319851935,131,86488.83172121644,146.20026397705078,MEKO,Bobble,1.0,8,8,1.0,dva
+155,MEKO,tank,S1W2,New York Excelsior,Los Angeles Valiant vs. New York Excelsior,7,7,29,29,142.88991821169853,115,85268.11813998222,121.8000717163086,MEKO,Bobble,1.0,9,9,1.0,dva
+156,MEKO,tank,S1W3,New York Excelsior,Toronto Defiant vs. New York Excelsior,7,7,29,29,116.45472943717242,98,67366.34943717718,88.37999999523163,MEKO,Bobble,1.0,8,8,1.0,dva
+157,MEKO,tank,S1W4,New York Excelsior,San Francisco Shock vs. New York Excelsior,7,7,29,29,148.8468917233646,128,84846.89172336459,0.0,MEKO,Bobble,1.0,4,4,1.0,dva
+158,NENNE,offense,S1W1,New York Excelsior,New York Excelsior vs. Boston Uprising,7,7,29,29,190.09066247826811,145,117590.66247826815,0.0,NENNE,Jyeran,1.0,8,8,1.0,zarya
+159,NENNE,offense,S1W2,New York Excelsior,Los Angeles Valiant vs. New York Excelsior,7,7,29,29,157.62744803845882,109,103126.74682080746,0.7012176513671875,NENNE,Jyeran,1.0,9,9,1.0,zarya
+160,NENNE,offense,S1W3,New York Excelsior,Toronto Defiant vs. New York Excelsior,7,7,29,29,146.5675186163187,104,94567.5186163187,0.0,NENNE,Jyeran,1.0,8,8,1.0,zarya
+161,NENNE,offense,S1W4,New York Excelsior,San Francisco Shock vs. New York Excelsior,7,7,29,29,200.08080801439286,122,139080.80801439285,0.0,NENNE,Jyeran,1.0,4,4,1.0,zarya
+162,SAEBYEOLBE,offense,S1W3,New York Excelsior,Toronto Defiant vs. New York Excelsior,1,7,1,29,26.920815698504445,13,8863.982856273651,11556.832842230797,FreeAgent,FreeAgent,0.034482758620689655,1,4,0.25,brigitte
+163,APPLY,offense,S1W3,Florida Mayhem,Guangzhou Charge vs. Florida Mayhem,3,6,10,26,80.46066633391379,43,30018.087673425674,28942.57866048813,FreeAgent,FreeAgent,0.38461538461538464,6,9,0.65,brigitte
+164,APPLY,offense,S1W4,Florida Mayhem,Florida Mayhem vs. Boston Uprising,3,6,10,26,125.41635068297387,83,38133.853586912155,45782.49709606171,FreeAgent,FreeAgent,0.38461538461538464,4,4,1.0,brigitte
+165,HAGOPEUN,support,S1W1,Florida Mayhem,Atlanta Reign vs. Florida Mayhem,6,6,26,26,144.15997933423517,73,64421.02973341942,43238.94960081577,HAGOPEUN,Bobble,1.0,4,4,1.0,zenyatta
+166,HAGOPEUN,support,S1W2,Florida Mayhem,Philadelphia Fusion vs. Florida Mayhem,6,6,26,26,139.55381664556268,86,51627.79393261671,44926.02271294594,HAGOPEUN,Bobble,1.0,9,9,1.0,zenyatta
+167,HAGOPEUN,support,S1W3,Florida Mayhem,Houston Outlaws vs. Florida Mayhem,6,6,26,26,141.08705336391927,70,45129.71707856655,60957.33628535271,HAGOPEUN,Bobble,1.0,9,9,1.0,zenyatta
+168,HAGOPEUN,support,S1W4,Florida Mayhem,Florida Mayhem vs. Boston Uprising,6,6,26,26,173.08901693558693,72,74869.42905676365,62219.58787882328,HAGOPEUN,Bobble,1.0,4,4,1.0,zenyatta
+169,KRIS,support,S1W1,Florida Mayhem,Atlanta Reign vs. Florida Mayhem,6,6,26,26,84.43786765241623,64,30756.30870437622,21681.55894804001,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
+170,KRIS,support,S1W2,Florida Mayhem,Philadelphia Fusion vs. Florida Mayhem,6,6,26,26,106.78557130479813,80,35684.610389471054,31100.960915327072,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
+171,KRIS,support,S1W3,Florida Mayhem,Houston Outlaws vs. Florida Mayhem,6,6,26,26,103.50469322764874,81,35103.186985731125,27901.50624191761,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
+172,KRIS,support,S1W4,Florida Mayhem,Florida Mayhem vs. Boston Uprising,6,6,26,26,104.09311942815782,64,42197.79759025574,29895.32183790207,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
+173,MCGRAVY,tank,S1W3,Florida Mayhem,Guangzhou Charge vs. Florida Mayhem,2,6,5,26,56.80514008468389,35,39305.140084683895,0.0,FreeAgent,FreeAgent,0.19230769230769232,5,9,0.55,dva
+174,SWON,tank,S1W1,Florida Mayhem,Atlanta Reign vs. Florida Mayhem,6,6,26,26,76.24962082993984,68,42249.62082993984,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,reinhardt
+175,SWON,tank,S1W2,Florida Mayhem,Philadelphia Fusion vs. Florida Mayhem,6,6,26,26,112.20363697767257,114,55203.63697767258,0.0,FreeAgent,FreeAgent,1.0,9,9,1.0,reinhardt
+176,SWON,tank,S1W3,Florida Mayhem,Houston Outlaws vs. Florida Mayhem,6,6,26,26,120.95140049880742,114,63951.40049880743,0.0,FreeAgent,FreeAgent,1.0,9,9,1.0,reinhardt
+177,SWON,tank,S1W4,Florida Mayhem,Florida Mayhem vs. Boston Uprising,6,6,26,26,82.01996029508113,66,49019.96029508114,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,reinhardt
+178,TVIQ,offense,S1W1,Florida Mayhem,Atlanta Reign vs. Florida Mayhem,5,6,16,26,120.46232498300076,81,42726.34309566021,37235.981887340546,TVIQ,Bobble,0.6153846153846154,4,4,1.0,brigitte
+179,TVIQ,offense,S1W2,Florida Mayhem,Florida Mayhem vs. Chengdu Hunters,5,6,16,26,144.7572243115306,120,51670.74172800779,33086.4825835228,TVIQ,Bobble,0.6153846153846154,9,9,1.0,brigitte
+180,TVIQ,offense,S1W3,Florida Mayhem,Houston Outlaws vs. Florida Mayhem,5,6,16,26,80.90382529869677,70,31994.278783231974,13909.546515464783,TVIQ,Bobble,0.6153846153846154,3,9,0.35,mei
+181,BQB,offense,S1W1,Florida Mayhem,Atlanta Reign vs. Florida Mayhem,6,6,26,26,124.89512890428304,89,79638.76506608725,756.3638381958008,FreeAgent,FreeAgent,1.0,4,4,1.0,zarya
+182,BQB,offense,S1W2,Florida Mayhem,Philadelphia Fusion vs. Florida Mayhem,6,6,26,26,156.78987672927974,132,90451.46817114949,338.4085581302643,FreeAgent,FreeAgent,1.0,9,9,1.0,zarya
+183,BQB,offense,S1W3,Florida Mayhem,Houston Outlaws vs. Florida Mayhem,6,6,26,26,150.17349277079106,120,89979.68028604984,193.81248474121094,FreeAgent,FreeAgent,1.0,9,9,1.0,zarya
+184,BQB,offense,S1W4,Florida Mayhem,Florida Mayhem vs. Boston Uprising,6,6,26,26,130.26882732903957,85,87552.98238885403,215.84494018554688,FreeAgent,FreeAgent,1.0,4,4,1.0,zarya
+185,SAYAPLAYER,offense,S1W2,Florida Mayhem,Florida Mayhem vs. Chengdu Hunters,2,6,2,26,22.989758609771727,16,14322.754821538925,667.0037882328033,FreeAgent,FreeAgent,0.07692307692307693,1,5,0.2,soldier76
+186,SAYAPLAYER,offense,S1W3,Florida Mayhem,Guangzhou Charge vs. Florida Mayhem,2,6,2,26,8.02508254250884,6,5025.082542508841,0.0,FreeAgent,FreeAgent,0.07692307692307693,1,5,0.2,widowmaker
+187,XEPHER,tank,S1W1,Florida Mayhem,Atlanta Reign vs. Florida Mayhem,6,6,19,26,97.6747172587514,81,57159.702259361744,15.014999389648438,XEPHER,Overdrive,0.7307692307692307,4,4,1.0,dva
+188,XEPHER,tank,S1W2,Florida Mayhem,Philadelphia Fusion vs. Florida Mayhem,6,6,19,26,117.16727296870948,115,59014.45218759775,652.8207811117172,XEPHER,Overdrive,0.7307692307692307,8,9,0.9,dva
+189,XEPHER,tank,S1W3,Florida Mayhem,Houston Outlaws vs. Florida Mayhem,6,6,19,26,82.13719189548492,78,43137.191895484924,0.0,XEPHER,Overdrive,0.7307692307692307,3,9,0.35,zarya
+190,XEPHER,tank,S1W4,Florida Mayhem,Florida Mayhem vs. Boston Uprising,6,6,19,26,122.9494879935682,82,81949.48799356818,0.0,XEPHER,Overdrive,0.7307692307692307,4,4,1.0,zarya
+191,ARCHITECT,offense,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,4,7,13,29,142.37482469713686,75,50746.81003153324,54128.01466560364,FreeAgent,FreeAgent,0.4482758620689655,8,9,0.9,brigitte
+192,ARCHITECT,offense,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,4,7,13,29,146.9736770262718,85,45304.30596387386,59169.37106239796,FreeAgent,FreeAgent,0.4482758620689655,4,4,1.0,brigitte
+193,ARCHITECT,offense,S1W3,San Francisco Shock,San Francisco Shock vs. Hangzhou Spark,4,7,13,29,24.944073038220402,11,8586.751945495605,10857.3210927248,FreeAgent,FreeAgent,0.4482758620689655,1,4,0.25,brigitte
+194,CHOIHYOBIN,tank,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,7,7,23,29,121.03707692950962,93,74247.01168435812,290.0652451515198,CHOIHYOBIN,PopeRonPaul,0.7931034482758621,7,9,0.775,dva
+195,CHOIHYOBIN,tank,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,7,7,23,29,70.25764369988441,54,43257.643699884415,0.0,CHOIHYOBIN,PopeRonPaul,0.7931034482758621,2,4,0.5,dva
+196,CHOIHYOBIN,tank,S1W3,San Francisco Shock,San Francisco Shock vs. Washington Justice,7,7,23,29,104.57284462946654,93,58072.844629466534,0.0,CHOIHYOBIN,PopeRonPaul,0.7931034482758621,6,8,0.75,dva
+197,CHOIHYOBIN,tank,S1W4,San Francisco Shock,Paris Eternal vs. San Francisco Shock,7,7,23,29,135.0370766067505,113,78537.07660675049,0.0,CHOIHYOBIN,PopeRonPaul,0.7931034482758621,8,8,1.0,dva
+198,NEVIX,tank,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,5,7,6,29,26.857455196261405,16,18857.455196261406,0.0,FreeAgent,FreeAgent,0.20689655172413793,2,9,0.225,dva
+199,NEVIX,tank,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,5,7,6,29,69.83876952743529,53,43226.73051071167,112.03901672363281,FreeAgent,FreeAgent,0.20689655172413793,2,4,0.5,dva
+200,NEVIX,tank,S1W3,San Francisco Shock,San Francisco Shock vs. Hangzhou Spark,5,7,6,29,50.79430197459459,42,29794.301974594593,0.0,FreeAgent,FreeAgent,0.20689655172413793,2,8,0.25,dva
+201,RASCAL,offense,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,6,7,17,29,26.792852393150326,18,9035.936818122864,8756.915575027466,RASCAL,Overdrive,0.5862068965517241,2,9,0.225,brigitte
+202,RASCAL,offense,S1W3,San Francisco Shock,San Francisco Shock vs. Washington Justice,6,7,17,29,134.8920572707653,93,37964.386692643166,50427.67057812214,RASCAL,Overdrive,0.5862068965517241,7,8,0.875,brigitte
+203,RASCAL,offense,S1W4,San Francisco Shock,San Francisco Shock vs. New York Excelsior,6,7,17,29,132.01546656751634,61,36571.54912900925,64943.91743850708,RASCAL,Overdrive,0.5862068965517241,8,8,1.0,brigitte
+204,STRIKER,offense,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,2,7,2,29,24.20175585901737,19,14701.755859017372,0.0,FreeAgent,FreeAgent,0.06896551724137931,1,5,0.2,zarya
+205,STRIKER,offense,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,2,7,2,29,15.593647862166167,11,10093.647862166166,0.0,FreeAgent,FreeAgent,0.06896551724137931,1,4,0.25,widowmaker
+206,SMURF,tank,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,4,7,5,29,50.608715019226075,46,27608.715019226074,0.0,FreeAgent,FreeAgent,0.1724137931034483,3,9,0.325,reinhardt
+207,SMURF,tank,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,4,7,5,29,14.0232795779109,9,9523.2795779109,0.0,FreeAgent,FreeAgent,0.1724137931034483,1,4,0.25,wreckingball
+208,SMURF,tank,S1W3,San Francisco Shock,San Francisco Shock vs. Hangzhou Spark,4,7,5,29,18.695631685614586,13,12195.631685614586,0.0,FreeAgent,FreeAgent,0.1724137931034483,1,4,0.25,reinhardt
+209,VIOL2T,support,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,5,7,20,29,227.65246519255638,93,99426.67515659332,81725.79003596306,FreeAgent,FreeAgent,0.6896551724137931,4,4,1.0,zenyatta
+210,VIOL2T,support,S1W3,San Francisco Shock,San Francisco Shock vs. Hangzhou Spark,5,7,20,29,170.8859921860993,75,75483.80426898599,57902.187917113304,FreeAgent,FreeAgent,0.6896551724137931,8,8,1.0,zenyatta
+211,VIOL2T,support,S1W4,San Francisco Shock,San Francisco Shock vs. New York Excelsior,5,7,20,29,211.29979929542543,69,105160.8591504097,71638.94014501572,FreeAgent,FreeAgent,0.6896551724137931,8,8,1.0,zenyatta
+212,MOTH,support,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,7,7,29,29,141.88507495707273,74,48372.89504957199,56512.179907500744,MOTH,Overdrive,1.0,9,9,1.0,lucio
+213,MOTH,support,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,7,7,29,29,138.3871934722662,77,49866.84117269516,50020.35229957104,MOTH,Overdrive,1.0,4,4,1.0,lucio
+214,MOTH,support,S1W3,San Francisco Shock,San Francisco Shock vs. Hangzhou Spark,7,7,29,29,106.69298852837086,63,37368.181014060974,37824.80751430988,MOTH,Overdrive,1.0,8,8,1.0,lucio
+215,MOTH,support,S1W4,San Francisco Shock,San Francisco Shock vs. New York Excelsior,7,7,29,29,131.39092981922627,65,57250.95427906513,41639.97554016113,MOTH,Overdrive,1.0,8,8,1.0,lucio
+216,SINATRAA,offense,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,7,7,26,29,179.4364729922414,97,124649.43747133017,6287.035520911217,SINATRAA,Dragonbeard,0.896551724137931,7,9,0.775,zarya
+217,SINATRAA,offense,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,7,7,26,29,183.43433871114254,110,128434.33871114254,0.0,SINATRAA,Dragonbeard,0.896551724137931,3,4,0.75,zarya
+218,SINATRAA,offense,S1W3,San Francisco Shock,San Francisco Shock vs. Washington Justice,7,7,26,29,167.9070787447095,127,104407.07874470949,0.0,SINATRAA,Dragonbeard,0.896551724137931,8,8,1.0,zarya
+219,SINATRAA,offense,S1W4,San Francisco Shock,San Francisco Shock vs. New York Excelsior,7,7,26,29,208.31994311702252,105,155819.9431170225,0.0,SINATRAA,Dragonbeard,0.896551724137931,8,8,1.0,zarya
+220,SLEEPY,support,S1W1,San Francisco Shock,Los Angeles Gladiators vs. San Francisco Shock,2,7,9,29,227.19281776070596,81,97268.95054137707,89423.86721932888,SLEEPY,Jyeran,0.3103448275862069,9,9,1.0,zenyatta
+221,SUPER,tank,S1W1,San Francisco Shock,San Francisco Shock vs. Dallas Fuel,7,7,24,29,87.80484039515257,80,47804.84039515257,0.0,FreeAgent,FreeAgent,0.8275862068965517,6,9,0.675,reinhardt
+222,SUPER,tank,S1W2,San Francisco Shock,Vancouver Titans vs. San Francisco Shock,7,7,24,29,111.75012484502793,79,72250.12484502792,0.0,FreeAgent,FreeAgent,0.8275862068965517,3,4,0.75,reinhardt
+223,SUPER,tank,S1W3,San Francisco Shock,San Francisco Shock vs. Washington Justice,7,7,24,29,111.69603305584191,96,63696.03305584192,0.0,FreeAgent,FreeAgent,0.8275862068965517,7,8,0.875,reinhardt
+224,SUPER,tank,S1W4,San Francisco Shock,Paris Eternal vs. San Francisco Shock,7,7,24,29,122.61317017793654,93,76113.17017793655,0.0,FreeAgent,FreeAgent,0.8275862068965517,8,8,1.0,reinhardt
+225,BIRDRING,offense,S1W1,London Spitfire,Philadelphia Fusion vs. London Spitfire,3,6,7,26,137.83917824912072,105,85339.17824912071,0.0,FreeAgent,FreeAgent,0.2692307692307692,6,8,0.75,zarya
+226,BIRDRING,offense,S1W2,London Spitfire,London Spitfire vs. Washington Justice,3,6,7,26,22.221168558776377,12,16205.918560683727,15.249998092651367,FreeAgent,FreeAgent,0.2692307692307692,1,5,0.2,widowmaker
+227,BDOSIN,support,S1W1,London Spitfire,Philadelphia Fusion vs. London Spitfire,6,6,26,26,153.68217143791915,88,70515.34285962582,39166.82857829332,BDOSIN,MattyIce,1.0,8,8,1.0,zenyatta
+228,BDOSIN,support,S1W2,London Spitfire,London Spitfire vs. Washington Justice,6,6,26,26,208.30226859235765,115,94702.66710829735,56099.60148406029,BDOSIN,MattyIce,1.0,9,9,1.0,zenyatta
+229,BDOSIN,support,S1W3,London Spitfire,Los Angeles Gladiators vs. London Spitfire,6,6,26,26,175.52866496121882,83,78771.9660037756,55256.69895744324,BDOSIN,MattyIce,1.0,4,4,1.0,zenyatta
+230,BDOSIN,support,S1W4,London Spitfire,London Spitfire vs. Shanghai Dragons,6,6,26,26,129.69041624832153,64,55885.55892622471,41804.857322096825,BDOSIN,MattyIce,1.0,5,5,1.0,zenyatta
+231,FURY,tank,S1W1,London Spitfire,London Spitfire vs. Paris Eternal,6,6,26,26,125.02637124484775,97,76114.34322971106,412.02801513671875,FURY,Jyeran,1.0,8,8,1.0,dva
+232,FURY,tank,S1W2,London Spitfire,London Spitfire vs. Washington Justice,6,6,26,26,162.0304715567231,133,95530.47155672312,0.0,FURY,Jyeran,1.0,9,9,1.0,dva
+233,FURY,tank,S1W3,London Spitfire,Los Angeles Gladiators vs. London Spitfire,6,6,26,26,143.71317134171724,115,86213.17134171724,0.0,FURY,Jyeran,1.0,4,4,1.0,dva
+234,FURY,tank,S1W4,London Spitfire,London Spitfire vs. Shanghai Dragons,6,6,26,26,106.95380980557204,89,62453.80980557203,0.0,FURY,Jyeran,1.0,5,5,1.0,dva
+235,GESTURE,tank,S1W1,London Spitfire,Philadelphia Fusion vs. London Spitfire,6,6,26,26,88.9406813467741,79,49440.6813467741,0.0,GESTURE,Dragonbeard,1.0,8,8,1.0,reinhardt
+236,GESTURE,tank,S1W2,London Spitfire,London Spitfire vs. Washington Justice,6,6,26,26,137.43655130511522,115,79936.55130511522,0.0,GESTURE,Dragonbeard,1.0,9,9,1.0,reinhardt
+237,GESTURE,tank,S1W3,London Spitfire,Los Angeles Gladiators vs. London Spitfire,6,6,26,26,111.43295854896306,91,65932.95854896307,0.0,GESTURE,Dragonbeard,1.0,4,4,1.0,reinhardt
+238,GESTURE,tank,S1W4,London Spitfire,London Spitfire vs. Shanghai Dragons,6,6,26,26,79.42924297797681,71,43929.2429779768,0.0,GESTURE,Dragonbeard,1.0,5,5,1.0,reinhardt
+239,GUARD,offense,S1W1,London Spitfire,London Spitfire vs. Paris Eternal,5,6,19,26,64.27922513341905,53,37613.337285518646,165.88784790039062,FreeAgent,FreeAgent,0.7307692307692307,2,4,0.5,sombra
+240,GUARD,offense,S1W2,London Spitfire,London Spitfire vs. Washington Justice,5,6,19,26,158.23563393509386,107,49959.15790820122,54776.47602689266,FreeAgent,FreeAgent,0.7307692307692307,8,9,0.9,brigitte
+241,GUARD,offense,S1W3,London Spitfire,Los Angeles Gladiators vs. London Spitfire,5,6,19,26,134.68454450023177,91,48160.11604642868,41024.42845380306,FreeAgent,FreeAgent,0.7307692307692307,4,4,1.0,brigitte
+242,GUARD,offense,S1W4,London Spitfire,London Spitfire vs. Shanghai Dragons,5,6,19,26,115.51062462055684,80,53288.09668183327,22222.527938723564,FreeAgent,FreeAgent,0.7307692307692307,5,5,1.0,brigitte
+243,NUS,support,S1W1,London Spitfire,Philadelphia Fusion vs. London Spitfire,6,6,26,26,107.05984760773181,67,36258.26723241806,37301.58037531376,NUS,MattyIce,1.0,8,8,1.0,lucio
+244,NUS,support,S1W2,London Spitfire,London Spitfire vs. Washington Justice,6,6,26,26,149.53033768463132,96,59420.36854493618,42109.96913969517,NUS,MattyIce,1.0,9,9,1.0,lucio
+245,NUS,support,S1W3,London Spitfire,Los Angeles Gladiators vs. London Spitfire,6,6,26,26,123.14894801795481,77,47814.8160943985,36834.13192355633,NUS,MattyIce,1.0,4,4,1.0,lucio
+246,NUS,support,S1W4,London Spitfire,London Spitfire vs. Shanghai Dragons,6,6,26,26,88.25258889305591,54,33134.05683016777,28118.532062888145,NUS,MattyIce,1.0,5,5,1.0,lucio
+247,PROFIT,offense,S1W1,London Spitfire,Philadelphia Fusion vs. London Spitfire,6,6,26,26,135.5055626027584,85,42215.09581756592,50790.46678519249,PROFIT,Dragonbeard,1.0,8,8,1.0,brigitte
+248,PROFIT,offense,S1W2,London Spitfire,London Spitfire vs. Washington Justice,6,6,26,26,212.7773376894593,141,139167.05785566568,3110.27983379364,PROFIT,Dragonbeard,1.0,9,9,1.0,zarya
+249,PROFIT,offense,S1W3,London Spitfire,Los Angeles Gladiators vs. London Spitfire,6,6,26,26,166.54898168104887,110,103259.07850068808,8289.903180360794,PROFIT,Dragonbeard,1.0,4,4,1.0,zarya
+250,PROFIT,offense,S1W4,London Spitfire,London Spitfire vs. Shanghai Dragons,6,6,26,26,122.94527294945718,88,65259.34020781517,13685.932741641998,PROFIT,Dragonbeard,1.0,5,5,1.0,zarya
+251,BUMPER,tank,S1W1,Vancouver Titans,Vancouver Titans vs. Shanghai Dragons,6,6,26,26,78.33295770955084,77,39832.95770955086,0.0,BUMPER,Dragonbeard,1.0,4,4,1.0,reinhardt
+252,BUMPER,tank,S1W2,Vancouver Titans,Vancouver Titans vs. San Francisco Shock,6,6,26,26,133.3517620548606,106,80351.76205486059,0.0,BUMPER,Dragonbeard,1.0,9,9,1.0,reinhardt
+253,BUMPER,tank,S1W3,Vancouver Titans,Los Angeles Valiant vs. Vancouver Titans,6,6,26,26,88.94040020722151,75,51440.40020722151,0.0,BUMPER,Dragonbeard,1.0,4,4,1.0,reinhardt
+254,BUMPER,tank,S1W4,Vancouver Titans,Vancouver Titans vs. Paris Eternal,6,6,26,26,141.15051520878075,120,81150.51520878077,0.0,BUMPER,Dragonbeard,1.0,9,9,1.0,reinhardt
+255,HAKSAL,offense,S1W1,Vancouver Titans,Vancouver Titans vs. Shanghai Dragons,6,6,26,26,110.75205374217032,93,33056.96881651878,31195.08492565155,HAKSAL,Not another,1.0,4,4,1.0,brigitte
+256,HAKSAL,offense,S1W2,Vancouver Titans,Vancouver Titans vs. San Francisco Shock,6,6,26,26,176.62830021750926,113,55063.99362051487,65064.3065969944,HAKSAL,Not another,1.0,9,9,1.0,brigitte
+257,HAKSAL,offense,S1W3,Vancouver Titans,Los Angeles Valiant vs. Vancouver Titans,6,6,26,26,120.61198556947708,89,34350.447343826294,41761.53822565079,HAKSAL,Not another,1.0,4,4,1.0,brigitte
+258,HAKSAL,offense,S1W4,Vancouver Titans,Vancouver Titans vs. Paris Eternal,6,6,26,26,189.7656901482344,158,52633.24175596237,58132.448392271996,HAKSAL,Not another,1.0,9,9,1.0,brigitte
+259,JJANU,tank,S1W1,Vancouver Titans,Vancouver Titans vs. Shanghai Dragons,6,6,26,26,94.42654642689229,104,42426.54642689228,0.0,JJANU,Not another,1.0,4,4,1.0,dva
+260,JJANU,tank,S1W2,Vancouver Titans,Vancouver Titans vs. San Francisco Shock,6,6,26,26,171.14604333627224,131,105646.04333627224,0.0,JJANU,Not another,1.0,9,9,1.0,dva
+261,JJANU,tank,S1W3,Vancouver Titans,Los Angeles Valiant vs. Vancouver Titans,6,6,26,26,111.45317707765102,101,60951.14706361294,2.0300140380859375,JJANU,Not another,1.0,4,4,1.0,dva
+262,JJANU,tank,S1W4,Vancouver Titans,Vancouver Titans vs. Paris Eternal,6,6,26,26,189.3984296889305,190,94398.42968893051,0.0,JJANU,Not another,1.0,9,9,1.0,dva
+263,RAPEL,support,S1W3,Vancouver Titans,Los Angeles Valiant vs. Vancouver Titans,2,6,2,26,40.14958587908745,17,19469.193716049194,12180.392163038254,FreeAgent,FreeAgent,0.07692307692307693,1,4,0.25,zenyatta
+264,RAPEL,support,S1W4,Vancouver Titans,Vancouver Titans vs. Paris Eternal,2,6,2,26,64.60103682994843,49,26236.390470981598,13864.646358966827,FreeAgent,FreeAgent,0.07692307692307693,1,4,0.25,zenyatta
+265,SLIME,support,S1W1,Vancouver Titans,Vancouver Titans vs. Shanghai Dragons,6,6,26,26,89.72334723067283,69,23503.055357933044,31720.291872739792,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
+266,SLIME,support,S1W2,Vancouver Titans,Vancouver Titans vs. San Francisco Shock,6,6,26,26,140.9936000752449,92,50833.79111075401,44159.80896449089,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
+267,SLIME,support,S1W3,Vancouver Titans,Los Angeles Valiant vs. Vancouver Titans,6,6,26,26,101.6438954026699,83,34220.362542152405,25923.532860517502,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
+268,SLIME,support,S1W4,Vancouver Titans,Vancouver Titans vs. Paris Eternal,6,6,26,26,149.1836553055048,127,54760.87218165398,30922.783123850822,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
+269,SEOMINSOO,offense,S1W1,Vancouver Titans,Vancouver Titans vs. Shanghai Dragons,6,6,24,26,85.03277124676109,77,46532.77124676108,0.0,SEOMINSOO,MattyIce,0.9230769230769231,3,4,0.75,zarya
+270,SEOMINSOO,offense,S1W2,Vancouver Titans,Vancouver Titans vs. San Francisco Shock,6,6,24,26,203.52812410145998,135,136028.12410145998,0.0,SEOMINSOO,MattyIce,0.9230769230769231,8,9,0.9,zarya
+271,SEOMINSOO,offense,S1W3,Vancouver Titans,Los Angeles Valiant vs. Vancouver Titans,6,6,24,26,134.0389413576722,89,89538.94135767221,0.0,SEOMINSOO,MattyIce,0.9230769230769231,4,4,1.0,zarya
+272,SEOMINSOO,offense,S1W4,Vancouver Titans,Vancouver Titans vs. Paris Eternal,6,6,24,26,223.78713709264994,186,130787.13709264994,0.0,SEOMINSOO,MattyIce,0.9230769230769231,9,9,1.0,zarya
+273,STITCH,offense,S1W1,Vancouver Titans,Vancouver Titans vs. Shanghai Dragons,2,6,2,26,18.064855556875468,13,11564.855556875467,0.0,FreeAgent,FreeAgent,0.07692307692307693,1,4,0.25,mccree
+274,STITCH,offense,S1W2,Vancouver Titans,Vancouver Titans vs. Guangzhou Charge,2,6,2,26,17.319338337659836,9,12819.338337659836,0.0,FreeAgent,FreeAgent,0.07692307692307693,1,5,0.2,zarya
+275,TWILIGHT,support,S1W1,Vancouver Titans,Vancouver Titans vs. Shanghai Dragons,6,6,24,26,110.70540414071081,75,42751.95338964462,30453.450751066208,TWILIGHT,Jyeran,0.9230769230769231,4,4,1.0,zenyatta
+276,TWILIGHT,support,S1W2,Vancouver Titans,Vancouver Titans vs. San Francisco Shock,6,6,24,26,212.2622066153288,99,91344.91104793549,71417.2955673933,TWILIGHT,Jyeran,0.9230769230769231,9,9,1.0,zenyatta
+277,TWILIGHT,support,S1W3,Vancouver Titans,Los Angeles Valiant vs. Vancouver Titans,6,6,24,26,99.6776428165436,58,44099.12763977051,26578.51517677307,TWILIGHT,Jyeran,0.9230769230769231,3,4,0.75,zenyatta
+278,TWILIGHT,support,S1W4,Vancouver Titans,Chengdu Hunters vs. Vancouver Titans,6,6,24,26,189.7215596936941,113,70624.42997252941,62597.1297211647,TWILIGHT,Jyeran,0.9230769230769231,8,9,0.875,zenyatta
+279,BACONJACK,offense,S1W1,Chengdu Hunters,Chengdu Hunters vs. Guangzhou Charge,6,6,12,27,37.87233309966326,30,22809.993134081364,62.33996558189392,FreeAgent,FreeAgent,0.4444444444444444,2,5,0.4,widowmaker
+280,BACONJACK,offense,S1W2,Chengdu Hunters,Florida Mayhem vs. Chengdu Hunters,6,6,12,27,48.39971113806963,45,25899.71113806963,0.0,FreeAgent,FreeAgent,0.4444444444444444,4,9,0.45,sombra
+281,BACONJACK,offense,S1W3,Chengdu Hunters,Shanghai Dragons vs. Chengdu Hunters,6,6,12,27,13.267208339512349,9,8767.208339512348,0.0,FreeAgent,FreeAgent,0.4444444444444444,1,4,0.25,widowmaker
+282,BACONJACK,offense,S1W4,Chengdu Hunters,Chengdu Hunters vs. Vancouver Titans,6,6,12,27,98.67479446563124,76,60663.17642363906,11.6180419921875,FreeAgent,FreeAgent,0.4444444444444444,5,9,0.55,zarya
+283,ELSA,tank,S1W1,Chengdu Hunters,Chengdu Hunters vs. Guangzhou Charge,6,6,27,27,133.27116802811622,108,79147.33247208595,123.83555603027344,ELSA,Jyeran,1.0,5,5,1.0,dva
+284,ELSA,tank,S1W2,Chengdu Hunters,Florida Mayhem vs. Chengdu Hunters,6,6,27,27,147.16794865971804,132,80052.22056156397,1115.728098154068,ELSA,Jyeran,1.0,9,9,1.0,dva
+285,ELSA,tank,S1W3,Chengdu Hunters,Shanghai Dragons vs. Chengdu Hunters,6,6,27,27,117.3900835481584,85,74777.7983919084,112.28515625,ELSA,Jyeran,1.0,4,4,1.0,sombra
+286,ELSA,tank,S1W4,Chengdu Hunters,Chengdu Hunters vs. Vancouver Titans,6,6,27,27,139.52306087747215,104,87523.06087747216,0.0,ELSA,Jyeran,1.0,9,9,1.0,dva
+287,JINMU,offense,S1W1,Chengdu Hunters,Chengdu Hunters vs. Guangzhou Charge,6,6,27,27,136.67356371694805,88,53559.826060950756,39113.737655997276,JINMU,Jyeran,1.0,5,5,1.0,brigitte
+288,JINMU,offense,S1W2,Chengdu Hunters,Chengdu Hunters vs. Seoul Dynasty,6,6,27,27,159.2410270037651,97,81835.43747615814,28905.589527606964,JINMU,Jyeran,1.0,9,9,1.0,brigitte
+289,JINMU,offense,S1W3,Chengdu Hunters,Shanghai Dragons vs. Chengdu Hunters,6,6,27,27,152.2863381052017,86,87381.27904880047,21905.059056401253,JINMU,Jyeran,1.0,4,4,1.0,pharah
+290,JINMU,offense,S1W4,Chengdu Hunters,Chengdu Hunters vs. Vancouver Titans,6,6,27,27,166.60382004779575,98,77524.23660188913,40079.58344590664,JINMU,Jyeran,1.0,9,9,1.0,brigitte
+291,KYO,support,S1W1,Chengdu Hunters,Chengdu Hunters vs. Guangzhou Charge,6,6,27,27,143.4073763906956,80,47549.85179781914,55857.524592876434,KYO,Dragonbeard,1.0,5,5,1.0,zenyatta
+292,KYO,support,S1W2,Chengdu Hunters,Florida Mayhem vs. Chengdu Hunters,6,6,27,27,149.72826360905168,89,49046.7861289978,56181.4774800539,KYO,Dragonbeard,1.0,9,9,1.0,zenyatta
+293,KYO,support,S1W3,Chengdu Hunters,Shanghai Dragons vs. Chengdu Hunters,6,6,27,27,126.39414184427262,63,45895.2940479517,48998.847796320915,KYO,Dragonbeard,1.0,4,4,1.0,zenyatta
+294,KYO,support,S1W4,Chengdu Hunters,Chengdu Hunters vs. Vancouver Titans,6,6,27,27,186.51149540376662,89,81476.30629241467,60535.18911135197,KYO,Dragonbeard,1.0,9,9,1.0,zenyatta
+295,YVELTAL,support,S1W1,Chengdu Hunters,Chengdu Hunters vs. Guangzhou Charge,6,6,27,27,86.99373359584807,44,26716.087276935577,38277.646318912506,FreeAgent,FreeAgent,1.0,5,5,1.0,lucio
+296,YVELTAL,support,S1W2,Chengdu Hunters,Chengdu Hunters vs. Seoul Dynasty,6,6,27,27,99.29261269581319,61,30111.588617801666,38681.02407801151,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
+297,YVELTAL,support,S1W3,Chengdu Hunters,Shanghai Dragons vs. Chengdu Hunters,6,6,27,27,78.51012885844708,28,18634.497817993164,45875.63104045391,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
+298,YVELTAL,support,S1W4,Chengdu Hunters,Chengdu Hunters vs. Vancouver Titans,6,6,27,27,109.91590894234179,55,29724.892612457275,52691.01632988453,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
+299,AMENG,tank,S1W1,Chengdu Hunters,Chengdu Hunters vs. Guangzhou Charge,6,6,27,27,106.53433794879913,90,61534.33794879913,0.0,FreeAgent,FreeAgent,1.0,5,5,1.0,wreckingball
+300,AMENG,tank,S1W2,Chengdu Hunters,Chengdu Hunters vs. Seoul Dynasty,6,6,27,27,115.99605570209027,97,67496.05570209026,0.0,FreeAgent,FreeAgent,1.0,9,9,1.0,wreckingball
+301,AMENG,tank,S1W3,Chengdu Hunters,Shanghai Dragons vs. Chengdu Hunters,6,6,27,27,93.6710203117132,79,54171.02031171322,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,wreckingball
+302,AMENG,tank,S1W4,Chengdu Hunters,Chengdu Hunters vs. Vancouver Titans,6,6,27,27,116.24210284507275,94,69242.10284507275,0.0,FreeAgent,FreeAgent,1.0,9,9,1.0,wreckingball
+303,LATEYOUNG,tank,S1W1,Chengdu Hunters,Chengdu Hunters vs. Guangzhou Charge,6,6,15,27,85.07853484261035,64,51889.40053451061,1189.1343080997467,LATEYOUNG,MattyIce,0.5555555555555556,3,5,0.6,zarya
+304,LATEYOUNG,tank,S1W2,Chengdu Hunters,Florida Mayhem vs. Chengdu Hunters,6,6,15,27,86.48640005081892,73,48474.147036492825,1512.2530143260956,LATEYOUNG,MattyIce,0.5555555555555556,5,9,0.55,zarya
+305,LATEYOUNG,tank,S1W3,Chengdu Hunters,Shanghai Dragons vs. Chengdu Hunters,6,6,15,27,97.22799301809073,69,62727.993018090725,0.0,LATEYOUNG,MattyIce,0.5555555555555556,3,4,0.75,zarya
+306,LATEYOUNG,tank,S1W4,Chengdu Hunters,Chengdu Hunters vs. Toronto Defiant,6,6,15,27,48.070300873577594,29,33570.300873577595,0.0,LATEYOUNG,MattyIce,0.5555555555555556,4,9,0.45,zarya
+307,BANI,support,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,1,6,2,26,70.13325664842128,38,31268.532063484192,19864.724584937096,BANI,PopeRonPaul,0.07692307692307693,2,4,0.5,zenyatta
+308,BOINK,support,S1W1,Houston Outlaws,Boston Uprising vs. Houston Outlaws,6,6,26,26,147.90752033233645,108,48966.15369129181,44941.36664104462,BOINK,PopeRonPaul,1.0,10,10,1.0,lucio
+309,BOINK,support,S1W2,Houston Outlaws,Hangzhou Spark vs. Houston Outlaws,6,6,26,26,89.08163260757922,60,30316.252424240112,28765.38018333912,BOINK,PopeRonPaul,1.0,8,8,1.0,lucio
+310,BOINK,support,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,6,6,26,26,105.72723263800145,82,38105.71638441086,26621.516253590584,BOINK,PopeRonPaul,1.0,4,4,1.0,lucio
+311,BOINK,support,S1W4,Houston Outlaws,Houston Outlaws vs. Los Angeles Valiant,6,6,26,26,125.57017155444622,96,47462.79754304886,30107.37401139736,BOINK,PopeRonPaul,1.0,4,4,1.0,lucio
+312,DANTEH,offense,S1W1,Houston Outlaws,Boston Uprising vs. Houston Outlaws,6,6,23,26,200.99047608178856,146,124652.59426110983,3337.881820678711,DANTEH,PopeRonPaul,0.8846153846153846,10,10,1.0,zarya
+313,DANTEH,offense,S1W2,Houston Outlaws,Hangzhou Spark vs. Houston Outlaws,6,6,23,26,113.60570912474394,89,69045.67066258192,60.03846216201782,DANTEH,PopeRonPaul,0.8846153846153846,8,8,1.0,zarya
+314,DANTEH,offense,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,6,6,23,26,78.22179158729315,77,39646.79158729315,75.0,DANTEH,PopeRonPaul,0.8846153846153846,2,4,0.5,sombra
+315,DANTEH,offense,S1W4,Houston Outlaws,Houston Outlaws vs. Los Angeles Valiant,6,6,23,26,104.93015796053409,82,63154.913415551186,775.2445449829102,DANTEH,PopeRonPaul,0.8846153846153846,3,4,0.75,sombra
+316,JAKE,offense,S1W1,Houston Outlaws,Toronto Defiant vs. Houston Outlaws,6,6,19,26,63.27320673751831,58,27999.595274925232,6273.611462593079,JAKE,PopeRonPaul,0.7307692307692307,3,10,0.30000000000000004,pharah
+317,JAKE,offense,S1W2,Houston Outlaws,Hangzhou Spark vs. Houston Outlaws,6,6,19,26,103.87344719588756,72,28986.17254447937,38887.274651408195,JAKE,PopeRonPaul,0.7307692307692307,8,8,1.0,brigitte
+318,JAKE,offense,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,6,6,19,26,131.57971932530404,99,42584.2218259573,39495.49749934673,JAKE,PopeRonPaul,0.7307692307692307,4,4,1.0,brigitte
+319,JAKE,offense,S1W4,Houston Outlaws,Houston Outlaws vs. Los Angeles Valiant,6,6,19,26,144.27402166700364,106,44025.18119597435,47248.84047102928,JAKE,PopeRonPaul,0.7307692307692307,4,4,1.0,brigitte
+320,LINKZR,offense,S1W1,Houston Outlaws,Boston Uprising vs. Houston Outlaws,5,6,11,26,158.95857504099607,116,53235.56638199091,47723.008659005165,LINKZR,PopeRonPaul,0.4230769230769231,8,10,0.8,brigitte
+321,LINKZR,offense,S1W2,Houston Outlaws,Hangzhou Spark vs. Houston Outlaws,5,6,11,26,18.891335521936416,23,7200.542419195175,190.79310274124146,LINKZR,PopeRonPaul,0.4230769230769231,1,4,0.25,widowmaker
+322,LINKZR,offense,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,5,6,11,26,41.98490789169073,34,24984.90789169073,0.0,LINKZR,PopeRonPaul,0.4230769230769231,1,4,0.25,zarya
+323,LINKZR,offense,S1W4,Houston Outlaws,Houston Outlaws vs. Los Angeles Valiant,5,6,11,26,29.679609068453313,25,17179.609068453312,0.0,LINKZR,PopeRonPaul,0.4230769230769231,1,4,0.25,widowmaker
+324,MUMA,tank,S1W1,Houston Outlaws,Boston Uprising vs. Houston Outlaws,6,6,26,26,143.21610178548093,126,80216.10178548098,0.0,MUMA,PopeRonPaul,1.0,10,10,1.0,reinhardt
+325,MUMA,tank,S1W2,Houston Outlaws,Hangzhou Spark vs. Houston Outlaws,6,6,26,26,88.51022660875321,78,49510.226608753204,0.0,MUMA,PopeRonPaul,1.0,8,8,1.0,reinhardt
+326,MUMA,tank,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,6,6,26,26,113.04581322836876,91,67545.81322836876,0.0,MUMA,PopeRonPaul,1.0,4,4,1.0,reinhardt
+327,MUMA,tank,S1W4,Houston Outlaws,Houston Outlaws vs. Los Angeles Valiant,6,6,26,26,112.20707447385789,93,65707.07447385788,0.0,MUMA,PopeRonPaul,1.0,4,4,1.0,reinhardt
+328,RAWKUS,support,S1W1,Houston Outlaws,Toronto Defiant vs. Houston Outlaws,6,6,24,26,197.42532160878181,109,80066.62992215157,62858.69168663025,RAWKUS,PopeRonPaul,0.9230769230769231,10,10,1.0,zenyatta
+329,RAWKUS,support,S1W2,Houston Outlaws,Hangzhou Spark vs. Houston Outlaws,6,6,24,26,124.14337047117947,62,53089.02931731939,40054.34115386009,RAWKUS,PopeRonPaul,0.9230769230769231,8,8,1.0,zenyatta
+330,RAWKUS,support,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,6,6,24,26,97.69970047712326,61,42932.362320423126,24267.338156700134,RAWKUS,PopeRonPaul,0.9230769230769231,2,4,0.5,zenyatta
+331,RAWKUS,support,S1W4,Houston Outlaws,Houston Outlaws vs. Los Angeles Valiant,6,6,24,26,186.42939717686176,90,82164.66733956337,59264.72983729839,RAWKUS,PopeRonPaul,0.9230769230769231,4,4,1.0,zenyatta
+332,SPREE,tank,S1W1,Houston Outlaws,Toronto Defiant vs. Houston Outlaws,6,6,15,26,33.65741066622734,30,18628.74566781521,28.664998412132263,SPREE,PopeRonPaul,0.5769230769230769,2,10,0.2,dva
+333,SPREE,tank,S1W2,Houston Outlaws,Hangzhou Spark vs. Houston Outlaws,6,6,15,26,93.25330594724416,75,55753.30594724417,0.0,SPREE,PopeRonPaul,0.5769230769230769,7,8,0.875,dva
+334,SPREE,tank,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,6,6,15,26,124.56113034281135,98,75561.13034281135,0.0,SPREE,PopeRonPaul,0.5769230769230769,3,4,0.75,zarya
+335,SPREE,tank,S1W4,Houston Outlaws,Houston Outlaws vs. Los Angeles Valiant,6,6,15,26,139.09820764535664,89,94598.20764535666,0.0,SPREE,PopeRonPaul,0.5769230769230769,3,4,0.75,zarya
+336,COOLMATT,tank,S1W1,Houston Outlaws,Boston Uprising vs. Houston Outlaws,4,6,10,26,167.07872450619936,128,103076.72450619936,2.0,COOLMATT,PopeRonPaul,0.38461538461538464,7,10,0.7,dva
+337,COOLMATT,tank,S1W3,Houston Outlaws,Houston Outlaws vs. Florida Mayhem,4,6,10,26,56.81680152496696,46,33816.801524966955,0.0,COOLMATT,PopeRonPaul,0.38461538461538464,2,4,0.5,dva
+338,COOLMATT,tank,S1W4,Houston Outlaws,Houston Outlaws vs. Los Angeles Valiant,4,6,10,26,48.99103744450211,38,29991.037444502115,0.0,COOLMATT,PopeRonPaul,0.38461538461538464,1,4,0.25,dva
+339,BENBEST,tank,S1W1,Paris Eternal,London Spitfire vs. Paris Eternal,5,5,20,20,70.85022863930463,56,42850.22863930464,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,reinhardt
+340,BENBEST,tank,S1W2,Paris Eternal,Los Angeles Gladiators vs. Paris Eternal,5,5,20,20,137.3541944783926,125,74854.1944783926,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,reinhardt
+341,BENBEST,tank,S1W3,Paris Eternal,Paris Eternal vs. Atlanta Reign,5,5,20,20,73.7734814668894,55,46273.48146688938,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,reinhardt
+342,BENBEST,tank,S1W4,Paris Eternal,Vancouver Titans vs. Paris Eternal,5,5,20,20,94.29664403283596,68,60296.64403283596,0.0,FreeAgent,FreeAgent,1.0,8,8,1.0,reinhardt
+343,FINNSI,tank,S1W1,Paris Eternal,London Spitfire vs. Paris Eternal,5,5,20,20,99.24238503175974,88,55242.38503175974,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,dva
+344,FINNSI,tank,S1W2,Paris Eternal,Los Angeles Gladiators vs. Paris Eternal,5,5,20,20,175.37130021852255,157,96871.30021852255,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,dva
+345,FINNSI,tank,S1W3,Paris Eternal,Paris Eternal vs. Atlanta Reign,5,5,20,20,110.74498147165775,80,70744.98147165775,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,dva
+346,FINNSI,tank,S1W4,Paris Eternal,Vancouver Titans vs. Paris Eternal,5,5,20,20,134.94907409977912,98,85949.07409977913,0.0,FreeAgent,FreeAgent,1.0,8,8,1.0,dva
+347,HYP,support,S1W1,Paris Eternal,London Spitfire vs. Paris Eternal,5,5,20,20,125.37820197796822,70,50456.7820674181,39921.41991055012,HYP,Not another,1.0,4,4,1.0,zenyatta
+348,HYP,support,S1W2,Paris Eternal,Los Angeles Gladiators vs. Paris Eternal,5,5,20,20,213.92920730313656,134,87824.3514804542,59104.85582268238,HYP,Not another,1.0,4,4,1.0,zenyatta
+349,HYP,support,S1W3,Paris Eternal,Paris Eternal vs. Atlanta Reign,5,5,20,20,132.7790805760622,57,52419.49442744255,51859.58614861965,HYP,Not another,1.0,4,4,1.0,zenyatta
+350,HYP,support,S1W4,Paris Eternal,Vancouver Titans vs. Paris Eternal,5,5,20,20,168.77219138145446,67,69824.26076948643,65447.93061196804,HYP,Not another,1.0,8,8,1.0,zenyatta
+351,KRUISE,support,S1W1,Paris Eternal,London Spitfire vs. Paris Eternal,5,5,20,20,86.61942247223854,62,34941.04461145401,20678.37786078453,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
+352,KRUISE,support,S1W2,Paris Eternal,Los Angeles Gladiators vs. Paris Eternal,5,5,20,20,149.6295284320116,114,57602.509630680084,35027.01880133152,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
+353,KRUISE,support,S1W3,Paris Eternal,Paris Eternal vs. Atlanta Reign,5,5,20,20,90.28228423333168,49,38590.694905757904,27191.589327573776,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
+354,KRUISE,support,S1W4,Paris Eternal,Vancouver Titans vs. Paris Eternal,5,5,20,20,119.76550116300584,69,50119.786784648895,35145.71437835693,FreeAgent,FreeAgent,1.0,8,8,1.0,lucio
+355,NICOGDH,offense,S1W1,Paris Eternal,London Spitfire vs. Paris Eternal,5,5,20,20,99.50799733185767,70,26181.08792066574,38326.90941119194,FreeAgent,FreeAgent,1.0,4,4,1.0,brigitte
+356,NICOGDH,offense,S1W2,Paris Eternal,Los Angeles Gladiators vs. Paris Eternal,5,5,20,20,168.75919150686263,130,50262.647785425186,53496.543721437454,FreeAgent,FreeAgent,1.0,4,4,1.0,brigitte
+357,NICOGDH,offense,S1W3,Paris Eternal,Paris Eternal vs. Atlanta Reign,5,5,20,20,112.5900712428093,66,35487.47897815704,44102.59226465225,FreeAgent,FreeAgent,1.0,4,4,1.0,brigitte
+358,NICOGDH,offense,S1W4,Paris Eternal,Vancouver Titans vs. Paris Eternal,5,5,20,20,131.68798972094058,75,39973.74226808548,54214.24745285511,FreeAgent,FreeAgent,1.0,8,8,1.0,brigitte
+359,SHADOWBURN,offense,S1W4,Paris Eternal,Paris Eternal vs. San Francisco Shock,2,5,7,20,112.22080148863793,58,83220.80148863792,0.0,FreeAgent,FreeAgent,0.35,7,8,0.875,zarya
+360,SOON,offense,S1W1,Paris Eternal,London Spitfire vs. Paris Eternal,4,5,13,20,116.2308150125146,85,73730.81501251459,0.0,SOON,Not another,0.65,4,4,1.0,zarya
+361,SOON,offense,S1W2,Paris Eternal,Los Angeles Gladiators vs. Paris Eternal,4,5,13,20,182.163953836143,148,107903.26152318716,260.6923129558563,SOON,Not another,0.65,4,4,1.0,zarya
+362,SOON,offense,S1W3,Paris Eternal,Paris Eternal vs. Atlanta Reign,4,5,13,20,115.66420969980956,74,78096.02428871393,568.1854110956192,SOON,Not another,0.65,4,4,1.0,zarya
+363,SOON,offense,S1W4,Paris Eternal,Vancouver Titans vs. Paris Eternal,4,5,13,20,42.39488883519172,29,27894.888835191727,0.0,SOON,Not another,0.65,1,4,0.25,zarya
+364,BIGG00SE,support,S1W1,Los Angeles Gladiators,Los Angeles Gladiators vs. San Francisco Shock,7,7,29,29,144.44112358129024,108,55862.32233095169,34578.801250338554,BIGG00SE,MattyIce,1.0,9,9,1.0,lucio
+365,BIGG00SE,support,S1W2,Los Angeles Gladiators,Los Angeles Gladiators vs. Paris Eternal,7,7,29,29,125.83581785464287,97,51322.903064489365,26012.914790153503,BIGG00SE,MattyIce,1.0,4,4,1.0,lucio
+366,BIGG00SE,support,S1W3,Los Angeles Gladiators,Los Angeles Gladiators vs. London Spitfire,7,7,29,29,109.34946011340618,71,43242.174198150635,30607.285915255547,BIGG00SE,MattyIce,1.0,8,8,1.0,lucio
+367,BIGG00SE,support,S1W4,Los Angeles Gladiators,Guangzhou Charge vs. Los Angeles Gladiators,7,7,29,29,106.52725290703773,53,44738.58051729202,35288.67238974571,BIGG00SE,MattyIce,1.0,8,8,1.0,lucio
+368,DECAY,offense,S1W3,Los Angeles Gladiators,Los Angeles Gladiators vs. London Spitfire,4,7,16,29,170.08354896339776,109,115583.54896339774,0.0,FreeAgent,FreeAgent,0.5517241379310345,8,8,1.0,zarya
+369,DECAY,offense,S1W4,Los Angeles Gladiators,Los Angeles Gladiators vs. Atlanta Reign,4,7,16,29,174.06828788751363,132,108068.28788751364,0.0,FreeAgent,FreeAgent,0.5517241379310345,8,8,1.0,zarya
+370,HYDRATION,offense,S1W1,Los Angeles Gladiators,Los Angeles Gladiators vs. San Francisco Shock,7,7,29,29,190.07993014359474,119,63737.337537527084,66842.59260606766,HYDRATION,Dragonbeard,1.0,9,9,1.0,brigitte
+371,HYDRATION,offense,S1W2,Los Angeles Gladiators,Los Angeles Gladiators vs. Paris Eternal,7,7,29,29,170.12924416077135,112,49816.818486213684,64312.425674557686,HYDRATION,Dragonbeard,1.0,4,4,1.0,brigitte
+372,HYDRATION,offense,S1W3,Los Angeles Gladiators,Los Angeles Gladiators vs. London Spitfire,7,7,29,29,127.95321636426448,75,35892.867708444595,54560.34865581989,HYDRATION,Dragonbeard,1.0,8,8,1.0,brigitte
+373,HYDRATION,offense,S1W4,Los Angeles Gladiators,Los Angeles Gladiators vs. Atlanta Reign,7,7,29,29,139.62998779428003,102,41543.8870279789,47086.100766301155,HYDRATION,Dragonbeard,1.0,8,8,1.0,brigitte
+374,SHAZ,support,S1W1,Los Angeles Gladiators,Los Angeles Gladiators vs. San Francisco Shock,7,7,29,29,255.39314339524506,112,110777.88157624006,88615.26181900501,SHAZ,Jyeran,1.0,9,9,1.0,zenyatta
+375,SHAZ,support,S1W2,Los Angeles Gladiators,Los Angeles Gladiators vs. Paris Eternal,7,7,29,29,201.17244731462003,97,87708.62015807629,64963.82715654373,SHAZ,Jyeran,1.0,4,4,1.0,zenyatta
+376,SHAZ,support,S1W3,Los Angeles Gladiators,Los Angeles Gladiators vs. London Spitfire,7,7,29,29,181.6385580700636,82,78762.92720127106,61875.630868792534,SHAZ,Jyeran,1.0,8,8,1.0,zenyatta
+377,SHAZ,support,S1W4,Los Angeles Gladiators,Guangzhou Charge vs. Los Angeles Gladiators,7,7,29,29,188.36020695525406,64,86329.78394156694,70030.42301368713,SHAZ,Jyeran,1.0,8,8,1.0,zenyatta
+378,SUREFOUR,offense,S1W1,Los Angeles Gladiators,Los Angeles Gladiators vs. San Francisco Shock,3,7,13,29,215.03888366514445,145,142189.3282724023,349.555392742157,SUREFOUR,Jyeran,0.4482758620689655,9,9,1.0,zarya
+379,SUREFOUR,offense,S1W2,Los Angeles Gladiators,Los Angeles Gladiators vs. Paris Eternal,3,7,13,29,161.29121352279185,118,102291.21352279186,0.0,SUREFOUR,Jyeran,0.4482758620689655,4,4,1.0,zarya
+380,VOID,tank,S1W1,Los Angeles Gladiators,Los Angeles Gladiators vs. San Francisco Shock,7,7,29,29,186.55494872719046,150,111535.92934817076,19.019379019737244,VOID,Bobble,1.0,9,9,1.0,dva
+381,VOID,tank,S1W2,Los Angeles Gladiators,Los Angeles Gladiators vs. Paris Eternal,7,7,29,29,175.51325574153663,139,106013.25574153662,0.0,VOID,Bobble,1.0,4,4,1.0,dva
+382,VOID,tank,S1W3,Los Angeles Gladiators,Los Angeles Gladiators vs. London Spitfire,7,7,29,29,135.60615341606734,103,84106.15341606736,0.0,VOID,Bobble,1.0,8,8,1.0,dva
+383,VOID,tank,S1W4,Los Angeles Gladiators,Los Angeles Gladiators vs. Atlanta Reign,7,7,29,29,135.69265079388023,130,70692.65079388022,0.0,VOID,Bobble,1.0,8,8,1.0,dva
+384,ROAR,tank,S1W1,Los Angeles Gladiators,Los Angeles Gladiators vs. San Francisco Shock,7,7,29,29,155.21148328560594,126,92211.48328560591,0.0,ROAR,Dragonbeard,1.0,9,9,1.0,reinhardt
+385,ROAR,tank,S1W2,Los Angeles Gladiators,Los Angeles Gladiators vs. Paris Eternal,7,7,29,29,103.35523704850674,84,61355.23704850674,0.0,ROAR,Dragonbeard,1.0,4,4,1.0,reinhardt
+386,ROAR,tank,S1W3,Los Angeles Gladiators,Los Angeles Gladiators vs. London Spitfire,7,7,29,29,100.80872167992592,74,63808.72167992592,0.0,ROAR,Dragonbeard,1.0,8,8,1.0,reinhardt
+387,ROAR,tank,S1W4,Los Angeles Gladiators,Los Angeles Gladiators vs. Atlanta Reign,7,7,29,29,116.38882896333931,102,65388.82896333933,0.0,ROAR,Dragonbeard,1.0,8,8,1.0,reinhardt
+388,BOOMBOX,support,S1W1,Philadelphia Fusion,Philadelphia Fusion vs. Atlanta Reign,4,6,18,26,218.66528774106501,135,94184.96504688263,56980.322694182396,BOOMBOX,Cougum,0.6923076923076923,9,9,1.0,zenyatta
+389,BOOMBOX,support,S1W3,Philadelphia Fusion,Philadelphia Fusion vs. Washington Justice,4,6,18,26,169.15157544064522,100,71465.60433506966,47685.97110557556,BOOMBOX,Cougum,0.6923076923076923,4,4,1.0,zenyatta
+390,BOOMBOX,support,S1W4,Philadelphia Fusion,Los Angeles Valiant vs. Philadelphia Fusion,4,6,18,26,190.25644473719595,81,85860.23997759819,63896.20475959778,BOOMBOX,Cougum,0.6923076923076923,5,5,1.0,zenyatta
+391,ELK,support,S1W2,Philadelphia Fusion,Philadelphia Fusion vs. Florida Mayhem,2,6,8,26,142.30917808109524,77,66424.65658313036,37384.52149796486,FreeAgent,FreeAgent,0.3076923076923077,8,8,1.0,zenyatta
+392,POKO,tank,S1W1,Philadelphia Fusion,Philadelphia Fusion vs. Atlanta Reign,6,6,25,26,165.24581248918176,142,94245.81248918176,0.0,POKO,Bobble,0.9615384615384616,9,9,1.0,dva
+393,POKO,tank,S1W2,Philadelphia Fusion,Philadelphia Fusion vs. Florida Mayhem,6,6,25,26,119.14361016455294,96,71013.79274311662,129.81742143630981,POKO,Bobble,0.9615384615384616,7,8,0.875,dva
+394,POKO,tank,S1W3,Philadelphia Fusion,Philadelphia Fusion vs. Washington Justice,6,6,25,26,116.20448560857773,93,69644.48560857773,60.0,POKO,Bobble,0.9615384615384616,4,4,1.0,dva
+395,POKO,tank,S1W4,Philadelphia Fusion,Los Angeles Valiant vs. Philadelphia Fusion,6,6,25,26,137.00342374917864,101,86503.42374917865,0.0,POKO,Bobble,0.9615384615384616,5,5,1.0,dva
+396,SADO,tank,S1W1,Philadelphia Fusion,Philadelphia Fusion vs. Atlanta Reign,6,6,26,26,143.4429255102873,144,71442.92551028728,0.0,SADO,Bobble,1.0,9,9,1.0,winston
+397,SADO,tank,S1W2,Philadelphia Fusion,Philadelphia Fusion vs. Florida Mayhem,6,6,26,26,88.5705940130949,73,52070.5940130949,0.0,SADO,Bobble,1.0,8,8,1.0,reinhardt
+398,SADO,tank,S1W3,Philadelphia Fusion,Philadelphia Fusion vs. Washington Justice,6,6,26,26,115.98933221840858,96,67989.33221840858,0.0,SADO,Bobble,1.0,4,4,1.0,reinhardt
+399,SADO,tank,S1W4,Philadelphia Fusion,Los Angeles Valiant vs. Philadelphia Fusion,6,6,26,26,111.61638826560974,97,63116.38826560974,0.0,SADO,Bobble,1.0,5,5,1.0,reinhardt
+400,CARPE,offense,S1W1,Philadelphia Fusion,Philadelphia Fusion vs. Atlanta Reign,6,6,26,26,187.20384240841867,162,105959.70533013344,244.13707828521729,CARPE,Cougum,1.0,9,9,1.0,zarya
+401,CARPE,offense,S1W2,Philadelphia Fusion,Philadelphia Fusion vs. Florida Mayhem,6,6,26,26,138.3858434280157,107,84885.84342801571,0.0,CARPE,Cougum,1.0,8,8,1.0,zarya
+402,CARPE,offense,S1W3,Philadelphia Fusion,Philadelphia Fusion vs. Washington Justice,6,6,26,26,148.60193396911023,125,86101.93396911025,0.0,CARPE,Cougum,1.0,4,4,1.0,zarya
+403,CARPE,offense,S1W4,Philadelphia Fusion,Los Angeles Valiant vs. Philadelphia Fusion,6,6,26,26,157.66943491530418,115,100169.43491530418,0.0,CARPE,Cougum,1.0,5,5,1.0,zarya
+404,EQO,offense,S1W1,Philadelphia Fusion,Philadelphia Fusion vs. Atlanta Reign,6,6,26,26,189.25629837536812,150,57058.37070775032,57197.9276676178,EQO,Bobble,1.0,9,9,1.0,brigitte
+405,EQO,offense,S1W2,Philadelphia Fusion,Philadelphia Fusion vs. Florida Mayhem,6,6,26,26,134.57163875365256,96,46315.62565457821,40256.013099074364,EQO,Bobble,1.0,8,8,1.0,brigitte
+406,EQO,offense,S1W3,Philadelphia Fusion,Philadelphia Fusion vs. Washington Justice,6,6,26,26,149.59263572108748,111,44669.916360378265,49422.71936070919,EQO,Bobble,1.0,4,4,1.0,brigitte
+407,EQO,offense,S1W4,Philadelphia Fusion,Los Angeles Valiant vs. Philadelphia Fusion,6,6,26,26,161.5091531250477,112,43089.99922657013,62419.153898477554,EQO,Bobble,1.0,5,5,1.0,brigitte
+408,NEPTUNO,support,S1W1,Philadelphia Fusion,Philadelphia Fusion vs. Atlanta Reign,6,6,26,26,155.0363167742491,134,53938.61732530594,34097.69944894314,NEPTUNO,MattyIce,1.0,9,9,1.0,lucio
+409,NEPTUNO,support,S1W2,Philadelphia Fusion,Philadelphia Fusion vs. Dallas Fuel,6,6,26,26,100.58147748994827,69,42413.71004867554,23667.767441272736,NEPTUNO,MattyIce,1.0,8,8,1.0,lucio
+410,NEPTUNO,support,S1W3,Philadelphia Fusion,Philadelphia Fusion vs. Washington Justice,6,6,26,26,97.71549019277096,78,40811.120173215866,17904.370019555092,NEPTUNO,MattyIce,1.0,4,4,1.0,lucio
+411,NEPTUNO,support,S1W4,Philadelphia Fusion,Los Angeles Valiant vs. Philadelphia Fusion,6,6,26,26,123.13041896879673,85,49513.44093155861,31116.97803723812,NEPTUNO,MattyIce,1.0,5,5,1.0,lucio
+412,SNILLO,offense,S1W2,Philadelphia Fusion,Philadelphia Fusion vs. Dallas Fuel,1,6,1,26,12.883519466638564,9,4012.785698056221,4370.733768582344,FreeAgent,FreeAgent,0.038461538461538464,1,4,0.25,brigitte
+413,CHARA,support,S1W1,Guangzhou Charge,Chengdu Hunters vs. Guangzhou Charge,6,6,27,27,134.90742848193645,105,47044.081542015076,35363.34693992138,FreeAgent,FreeAgent,1.0,5,5,1.0,lucio
+414,CHARA,support,S1W2,Guangzhou Charge,Vancouver Titans vs. Guangzhou Charge,6,6,27,27,130.36337118959426,76,56154.47417974472,36208.89700984955,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
+415,CHARA,support,S1W3,Guangzhou Charge,Los Angeles Valiant vs. Guangzhou Charge,6,6,27,27,122.41326163244247,79,57393.313106536865,25519.94852590561,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
+416,CHARA,support,S1W4,Guangzhou Charge,Guangzhou Charge vs. Los Angeles Gladiators,6,6,27,27,131.75093710815906,75,61569.35823273659,32681.578875422478,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
+417,EILEEN,offense,S1W1,Guangzhou Charge,Chengdu Hunters vs. Guangzhou Charge,6,6,13,27,133.8704937825203,129,56292.665345191956,13077.828437328339,FreeAgent,FreeAgent,0.48148148148148145,5,5,1.0,sombra
+418,EILEEN,offense,S1W2,Guangzhou Charge,Vancouver Titans vs. Guangzhou Charge,6,6,13,27,72.64628146088124,44,33608.834768891335,17037.4466919899,FreeAgent,FreeAgent,0.48148148148148145,4,9,0.425,sombra
+419,EILEEN,offense,S1W3,Guangzhou Charge,Los Angeles Valiant vs. Guangzhou Charge,6,6,13,27,35.14884978294373,27,10434.792113304138,11214.057669639587,FreeAgent,FreeAgent,0.48148148148148145,3,9,0.325,brigitte
+420,EILEEN,offense,S1W4,Guangzhou Charge,Guangzhou Charge vs. Los Angeles Gladiators,6,6,13,27,24.230026720166205,23,7794.220944643021,4935.805775523186,FreeAgent,FreeAgent,0.48148148148148145,1,4,0.25,sombra
+421,HOTBA,tank,S1W1,Guangzhou Charge,Chengdu Hunters vs. Guangzhou Charge,6,6,27,27,134.51204224425555,134,67512.04224425554,0.0,HOTBA,Overdrive,1.0,5,5,1.0,tracer
+422,HOTBA,tank,S1W2,Guangzhou Charge,Vancouver Titans vs. Guangzhou Charge,6,6,27,27,115.26982449150086,81,74769.82449150085,0.0,HOTBA,Overdrive,1.0,9,9,1.0,dva
+423,HOTBA,tank,S1W3,Guangzhou Charge,Los Angeles Valiant vs. Guangzhou Charge,6,6,27,27,124.79072511458396,103,73200.25055098534,90.47456359863281,HOTBA,Overdrive,1.0,9,9,1.0,dva
+424,HOTBA,tank,S1W4,Guangzhou Charge,Guangzhou Charge vs. Los Angeles Gladiators,6,6,27,27,130.93843561026452,91,85438.43561026454,0.0,HOTBA,Overdrive,1.0,4,4,1.0,dva
+425,HAPPY,offense,S1W1,Guangzhou Charge,Chengdu Hunters vs. Guangzhou Charge,6,6,27,27,138.95745749366284,119,60167.01980102062,19290.437692642212,HAPPY,Cougum,1.0,5,5,1.0,brigitte
+426,HAPPY,offense,S1W2,Guangzhou Charge,Vancouver Titans vs. Guangzhou Charge,6,6,27,27,159.8272848133147,97,103189.33437159657,8137.9504417181015,HAPPY,Cougum,1.0,9,9,1.0,zarya
+427,HAPPY,offense,S1W3,Guangzhou Charge,Los Angeles Valiant vs. Guangzhou Charge,6,6,27,27,166.03133515131472,103,114531.33515131474,0.0,HAPPY,Cougum,1.0,9,9,1.0,zarya
+428,HAPPY,offense,S1W4,Guangzhou Charge,Guangzhou Charge vs. Los Angeles Gladiators,6,6,27,27,174.8787322115898,96,126878.73221158981,0.0,HAPPY,Cougum,1.0,4,4,1.0,zarya
+429,KYB,offense,S1W2,Guangzhou Charge,Guangzhou Charge vs. Dallas Fuel,5,6,14,27,88.52879837231339,70,25386.070114538074,28142.728257775307,FreeAgent,FreeAgent,0.5185185185185185,5,9,0.575,brigitte
+430,KYB,offense,S1W3,Guangzhou Charge,Los Angeles Valiant vs. Guangzhou Charge,5,6,14,27,101.51949703365563,62,29033.544392168522,41485.95264148712,FreeAgent,FreeAgent,0.5185185185185185,6,9,0.675,brigitte
+431,KYB,offense,S1W4,Guangzhou Charge,Guangzhou Charge vs. Los Angeles Gladiators,5,6,14,27,106.71439727461339,65,31300.896129608154,42913.501145005226,FreeAgent,FreeAgent,0.5185185185185185,3,4,0.75,brigitte
+432,RIO,tank,S1W1,Guangzhou Charge,Chengdu Hunters vs. Guangzhou Charge,6,6,27,27,131.46433119511605,133,64964.33119511604,0.0,FreeAgent,FreeAgent,1.0,5,5,1.0,wreckingball
+433,RIO,tank,S1W2,Guangzhou Charge,Vancouver Titans vs. Guangzhou Charge,6,6,27,27,106.9444499208033,87,63444.44992080331,0.0,FreeAgent,FreeAgent,1.0,9,9,1.0,reinhardt
+434,RIO,tank,S1W3,Guangzhou Charge,Los Angeles Valiant vs. Guangzhou Charge,6,6,27,27,109.40444227147101,94,62404.44227147102,0.0,FreeAgent,FreeAgent,1.0,9,9,1.0,reinhardt
+435,RIO,tank,S1W4,Guangzhou Charge,Guangzhou Charge vs. Los Angeles Gladiators,6,6,27,27,97.09553437614441,74,60095.53437614441,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,reinhardt
+436,SHU,support,S1W1,Guangzhou Charge,Chengdu Hunters vs. Guangzhou Charge,6,6,27,27,175.8547694618702,118,52335.14382195473,64519.625639915466,SHU,Not another,1.0,5,5,1.0,ana
+437,SHU,support,S1W2,Guangzhou Charge,Vancouver Titans vs. Guangzhou Charge,6,6,27,27,173.01058067524434,75,76233.69597518444,59276.88470005989,SHU,Not another,1.0,9,9,1.0,zenyatta
+438,SHU,support,S1W3,Guangzhou Charge,Los Angeles Valiant vs. Guangzhou Charge,6,6,27,27,199.33247625768186,94,86804.99091100693,65527.48534667492,SHU,Not another,1.0,9,9,1.0,zenyatta
+439,SHU,support,S1W4,Guangzhou Charge,Guangzhou Charge vs. Los Angeles Gladiators,6,6,27,27,193.36167511236667,78,86046.19186997414,68315.48324239254,SHU,Not another,1.0,4,4,1.0,zenyatta
+440,CLOSER,support,S1W1,Dallas Fuel,Dallas Fuel vs. Seoul Dynasty,6,6,25,25,106.81378879511355,73,41137.66508483887,29176.123710274696,CLOSER,Overdrive,1.0,8,8,1.0,lucio
+441,CLOSER,support,S1W2,Dallas Fuel,Philadelphia Fusion vs. Dallas Fuel,6,6,25,25,106.41006120717526,97,37520.17549228668,20389.885714888573,CLOSER,Overdrive,1.0,8,8,1.0,lucio
+442,CLOSER,support,S1W3,Dallas Fuel,Shanghai Dragons vs. Dallas Fuel,6,6,25,25,137.66994873738287,108,52328.80173110962,31341.14700627327,CLOSER,Overdrive,1.0,5,5,1.0,lucio
+443,CLOSER,support,S1W4,Dallas Fuel,Dallas Fuel vs. Shanghai Dragons,6,6,25,25,126.52390292799473,104,46206.97581219673,28316.927115797997,CLOSER,Overdrive,1.0,4,4,1.0,lucio
+444,EFFECT,offense,S1W1,Dallas Fuel,Dallas Fuel vs. Seoul Dynasty,4,6,8,25,71.0242147873044,52,45024.2147873044,0.0,FreeAgent,FreeAgent,0.32,5,8,0.625,zarya
+445,EFFECT,offense,S1W2,Dallas Fuel,Philadelphia Fusion vs. Dallas Fuel,4,6,8,25,32.311067455470564,18,23311.067455470562,0.0,FreeAgent,FreeAgent,0.32,3,8,0.375,zarya
+446,OGE,tank,S1W1,Dallas Fuel,Dallas Fuel vs. Seoul Dynasty,6,6,25,25,90.35752963602543,76,52357.52963602543,0.0,FreeAgent,FreeAgent,1.0,8,8,1.0,reinhardt
+447,OGE,tank,S1W2,Dallas Fuel,Philadelphia Fusion vs. Dallas Fuel,6,6,25,25,117.30305289912224,105,64803.05289912224,0.0,FreeAgent,FreeAgent,1.0,8,8,1.0,reinhardt
+448,OGE,tank,S1W3,Dallas Fuel,Shanghai Dragons vs. Dallas Fuel,6,6,25,25,123.63013593757154,114,66630.13593757153,0.0,FreeAgent,FreeAgent,1.0,5,5,1.0,reinhardt
+449,OGE,tank,S1W4,Dallas Fuel,Dallas Fuel vs. Shanghai Dragons,6,6,25,25,114.55724317127466,105,62057.24317127466,0.0,FreeAgent,FreeAgent,1.0,4,4,1.0,reinhardt
+450,ZACHAREEE,offense,S1W1,Dallas Fuel,Dallas Fuel vs. Seoul Dynasty,6,6,25,25,125.88440236043931,83,35525.06558740139,48859.33677303791,ZACHAREEE,Overdrive,1.0,8,8,1.0,brigitte
+451,ZACHAREEE,offense,S1W2,Dallas Fuel,Philadelphia Fusion vs. Dallas Fuel,6,6,25,25,151.6616154767275,124,40898.435188770294,48763.18028795719,ZACHAREEE,Overdrive,1.0,8,8,1.0,brigitte
+452,ZACHAREEE,offense,S1W3,Dallas Fuel,Shanghai Dragons vs. Dallas Fuel,6,6,25,25,165.6043504179716,115,43255.04585599899,64849.30456197262,ZACHAREEE,Overdrive,1.0,5,5,1.0,brigitte
+453,ZACHAREEE,offense,S1W4,Dallas Fuel,Dallas Fuel vs. Shanghai Dragons,6,6,25,25,152.43925591266157,115,41203.54401898384,53735.71189367771,ZACHAREEE,Overdrive,1.0,4,4,1.0,brigitte
+454,AKM,offense,S1W1,Dallas Fuel,Dallas Fuel vs. Seoul Dynasty,6,6,19,25,108.10106548127533,83,66516.35503205657,84.71044921875,AKM,Overdrive,0.76,5,8,0.625,zarya
+455,AKM,offense,S1W2,Dallas Fuel,Philadelphia Fusion vs. Dallas Fuel,6,6,19,25,126.32603508514165,118,67326.03508514166,0.0,AKM,Overdrive,0.76,5,8,0.625,zarya
+456,AKM,offense,S1W3,Dallas Fuel,Shanghai Dragons vs. Dallas Fuel,6,6,19,25,181.2031878120899,137,112703.18781208992,0.0,AKM,Overdrive,0.76,5,5,1.0,zarya
+457,AKM,offense,S1W4,Dallas Fuel,Dallas Fuel vs. Shanghai Dragons,6,6,19,25,169.44115933567286,136,101441.15933567286,0.0,AKM,Overdrive,0.76,4,4,1.0,zarya
+458,RCK,tank,S1W1,Dallas Fuel,Dallas Fuel vs. Seoul Dynasty,6,6,23,25,98.05239777344465,73,61340.823508918285,211.5742645263672,FreeAgent,FreeAgent,0.92,6,8,0.75,dva
+459,RCK,tank,S1W2,Dallas Fuel,Philadelphia Fusion vs. Dallas Fuel,6,6,23,25,127.3862032943666,121,66528.72120055556,357.48209381103516,FreeAgent,FreeAgent,0.92,8,8,1.0,dva
+460,RCK,tank,S1W3,Dallas Fuel,Shanghai Dragons vs. Dallas Fuel,6,6,23,25,160.3451200868487,124,97574.21627825499,770.90380859375,FreeAgent,FreeAgent,0.92,5,5,1.0,dva
+461,RCK,tank,S1W4,Dallas Fuel,Dallas Fuel vs. Shanghai Dragons,6,6,23,25,154.02624275755883,134,86412.11115050316,614.1316070556641,FreeAgent,FreeAgent,0.92,4,4,1.0,sombra
+462,UNKOE,support,S1W1,Dallas Fuel,Dallas Fuel vs. Seoul Dynasty,6,6,25,25,165.67569751101732,90,72973.32979077101,47702.367720246315,UNKOE,Jyeran,1.0,8,8,1.0,zenyatta
+463,UNKOE,support,S1W2,Dallas Fuel,Philadelphia Fusion vs. Dallas Fuel,6,6,25,25,166.98954172301293,100,68768.24774813652,48221.293974876404,UNKOE,Jyeran,1.0,8,8,1.0,zenyatta
+464,UNKOE,support,S1W3,Dallas Fuel,Shanghai Dragons vs. Dallas Fuel,6,6,25,25,189.8280920753479,100,80839.05533456802,58989.03674077988,UNKOE,Jyeran,1.0,5,5,1.0,zenyatta
+465,UNKOE,support,S1W4,Dallas Fuel,Dallas Fuel vs. Shanghai Dragons,6,6,25,25,185.29819931387902,109,78772.93063592911,52025.268677949905,UNKOE,Jyeran,1.0,4,4,1.0,zenyatta
+466,COMA,support,S1W1,Shanghai Dragons,Shanghai Dragons vs. Hangzhou Spark,7,7,30,30,69.7489152249098,42,27544.951615810394,21203.963609099388,FreeAgent,FreeAgent,1.0,8,8,1.0,lucio
+467,COMA,support,S1W2,Shanghai Dragons,Boston Uprising vs. Shanghai Dragons,7,7,30,30,107.56943569612503,86,36432.801668167114,28136.634027957916,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
+468,COMA,support,S1W3,Shanghai Dragons,Shanghai Dragons vs. Dallas Fuel,7,7,30,30,144.5808197439909,109,55692.732568860054,34388.087175130844,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
+469,COMA,support,S1W4,Shanghai Dragons,Dallas Fuel vs. Shanghai Dragons,7,7,30,30,107.6504914175272,76,45262.6766834259,24387.814734101295,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
+470,DDING,offense,S1W1,Shanghai Dragons,Shanghai Dragons vs. Hangzhou Spark,7,7,24,30,100.66110753858088,69,44987.81403315067,21173.29350543022,FreeAgent,FreeAgent,0.8,6,8,0.75,sombra
+471,DDING,offense,S1W2,Shanghai Dragons,Boston Uprising vs. Shanghai Dragons,7,7,24,30,131.5185109565258,120,68013.26574838161,3505.245208144188,FreeAgent,FreeAgent,0.8,4,4,1.0,sombra
+472,DDING,offense,S1W3,Shanghai Dragons,Shanghai Dragons vs. Dallas Fuel,7,7,24,30,146.36050255855918,124,84084.59160885215,275.91094970703125,FreeAgent,FreeAgent,0.8,9,9,1.0,sombra
+473,DDING,offense,S1W4,Shanghai Dragons,London Spitfire vs. Shanghai Dragons,7,7,24,30,92.04530456709861,86,44392.74723625183,4652.5573308467865,FreeAgent,FreeAgent,0.8,5,9,0.55,sombra
+474,GAMSU,tank,S1W1,Shanghai Dragons,Vancouver Titans vs. Shanghai Dragons,6,7,26,30,65.60236686855555,58,36602.366868555546,0.0,GAMSU,Overdrive,0.8666666666666667,4,4,1.0,reinhardt
+475,GAMSU,tank,S1W2,Shanghai Dragons,Boston Uprising vs. Shanghai Dragons,6,7,26,30,107.66850686573981,108,53668.50686573982,0.0,GAMSU,Overdrive,0.8666666666666667,4,4,1.0,reinhardt
+476,GAMSU,tank,S1W3,Shanghai Dragons,Shanghai Dragons vs. Dallas Fuel,6,7,26,30,115.98159907609224,99,66481.59907609224,0.0,GAMSU,Overdrive,0.8666666666666667,9,9,1.0,reinhardt
+477,GAMSU,tank,S1W4,Shanghai Dragons,London Spitfire vs. Shanghai Dragons,6,7,26,30,102.04909991461038,102,51049.099914610386,0.0,GAMSU,Overdrive,0.8666666666666667,9,9,1.0,reinhardt
+478,GEGURI,tank,S1W1,Shanghai Dragons,Shanghai Dragons vs. Hangzhou Spark,5,7,11,30,97.70719028380513,87,54207.19028380513,0.0,FreeAgent,FreeAgent,0.36666666666666664,7,8,0.875,dva
+479,GEGURI,tank,S1W2,Shanghai Dragons,Boston Uprising vs. Shanghai Dragons,5,7,11,30,19.852875962793828,22,8852.875962793827,0.0,FreeAgent,FreeAgent,0.36666666666666664,1,4,0.25,dva
+480,GEGURI,tank,S1W4,Shanghai Dragons,London Spitfire vs. Shanghai Dragons,5,7,11,30,36.59020971700549,29,22090.20971700549,0.0,FreeAgent,FreeAgent,0.36666666666666664,3,9,0.325,dva
+481,GUARDIAN,tank,S1W4,Shanghai Dragons,Dallas Fuel vs. Shanghai Dragons,2,7,2,30,27.91251334631443,14,20912.51334631443,0.0,FreeAgent,FreeAgent,0.06666666666666667,2,9,0.225,dva
+482,LUFFY,support,S1W1,Shanghai Dragons,Shanghai Dragons vs. Hangzhou Spark,7,7,30,30,139.28322720241547,72,59244.89473724365,44038.332465171814,FreeAgent,FreeAgent,1.0,8,8,1.0,zenyatta
+483,LUFFY,support,S1W2,Shanghai Dragons,Boston Uprising vs. Shanghai Dragons,7,7,30,30,157.17414745771885,100,67183.31831550598,39990.82914221287,FreeAgent,FreeAgent,1.0,4,4,1.0,zenyatta
+484,LUFFY,support,S1W3,Shanghai Dragons,Shanghai Dragons vs. Dallas Fuel,7,7,30,30,209.07289729881282,105,89799.98820066452,66772.90909814835,FreeAgent,FreeAgent,1.0,9,9,1.0,zenyatta
+485,LUFFY,support,S1W4,Shanghai Dragons,Dallas Fuel vs. Shanghai Dragons,7,7,30,30,189.21553068137172,96,75562.29229211807,65653.23838925362,FreeAgent,FreeAgent,1.0,9,9,1.0,zenyatta
+486,YOUNGJIN,offense,S1W1,Shanghai Dragons,Shanghai Dragons vs. Hangzhou Spark,7,7,27,30,103.19376128554345,86,48932.92377305031,11260.837512493134,FreeAgent,FreeAgent,0.9,7,8,0.875,brigitte
+487,YOUNGJIN,offense,S1W2,Shanghai Dragons,Boston Uprising vs. Shanghai Dragons,7,7,27,30,112.84522653067111,97,29046.45948123932,35298.7670494318,FreeAgent,FreeAgent,0.9,3,4,0.75,brigitte
+488,YOUNGJIN,offense,S1W3,Shanghai Dragons,Shanghai Dragons vs. Dallas Fuel,7,7,27,30,162.36901996970175,120,46206.018540620804,56163.00142908096,FreeAgent,FreeAgent,0.9,9,9,1.0,brigitte
+489,YOUNGJIN,offense,S1W4,Shanghai Dragons,Dallas Fuel vs. Shanghai Dragons,7,7,27,30,126.51979779791833,84,38376.81938838959,46142.97840952873,FreeAgent,FreeAgent,0.9,8,9,0.9,brigitte
+490,DIEM,offense,S1W1,Shanghai Dragons,Shanghai Dragons vs. Hangzhou Spark,7,7,30,30,116.49242353510857,82,75179.84855151176,312.57498359680176,FreeAgent,FreeAgent,1.0,8,8,1.0,zarya
+491,DIEM,offense,S1W2,Shanghai Dragons,Boston Uprising vs. Shanghai Dragons,7,7,30,30,156.38233474165202,128,91934.12853318453,448.2062084674835,FreeAgent,FreeAgent,1.0,4,4,1.0,zarya
+492,DIEM,offense,S1W3,Shanghai Dragons,Shanghai Dragons vs. Dallas Fuel,7,7,30,30,185.87605171296002,144,113876.05171296,0.0,FreeAgent,FreeAgent,1.0,9,9,1.0,zarya
+493,DIEM,offense,S1W4,Shanghai Dragons,Dallas Fuel vs. Shanghai Dragons,7,7,30,30,148.19036481922865,105,95690.36481922865,0.0,FreeAgent,FreeAgent,1.0,9,9,1.0,zarya
+494,DACO,tank,S1W1,Atlanta Reign,Philadelphia Fusion vs. Atlanta Reign,5,5,18,21,115.48652965125441,97,66981.97965154052,4.549999713897705,DACO,Dragonbeard,0.8571428571428571,7,9,0.775,dva
+495,DACO,tank,S1W2,Atlanta Reign,Atlanta Reign vs. Toronto Defiant,5,5,18,21,128.3925260464847,114,71389.34104654193,3.184999942779541,DACO,Dragonbeard,0.8571428571428571,3,4,0.75,dva
+496,DACO,tank,S1W3,Atlanta Reign,Paris Eternal vs. Atlanta Reign,5,5,18,21,136.60450725290178,125,74104.50725290179,0.0,DACO,Dragonbeard,0.8571428571428571,4,4,1.0,dva
+497,DACO,tank,S1W4,Atlanta Reign,Los Angeles Gladiators vs. Atlanta Reign,5,5,18,21,95.07173182961344,53,68571.73182961345,0.0,DACO,Dragonbeard,0.8571428571428571,4,4,1.0,dva
+498,DOGMAN,support,S1W1,Atlanta Reign,Philadelphia Fusion vs. Atlanta Reign,5,5,15,21,114.21081760168076,70,50067.023763775826,29143.79383790493,FreeAgent,FreeAgent,0.7142857142857143,6,9,0.675,zenyatta
+499,DOGMAN,support,S1W2,Atlanta Reign,Atlanta Reign vs. Toronto Defiant,5,5,15,21,82.36494604372979,58,32043.08576440811,21321.86027932167,FreeAgent,FreeAgent,0.7142857142857143,2,4,0.5,zenyatta
+500,DOGMAN,support,S1W3,Atlanta Reign,Paris Eternal vs. Atlanta Reign,5,5,15,21,160.98714035189153,102,69396.94869041443,40590.19166147709,FreeAgent,FreeAgent,0.7142857142857143,4,4,1.0,zenyatta
+501,DOGMAN,support,S1W4,Atlanta Reign,Los Angeles Gladiators vs. Atlanta Reign,5,5,15,21,82.03608241117,27,39012.957210063934,29523.12520110607,FreeAgent,FreeAgent,0.7142857142857143,3,4,0.75,zenyatta
+502,ERSTER,offense,S1W1,Atlanta Reign,Philadelphia Fusion vs. Atlanta Reign,5,5,19,21,148.87913076254725,112,57118.462456315756,35760.6683062315,FreeAgent,FreeAgent,0.9047619047619048,8,9,0.9,brigitte
+503,ERSTER,offense,S1W2,Atlanta Reign,Atlanta Reign vs. Toronto Defiant,5,5,19,21,105.64369247668981,91,34860.42889243364,25283.263584256172,FreeAgent,FreeAgent,0.9047619047619048,3,4,0.75,brigitte
+504,ERSTER,offense,S1W3,Atlanta Reign,Paris Eternal vs. Atlanta Reign,5,5,19,21,169.84072885429856,150,56851.65777993202,37989.07107436657,FreeAgent,FreeAgent,0.9047619047619048,4,4,1.0,brigitte
+505,ERSTER,offense,S1W4,Atlanta Reign,Los Angeles Gladiators vs. Atlanta Reign,5,5,19,21,110.79938898408412,72,43529.54356276989,31269.84542131424,FreeAgent,FreeAgent,0.9047619047619048,4,4,1.0,brigitte
+506,GATOR,tank,S1W1,Atlanta Reign,Atlanta Reign vs. Florida Mayhem,1,5,1,21,19.860850338935855,16,11860.850338935852,0.0,FreeAgent,FreeAgent,0.047619047619047616,1,4,0.25,reinhardt
+507,KODAK,support,S1W1,Atlanta Reign,Philadelphia Fusion vs. Atlanta Reign,4,5,6,21,69.15167455816268,34,28359.3993768692,23792.275181293488,FreeAgent,FreeAgent,0.2857142857142857,3,9,0.325,zenyatta
+508,KODAK,support,S1W2,Atlanta Reign,Atlanta Reign vs. Toronto Defiant,4,5,6,21,102.66303053092957,52,44342.480887413025,32320.54964351654,FreeAgent,FreeAgent,0.2857142857142857,2,4,0.5,zenyatta
+509,KODAK,support,S1W4,Atlanta Reign,Los Angeles Gladiators vs. Atlanta Reign,4,5,6,21,51.352409373402594,23,23614.2029876709,16238.206385731697,FreeAgent,FreeAgent,0.2857142857142857,1,4,0.25,zenyatta
+510,MASAA,support,S1W1,Atlanta Reign,Philadelphia Fusion vs. Atlanta Reign,5,5,21,21,149.27511550784112,106,55090.776898145676,41184.338609695435,FreeAgent,FreeAgent,1.0,9,9,1.0,lucio
+511,MASAA,support,S1W2,Atlanta Reign,Atlanta Reign vs. Toronto Defiant,5,5,21,21,129.78264743602276,99,47355.444231271744,32927.203204751015,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
+512,MASAA,support,S1W3,Atlanta Reign,Paris Eternal vs. Atlanta Reign,5,5,21,21,127.72030742490291,107,46296.13232636452,27924.1750985384,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
+513,MASAA,support,S1W4,Atlanta Reign,Los Angeles Gladiators vs. Atlanta Reign,5,5,21,21,93.93481722807883,47,40895.42711353302,29539.390114545822,FreeAgent,FreeAgent,1.0,4,4,1.0,lucio
+514,NLAAER,offense,S1W1,Atlanta Reign,Philadelphia Fusion vs. Atlanta Reign,5,5,7,21,51.25992310494185,39,15133.215500175953,16626.707604765892,FreeAgent,FreeAgent,0.3333333333333333,3,9,0.325,brigitte
+515,NLAAER,offense,S1W2,Atlanta Reign,Atlanta Reign vs. Toronto Defiant,5,5,7,21,69.02505509763957,42,27144.11104232073,20880.944055318832,FreeAgent,FreeAgent,0.3333333333333333,2,4,0.5,brigitte
+516,NLAAER,offense,S1W3,Atlanta Reign,Paris Eternal vs. Atlanta Reign,5,5,7,21,14.997377472043038,11,8425.695180535316,1071.682291507721,FreeAgent,FreeAgent,0.3333333333333333,1,4,0.25,widowmaker
+517,NLAAER,offense,S1W4,Atlanta Reign,Los Angeles Gladiators vs. Atlanta Reign,5,5,7,21,19.491254996120933,5,7420.847901403904,9570.407094717026,FreeAgent,FreeAgent,0.3333333333333333,1,4,0.25,brigitte
+518,POKPO,tank,S1W1,Atlanta Reign,Philadelphia Fusion vs. Atlanta Reign,5,5,20,21,132.81846999263763,111,77318.46999263763,0.0,POKPO,MattyIce,0.9523809523809523,8,9,0.875,reinhardt
+519,POKPO,tank,S1W2,Atlanta Reign,Atlanta Reign vs. Toronto Defiant,5,5,20,21,125.81367034173012,110,70813.67034173012,0.0,POKPO,MattyIce,0.9523809523809523,4,4,1.0,reinhardt
+520,POKPO,tank,S1W3,Atlanta Reign,Paris Eternal vs. Atlanta Reign,5,5,20,21,130.0571193267107,118,71057.1193267107,0.0,POKPO,MattyIce,0.9523809523809523,4,4,1.0,reinhardt
+521,POKPO,tank,S1W4,Atlanta Reign,Los Angeles Gladiators vs. Atlanta Reign,5,5,20,21,68.29261760115622,45,45792.617601156235,0.0,POKPO,MattyIce,0.9523809523809523,4,4,1.0,reinhardt
+522,DAFRAN,offense,S1W1,Atlanta Reign,Philadelphia Fusion vs. Atlanta Reign,5,5,19,21,163.66579305180906,124,101665.79305180907,0.0,DAFRAN,Cougum,0.9047619047619048,9,9,1.0,zarya
+523,DAFRAN,offense,S1W2,Atlanta Reign,Atlanta Reign vs. Toronto Defiant,5,5,19,21,190.60102932441237,131,124607.7207531929,493.3085712194443,DAFRAN,Cougum,0.9047619047619048,4,4,1.0,zarya
+524,DAFRAN,offense,S1W3,Atlanta Reign,Paris Eternal vs. Atlanta Reign,5,5,19,21,137.61286164200305,120,77527.661657691,85.1999843120575,DAFRAN,Cougum,0.9047619047619048,3,4,0.75,zarya
+525,DAFRAN,offense,S1W4,Atlanta Reign,Los Angeles Gladiators vs. Atlanta Reign,5,5,19,21,93.10836030942201,50,68108.36030942202,0.0,DAFRAN,Cougum,0.9047619047619048,3,4,0.75,zarya
+526,FITS,offense,S1W4,Seoul Dynasty,Washington Justice vs. Seoul Dynasty,1,6,4,24,188.8260492531657,120,128784.0491785407,42.00007462501526,FreeAgent,FreeAgent,0.16666666666666666,4,4,1.0,zarya
+527,FISSURE,tank,S1W1,Seoul Dynasty,Los Angeles Gladiators vs. Seoul Dynasty,5,6,20,24,120.96802477133274,116,62968.02477133274,0.0,FISSURE,Not another,0.8333333333333334,8,8,1.0,reinhardt
+528,FISSURE,tank,S1W2,Seoul Dynasty,Chengdu Hunters vs. Seoul Dynasty,5,6,20,24,101.03675182908773,96,53036.751829087734,0.0,FISSURE,Not another,0.8333333333333334,4,4,1.0,reinhardt
+529,FISSURE,tank,S1W3,Seoul Dynasty,Boston Uprising vs. Seoul Dynasty,5,6,20,24,138.1896112188101,114,81189.61121881008,0.0,FISSURE,Not another,0.8333333333333334,8,8,1.0,reinhardt
+530,FLETA,offense,S1W1,Seoul Dynasty,Los Angeles Gladiators vs. Seoul Dynasty,6,6,24,24,153.13737346845863,123,84081.60455852747,7555.768909931183,FLETA,Jyeran,1.0,8,8,1.0,zarya
+531,FLETA,offense,S1W2,Seoul Dynasty,Chengdu Hunters vs. Seoul Dynasty,6,6,24,24,130.59449255362154,114,72663.3768619597,931.1156916618347,FLETA,Jyeran,1.0,4,4,1.0,zarya
+532,FLETA,offense,S1W3,Seoul Dynasty,Boston Uprising vs. Seoul Dynasty,6,6,24,24,197.46800990504028,140,118043.89955562353,9424.110349416733,FLETA,Jyeran,1.0,8,8,1.0,zarya
+533,FLETA,offense,S1W4,Seoul Dynasty,Washington Justice vs. Seoul Dynasty,6,6,24,24,130.24116258084774,86,38677.79600799084,48563.3665728569,FLETA,Jyeran,1.0,4,4,1.0,brigitte
+534,JECSE,support,S1W1,Seoul Dynasty,Los Angeles Gladiators vs. Seoul Dynasty,5,6,20,24,115.29415552473068,88,31124.038638353348,40170.116886377335,JECSE,Bobble,0.8333333333333334,8,8,1.0,lucio
+535,JECSE,support,S1W2,Seoul Dynasty,Chengdu Hunters vs. Seoul Dynasty,5,6,20,24,95.53799441492559,81,26652.08177280426,28385.912642121315,JECSE,Bobble,0.8333333333333334,4,4,1.0,lucio
+536,JECSE,support,S1W3,Seoul Dynasty,Boston Uprising vs. Seoul Dynasty,5,6,20,24,121.9134462685585,88,42928.16745007038,34985.27881848812,JECSE,Bobble,0.8333333333333334,8,8,1.0,lucio
+537,MARVE1,tank,S1W4,Seoul Dynasty,Washington Justice vs. Seoul Dynasty,1,6,4,24,103.54707834625245,91,58047.07834625244,0.0,FreeAgent,FreeAgent,0.16666666666666666,4,4,1.0,reinhardt
+538,MICHELLE,tank,S1W1,Seoul Dynasty,Los Angeles Gladiators vs. Seoul Dynasty,5,6,20,24,143.57453739657998,133,76775.86301353574,298.67438304424286,MICHELLE,Not another,0.8333333333333334,8,8,1.0,dva
+539,MICHELLE,tank,S1W2,Seoul Dynasty,Chengdu Hunters vs. Seoul Dynasty,5,6,20,24,105.69600699791312,115,48121.00699791312,75.0,MICHELLE,Not another,0.8333333333333334,4,4,1.0,dva
+540,MICHELLE,tank,S1W3,Seoul Dynasty,Boston Uprising vs. Seoul Dynasty,5,6,20,24,168.67357907947897,129,104173.57907947898,0.0,MICHELLE,Not another,0.8333333333333334,8,8,1.0,dva
+541,MUNCHKIN,offense,S1W1,Seoul Dynasty,Los Angeles Gladiators vs. Seoul Dynasty,5,6,20,24,144.17153936421872,115,51291.06915831566,35380.47020590305,MUNCHKIN,MattyIce,0.8333333333333334,8,8,1.0,brigitte
+542,MUNCHKIN,offense,S1W2,Seoul Dynasty,Chengdu Hunters vs. Seoul Dynasty,5,6,20,24,136.44752976226806,100,38835.36820721626,47612.1615550518,MUNCHKIN,MattyIce,0.8333333333333334,4,4,1.0,brigitte
+543,MUNCHKIN,offense,S1W3,Seoul Dynasty,Boston Uprising vs. Seoul Dynasty,5,6,20,24,172.60191589033604,121,59715.16051542759,52386.75537490845,MUNCHKIN,MattyIce,0.8333333333333334,8,8,1.0,brigitte
+544,ZUNBA,tank,S1W4,Seoul Dynasty,Washington Justice vs. Seoul Dynasty,1,6,4,24,137.66026002061366,118,78660.26002061367,0.0,FreeAgent,FreeAgent,0.16666666666666666,4,4,1.0,dva
+545,RYUJEHONG,support,S1W1,Seoul Dynasty,Los Angeles Gladiators vs. Seoul Dynasty,6,6,24,24,167.84825258243083,99,63450.85703778267,54897.39554464817,RYUJEHONG,Dragonbeard,1.0,8,8,1.0,zenyatta
+546,RYUJEHONG,support,S1W2,Seoul Dynasty,Chengdu Hunters vs. Seoul Dynasty,6,6,24,24,137.25503818678857,91,43372.500134944916,48382.53805184364,RYUJEHONG,Dragonbeard,1.0,4,4,1.0,zenyatta
+547,RYUJEHONG,support,S1W3,Seoul Dynasty,Boston Uprising vs. Seoul Dynasty,6,6,24,24,204.60759707188606,99,79853.04947376251,75254.54759812355,RYUJEHONG,Dragonbeard,1.0,8,8,1.0,zenyatta
+548,RYUJEHONG,support,S1W4,Seoul Dynasty,Washington Justice vs. Seoul Dynasty,6,6,24,24,167.20731514692307,85,73896.55664777756,50810.75849914551,RYUJEHONG,Dragonbeard,1.0,4,4,1.0,zenyatta
+549,TOBI,support,S1W4,Seoul Dynasty,Washington Justice vs. Seoul Dynasty,1,6,4,24,121.66999253761769,85,43381.358894348145,35788.63364326954,FreeAgent,FreeAgent,0.16666666666666666,4,4,1.0,lucio
