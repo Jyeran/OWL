@@ -8,11 +8,11 @@ import math
 import numpy as np
 import os
 
-#filepath = '/Users/rhea/Documents/GitHub/OWL'
-#file_p  = filepath + r"/teams.csv"
+filepath = '/Users/rhea/Documents/GitHub/OWL'
+file_p  = filepath + r"/teams.csv"
 
-filepath = r"C:\Users\Jyran\Documents\GitHub\OWL"
-file_p = filepath + r"\teams.csv"
+#filepath = r"C:\Users\Jyran\Documents\GitHub\OWL"
+#file_p = filepath + r"\teams.csv"
 
 def getOWL (url, key = 'data'):
     # Make a get request to get the latest position of the 
