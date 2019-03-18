@@ -232,6 +232,7 @@ playerPlayPercent = pd.merge(mapsPlayedWeek, mapsPlayedTeamWeek, left_on=['match
 playerPlayPercent['percentPlay'] = playerPlayPercent['playedMaps']/playerPlayPercent['totalMaps']
 playerPlayPercent = playerPlayPercent.groupby(['name','teamName','tag']).agg({'playedMaps':'sum','totalMaps':'sum','percentPlay':'mean'}).reset_index()
 
+
 fantasyStats = pd.merge(fantasyStats, gamesPlayed, left_on='name', right_on='name').rename(columns={'match_x':'match','match_y':'matchesPlayed','name_x':'name'})
 fantasyStats = pd.merge(fantasyStats, mapsPlayed,  left_on='name', right_on='name').rename(columns={'game':'mapsPlayed','name_x':'name'})
 fantasyStats = pd.merge(fantasyStats, gamesPlayedTeam, left_on='teamName', right_on='teamName').rename(columns={'match_x':'match','match_y':'matchesPlayedTeam','teamName_x':'teamName'})
@@ -287,7 +288,7 @@ cols = [
 stats = stats[cols]
 
 cols = ['name','role','teamName','matchesPlayed','matchesPlayedTeam', 'mapsPlayed','mapsPlayedTeam']
-fantasyStatsTotal = fantasyStatsBase.groupby(['name']).agg({'points':'sum', 'eliminations':'sum','damage':'sum','healing':'sum'}).reset_index()
+fantasyStatsTotal = fantasyStats.groupby(['name']).agg({'points':'sum', 'eliminations':'sum','damage':'sum','healing':'sum'}).reset_index()
 fantasyStatsTotal['name'] = fantasyStatsTotal['name'].str.upper()
 fantasyStatsTotal = pd.merge(fantasyStatsTotal, fantasyStats[cols], left_on='name', right_on='name', how='left').reset_index()
 
@@ -313,9 +314,35 @@ fantasyStatsTotal = pd.merge(fantasyStatsTotal, rosters, left_on='name', right_o
 fullStats = pd.merge(fullStats, rosters, left_on='name', right_on='player',how='left').fillna('FreeAgent')
 stats = pd.merge(stats, rosters, left_on='name', right_on='player',how='left').fillna('FreeAgent')
 
-fullStats['PercentPlayed'] = fullStats['mapsPlayed'] / fullStats['mapsPlayedTeam']
+fullStats['percentPlayedTotal'] = fullStats['mapsPlayed'] / fullStats['mapsPlayedTeam']
+fullStats = fullStats.rename(columns={'mapsPlayed':'totalMapsPlayed','mapsPlayedTeam':'totalTeamMapsPlayed'})
+fullStats = pd.merge(fullStats, playerPlayPercent.drop('teamName', axis=1), left_on=['name','tag'], right_on=['name','tag'], how='left')
+
+fantasyStats['percentPlayedTotal'] = fantasyStats['mapsPlayed'] / fantasyStats['mapsPlayedTeam']
+fantasyStats = fantasyStats.rename(columns={'mapsPlayed':'totalMapsPlayed','mapsPlayedTeam':'totalTeamMapsPlayed'})
+fantasyStats = pd.merge(fantasyStats, playerPlayPercent.drop('teamName', axis=1), left_on=['name','tag'], right_on=['name','tag'], how='left')
+
 
 fantasyStatsTotal = fantasyStatsTotal.drop_duplicates()
+
+
+
+#get player mains per week
+
+#character counts per player per tag
+playerMain = fullStats.groupby(['name','tag','hero']).agg({'points':'sum'}).reset_index()
+
+#max character count per player per tag
+playerMainMax = playerMain.groupby(['name','tag']).agg({'points':'max'}).reset_index()
+
+#join into full data per player per tag
+playerMains = pd.merge(playerMainMax, playerMain, left_on=['name','tag','points'], right_on=['name','tag','points'], how='left').drop('points', axis=1).rename(columns={'hero':'main'})
+
+
+fullStats = pd.merge(fullStats, playerMains, left_on=['name','tag'], right_on=['name','tag'], how='left')
+fantasyStats = pd.merge(fantasyStats, playerMains, left_on=['name','tag'], right_on=['name','tag'], how='left')
+#fantasyStatsTotal = pd.merge(fantasyStatsTotal, playerMains, left_on=['name'], right_on=['name'], how='left').drop('tag',axis=1).drop_duplicates()
+#stats = pd.merge(stats, playerMains, left_on=['name','tag'], right_on=['name','tag'], how='left')
 
 #write dataframe
 file_p  = filepath + r"/fantasyStats.csv"
